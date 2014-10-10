@@ -1,0 +1,15 @@
+---
+layout: null
+---
+
+[
+{% for item in site.posts %}
+{
+   "title": {{ item.title | jsonify }},
+   "date":  {{ item.date  | jsonify }},
+   "url":   {{ item.url   | jsonify }}{% if item.external_url %},
+   "external_url": {{ item.external_url | jsonify }}
+   {% endif %}
+},
+{% endfor %}
+false]

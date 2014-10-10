@@ -1,14 +1,23 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: jonbee.be
+name: jonbee.be
+email: me@jonbeebe.net
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm Jonathan Beebe (<a href="/about">about</a>) and this is my website (<a href="/atom.xml">subscribe</a>).
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://jonbee.be" # the base hostname & protocol for your site
+twitter_username: jonathanbeebe
+github_username:  jonbeebe
 
-# Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+
+permalink: :year/:month/:title/
+paginate: 30
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE', 'Makefile']
+
+# Information for the Atom feed
+gereksiz:
+   author: "Jon Beebe"
+   email: "me@jonbeebe.net"

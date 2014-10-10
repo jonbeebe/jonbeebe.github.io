@@ -1,23 +1,41 @@
 ---
 layout: default
+title: jonbee.be
 ---
 
-<div class="home">
+<div id="home">
+	<p class="intro">{{ site.description }}</p>
+   
+	<h2>Entries</h2>
+	<ul class="posts">
+		{% for post in paginator.posts %}
+			<li><span>&gt; {{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+   </ul>
 
-  <h1 class="page-heading">Posts</h1>
+   <!-- Pagination links -->
+	<footer>
+		{% if paginator.page != 1 %}
+			<div id="date" class="meta">
+				Page {{ paginator.page }}
+			</div>
+		{% endif %}
+		<div id="return">
+			{% if paginator.next_page %}
+				<a href="/page{{ paginator.next_page }}" class="previous">&#171; Older</a>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+				{% if paginator.previous_page %}
+					&nbsp;/&nbsp;
+				{% endif %}
+			{% endif %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+			{% if paginator.previous_page %}
+				{% if paginator.previous_page == 1 %}
+					<a href="/" class="previous">Newer &#187;</a>
+				{% else %}
+					<a href="/page{{ paginator.previous_page }}" class="previous">Newer &#187;</a>
+				{% endif %}
+			{% endif %}
+		</div>
+	</footer>
 </div>
