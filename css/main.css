@@ -16,17 +16,17 @@ h2 { font-size: 125%; margin-bottom: .5em; }
 p { margin: 1em 0; }
 
 body {
-   background-color: #ecf0f1;
+   background-color: #FDF6E3; /* #ecf0f1; */
    font: 13.34px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: small;
    -webkit-font-smoothing: antialiased;
    text-align: center;
-   color: #333333;
+   color: #002C36;
 }
 
 /* Gentle links */
-a { color: #3498DB; text-decoration: none; }
-a:hover { color: #2980B9; }
+a, a:visited { color: #258BD2; text-decoration: none; }
+a:hover, a:active { color: #B68916; }
 
 /* The blog posts archive, a long list */
 .posts {
@@ -75,11 +75,11 @@ header a {
 }
 
 .title a {
-   color: #5c7e88; /*#e74c3c;*/
+   color: #CC4B16; /*#e74c3c;*/
 }
 
 .title a:hover {
-   color: #333333;
+   color: #B58916;
 }
 
 .title {
@@ -111,7 +111,7 @@ pre {
    white-space: pre-wrap;
    word-break: break-all;
    word-wrap: break-word;
-   background-color: #eee;
+   background-color: transparent;
 }
 pre code {
    padding: 0;
@@ -130,12 +130,12 @@ pre code {
 blockquote {
    padding: 0px 18px;
    margin: 15px 0;
-   border-left: 4px solid rgba(52, 73, 94, 0.85);
+   border-left: 4px solid #839596;
 }
 
 blockquote p {
    margin-bottom: 0;
-   color: #7a7a7a;
+   color: #657C83;
 }
 
 article {
@@ -144,8 +144,8 @@ article {
    margin-bottom: 1.2em;
 }
 
-article h2 a {
-   color: #333333;
+article h2, article h2 a {
+   color: #073643;
 }
 
 article ul, article ol {
