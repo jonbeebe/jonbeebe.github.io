@@ -7,7 +7,7 @@ This and that and that and this.
 
 > It supports blockquotes, too.
 
-## On the Interwebs...
+### On the Interwebs...
 
 * [Github][github] on GitHub
 * [Bugs of Bob][bob], theme creator's website

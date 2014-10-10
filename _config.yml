@@ -3,7 +3,7 @@ title: jonbee.be
 name: jonbee.be
 email: me@jonbeebe.net
 description: > # this means to ignore newlines until "baseurl:"
-  I'm Jonathan Beebe (<a href="/about">about</a>) and this is my website (<a href="/atom.xml">subscribe</a>).
+  I'm Jonathan Beebe (<a href="/about">about</a>) and this is my website (<a href="/feed.xml">subscribe</a>).
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jonbee.be" # the base hostname & protocol for your site
 twitter_username: jonathanbeebe

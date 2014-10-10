@@ -1,24 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-   <title>jonbee.be</title>
-   <link href="http://jonbee.be/atom.xml" rel="self"/>
-   <link href="http://jonbee.be"/>
-   <updated>2014-10-10T16:03:47-07:00</updated>
-   <id>http://jonbee.be</id>
-   <author>
-      <name>Jon Beebe</name>
-      <email>me@jonbeebe.net</email>
-   </author>
-
-   
-   <entry>
-      <title>Welcome to Jekyll!</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>jonbee.be</title>
+      <description>I'm Jonathan Beebe (&lt;a href=&quot;/about&quot;&gt;about&lt;/a&gt;) and this is my website (&lt;a href=&quot;/atom.xml&quot;&gt;subscribe&lt;/a&gt;).
+</description>    
+      <link>http://jonbee.be</link>
+      <atom:link href="http://jonbee.be/feed.xml" rel="self" type="application/rss+xml" />
       
-         <link href="http://jonbee.be/2014/10/welcome-to-jekyll%202/"/>
-      
-      <updated>2014-10-10T07:12:15-07:00</updated>
-      <id>http://jonbee.be/2014/10/welcome-to-jekyll 2</id>
-      <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+         <item>
+            <title>Welcome to Jekyll!</title>
+            <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -31,18 +22,17 @@
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-</content>
-   </entry>
-   
-   <entry>
-      <title>Yet Another Post!</title>
+</description>
+            <pubDate>Fri, 10 Oct 2014 07:12:15 -0700</pubDate>
+            
+               <link>http://jonbee.be/2014/10/welcome-to-jekyll%202/</link>
+            
+            <guid isPermaLink="true">http://jonbee.be/2014/10/welcome-to-jekyll%202/</guid>
+         </item>
       
-         <link rel="alternate" href="http://google.com/"/>
-         <link rel="related" href="http://jonbee.be/2014/05/another-post/"/>
-      
-      <updated>2014-05-14T07:12:15-07:00</updated>
-      <id>http://jonbee.be/2014/05/another-post</id>
-      <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+         <item>
+            <title>Yet Another Post!</title>
+            <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -55,17 +45,17 @@
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-</content>
-   </entry>
-   
-   <entry>
-      <title>Welcome to Jekyll!</title>
+</description>
+            <pubDate>Wed, 14 May 2014 07:12:15 -0700</pubDate>
+            
+               <link>http://google.com/</link>
+            
+            <guid isPermaLink="true">http://jonbee.be/2014/05/another-post/</guid>
+         </item>
       
-         <link href="http://jonbee.be/2014/03/welcome-to-jekyll/"/>
-      
-      <updated>2014-03-19T10:40:41-07:00</updated>
-      <id>http://jonbee.be/2014/03/welcome-to-jekyll</id>
-      <content type="html">&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+         <item>
+            <title>Welcome to Jekyll!</title>
+            <description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
@@ -81,7 +71,13 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-</content>
-   </entry>
-   
-</feed>
+</description>
+            <pubDate>Wed, 19 Mar 2014 10:40:41 -0700</pubDate>
+            
+               <link>http://jonbee.be/2014/03/welcome-to-jekyll/</link>
+            
+            <guid isPermaLink="true">http://jonbee.be/2014/03/welcome-to-jekyll/</guid>
+         </item>
+      
+   </channel>
+</rss>

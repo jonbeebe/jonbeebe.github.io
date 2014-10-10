@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 
 /* Some assumptions */
 * {
@@ -11,7 +11,7 @@
 }
 
 html, body { height: auto; }
-h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; margin-bottom: 0.7em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 h2 { font-size: 125%; margin-bottom: .5em; }
 p { margin: 1em 0; }
 
@@ -25,8 +25,8 @@ body {
 }
 
 /* Gentle links */
-a, a:visited { color: #258BD2; text-decoration: none; }
-a:hover, a:active { color: #B68916; }
+a, a:visited { color: #C54815; text-decoration: none; }
+a:hover, a:active { color: #657C83; }
 
 /* The blog posts archive, a long list */
 .posts {
@@ -42,7 +42,7 @@ a:hover, a:active { color: #B68916; }
 }
 
 .posts span {
-   color: #aaa;
+   color: #93A2A1;
    font-family: Monaco, "Courier New", monospace;
    font-size: 75%;
    margin-right: 1em;
@@ -70,12 +70,14 @@ header a {
 
 /* the website's name on the header */
 .title {
+   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
    display: inline-block;
    line-height: 0.5em;
 }
 
-.title a {
-   color: #CC4B16; /*#e74c3c;*/
+.title a, .title a:visited {
+   color: #073643;
+   font-weight: 300;
 }
 
 .title a:hover {
@@ -87,7 +89,7 @@ header a {
 }
 
 .meta {
-   color: #aaa;
+   color: #93A2A1;
 }
 
 code,
@@ -111,7 +113,7 @@ pre {
    white-space: pre-wrap;
    word-break: break-all;
    word-wrap: break-word;
-   background-color: transparent;
+   background-color: #EFE8D5;
 }
 pre code {
    padding: 0;
@@ -130,7 +132,7 @@ pre code {
 blockquote {
    padding: 0px 18px;
    margin: 15px 0;
-   border-left: 4px solid #839596;
+   border-left: 3px solid #839596;
 }
 
 blockquote p {
@@ -144,13 +146,25 @@ article {
    margin-bottom: 1.2em;
 }
 
-article h2, article h2 a {
-   color: #073643;
+article h2, article h2 a, article h2 a:visited {
+   color: #C54815;
+   font-weight: lighter;
+}
+
+article h2 a:hover {
+   color: #B58916;
 }
 
 article ul, article ol {
    margin-left: 1.35em;
    margin-bottom: 0.7em;
+}
+
+article hr {
+   border: 0;
+   height: 0;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Rounded corners, aligned, etc. */
@@ -170,8 +184,9 @@ footer {
    height: 2.5em;
 }
 
-footer #date {
+footer #date, footer #date a {
    float: right;
+   color: #93A2A1;
 }
 
 footer #return,
