@@ -14,9 +14,20 @@ layout: default
 
 <footer>
 	<div id="date" class="meta">
-		{{ page.date | date_to_string }}
-	</div>
-	<div id="return">
-		<a href="/">&laquo; Return to home</a>
+		{{ page.date | date_to_long_string }}
 	</div>
 </footer>
+
+<div class="context-nav">
+	<hr>
+	{% if page.previous %}
+		<span class="prev"><a href="{{ page.previous.url }}">&#171; PREVIOUS</a></span>
+	{% else %}
+		<span class="prev">&#171; PREVIOUS</span>
+	{% endif %}
+	{% if page.next %}
+		<span class="next"><a href="{{ page.next.url }}">NEXT &#187;</a></span>
+	{% else %}
+		<span class="next">NEXT &#187;</span>
+	{% endif %}
+</div>

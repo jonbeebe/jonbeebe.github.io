@@ -14,6 +14,7 @@ html, body { height: auto; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; margin-bottom: 0.7em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 h1 { font-size: 135%; }
 h2 { color: #073643; font-size: 135%; margin-bottom: .5em; font-weight: 300; }
+h2 sup a { font-size: 60%; color: #586E75 !important; }
 p { margin: 1.75em 0; }
 
 body {
@@ -23,6 +24,18 @@ body {
    -webkit-font-smoothing: antialiased;
    text-align: center;
    color: #002C36;
+}
+
+.top-border {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: auto;
+   left: 0;
+   margin: auto;
+   width: 100%;
+   height: 7px;
+   background-color: #EFE8D5;
 }
 
 /* Gentle links */
@@ -78,7 +91,7 @@ header a {
 }
 
 .title a, .title a:visited {
-   color: #586E75; /*#073643;*/
+   color: #586E75;
    font-weight: 500;
 }
 
@@ -119,7 +132,7 @@ pre {
    word-break: break-all;
    word-wrap: break-word;
    background-color: #EFE8D5;
-   border:; 1px solid #EFE8D5;
+   border: 1px solid #EFE8D5;
 }
 pre code {
    padding: 0;
@@ -149,7 +162,7 @@ blockquote p {
 article {
    overflow: auto;
    word-wrap: break-word;
-   margin-bottom: 2em;
+   margin-bottom: 1em;
 }
 
 article h2, article h2 a, article h2 a:visited {
@@ -166,7 +179,7 @@ article ul, article ol {
    margin-bottom: 0.7em;
 }
 
-article hr {
+hr {
    border: 0;
    height: 0;
    border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -184,6 +197,27 @@ article img {
    max-width: 100%;
    vertical-align: middle;
    page-break-inside: avoid;
+}
+
+.context-nav {
+   height: 4em;
+   width: 100%;
+   text-align: left;
+   color: #93A2A1
+}
+
+.context-nav hr {
+   margin-bottom: 0.5em;
+}
+
+.context-nav span.prev {
+   text-align: left;
+   float: left;
+}
+
+.context-nav span.next {
+   text-align: right;
+   float: right;
 }
 
 footer {

@@ -19,5 +19,5 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE', 'Makefi
 
 # Information for the Atom feed
 gereksiz:
-   author: "Jon Beebe"
+   author: "Jonathan Beebe"
    email: "me@jonbeebe.net"
