@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
    <channel>
       <title>jonbee.be</title>
-      <description>I'm Jonathan Beebe (&lt;a href=&quot;/about&quot;&gt;about&lt;/a&gt;) and this is my website (&lt;a href=&quot;/feed.xml&quot;&gt;subscribe&lt;/a&gt;).
+      <description>Web and technology links and articles by Jonathan Beebe.
 </description>    
       <link>http://jonbee.be</link>
-      <atom:link href="http://jonbee.be/feed.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="http://jonbee.be/feed" rel="self" type="application/rss+xml" />
       
          <item>
             <title>Welcome to Jekyll!</title>

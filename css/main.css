@@ -73,6 +73,7 @@ header a {
    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
    display: inline-block;
    line-height: 0.5em;
+   margin-bottom: 2.5em;
 }
 
 .title a, .title a:visited {
@@ -148,7 +149,7 @@ article {
 
 article h2, article h2 a, article h2 a:visited {
    color: #C54815;
-   font-weight: lighter;
+   font-weight: 300;
 }
 
 article h2 a:hover {
