@@ -195,6 +195,12 @@ footer #date, footer #date a {
    color: #93A2A1;
 }
 
+footer span.separator {
+   margin-left: 0.25em;
+   margin-right: 0.25em;
+   color: #93A2A1;
+}
+
 footer #return,
 footer #date {
    overflow: hidden;
