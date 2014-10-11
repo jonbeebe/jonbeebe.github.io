@@ -6,7 +6,7 @@ title: jonbee.be
 <div id="home">
 	<p class="intro">Technology and development punditry by <a href="/about">Jonathan Beebe</a>; published semi-regularly and powered by <a href="http://jekyllrb.com">Jekyll</a>. For a listing of all posts, visit the <a href="/archive">archive</a>.</p>
    
-	<h2>Hypertext <sup><a href="/feed">RSS</a></h2>
+	<h2>Hypertext <sup><a href="/feed">RSS</a></sup></h2>
 	<ul class="posts">
 		{% for post in paginator.posts %}
 			<li><span>&gt; {{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
