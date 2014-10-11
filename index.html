@@ -15,7 +15,7 @@ title: jonbee.be
 
    <!-- Pagination links -->
 	<footer>
-		{% if paginator.page != 1 %}
+		{% if paginator.page and paginator.page != 1 %}
 			<div id="date" class="meta">
 				Page {{ paginator.page }}
 			</div>
