@@ -23,6 +23,10 @@ local function testFunc()
 end
 {% endhighlight %}
 
+And a test image:
+
+![Sublime Text 3](/images/sublime_oct_2014.png)
+
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
 [jekyll-gh]: https://github.com/mojombo/jekyll

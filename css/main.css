@@ -12,8 +12,9 @@
 
 html, body { height: auto; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; margin-bottom: 0.7em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-h2 { font-size: 125%; margin-bottom: .5em; }
-p { margin: 1em 0; }
+h1 { font-size: 135%; }
+h2 { color: #073643; font-size: 135%; margin-bottom: .5em; font-weight: 300; }
+p { margin: 1.75em 0; }
 
 body {
    background-color: #FDF6E3; /* #ecf0f1; */
@@ -26,7 +27,7 @@ body {
 
 /* Gentle links */
 a, a:visited { color: #C54815; text-decoration: none; }
-a:hover, a:active { color: #657C83; }
+a:hover, a:active { color: #B58916; }
 
 /* The blog posts archive, a long list */
 .posts {
@@ -43,19 +44,24 @@ a:hover, a:active { color: #657C83; }
 
 .posts span {
    color: #93A2A1;
-   font-family: Monaco, "Courier New", monospace;
-   font-size: 75%;
+   font-family: Menlo, Monaco, "Courier New", monospace;
+   font-size: 80%;
    margin-right: 1em;
 }
 
 main {
-   font-size: 115%;
+   font-size: 110%;
    text-align: left;
    margin: 2em auto 0.5em;
    line-height: 1.5em;
    max-width: 42em;
    padding-left: 18px;
    padding-right: 18px;
+}
+
+/* Don't display date if screen is small */
+@media only screen and (max-width: 40em) {
+   main { margin-left: 1.0em; margin-right: 1.0em; }
 }
 
 header a {
@@ -72,8 +78,8 @@ header a {
 }
 
 .title a, .title a:visited {
-   color: #073643;
-   font-weight: 300;
+   color: #586E75; /*#073643;*/
+   font-weight: 500;
 }
 
 .title a:hover {
@@ -93,13 +99,16 @@ pre {
    font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-   padding: .25em .5em;
-   font-size: 75%;
+   padding: .25em .25em;
+   font-size: 85%;
    color: #bf616a;
    background-color: transparent;
    border-radius: 3px;
 }
 pre {
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
    display: block;
    margin: 0 0 14px;
    padding: 10px 20px;
@@ -110,6 +119,7 @@ pre {
    word-break: break-all;
    word-wrap: break-word;
    background-color: #EFE8D5;
+   border:; 1px solid #EFE8D5;
 }
 pre code {
    padding: 0;

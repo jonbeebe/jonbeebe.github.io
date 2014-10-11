@@ -70,6 +70,10 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
     &lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Hello world!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;And a test image:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/sublime_oct_2014.png&quot; alt=&quot;Sublime Text 3&quot;&gt;&lt;/p&gt;
+
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 </description>
             <pubDate>Wed, 19 Mar 2014 10:40:41 -0700</pubDate>

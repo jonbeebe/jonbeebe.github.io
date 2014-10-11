@@ -1,0 +1,530 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"isExternal"
+			],
+			[
+				"des",
+				"destroyChildren"
+			],
+			[
+				"getCur",
+				"getCurrentModalScene"
+			],
+			[
+				"actua",
+				"actualContentHeight"
+			],
+			[
+				"act",
+				"actualContentWidth"
+			],
+			[
+				"modal",
+				"modalBackground"
+			],
+			[
+				"Layout",
+				"LayoutPackage"
+			],
+			[
+				"Scene",
+				"SceneManagerPackage"
+			],
+			[
+				"Ap",
+				"AppSettingsPackage"
+			],
+			[
+				"Disp",
+				"DisplayGroup"
+			],
+			[
+				"Scen",
+				"SceneTransitions"
+			],
+			[
+				"Package",
+				"PackageManager"
+			],
+			[
+				"render",
+				"renderedObject"
+			],
+			[
+				"disp",
+				"displayObjectRef"
+			],
+			[
+				"scene",
+				"sceneManagerGroup"
+			],
+			[
+				"packag",
+				"PackageManager"
+			],
+			[
+				"tran",
+				"transitionEffect"
+			],
+			[
+				"dis",
+				"displayObject"
+			],
+			[
+				"Pakca",
+				"PackageManager"
+			],
+			[
+				"screen",
+				"screenOriginY"
+			],
+			[
+				"Packa",
+				"PackageManager"
+			],
+			[
+				"Sc",
+				"SceneManager"
+			],
+			[
+				"Pack",
+				"PackageManager"
+			],
+			[
+				"Mo",
+				"ModuleManager"
+			],
+			[
+				"sup",
+				"superExtension"
+			],
+			[
+				"remove",
+				"removeEventListener"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Corona Simulator.sublime-build",
+	"command_palette":
+	{
+		"height": 116.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git"
+	],
+	"file_history":
+	[
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_posts/2014-10-10-this-is-a-post-with-a-very-long-title-to-see-how-overflows-look.md",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/feed/index.xml",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_posts/2014-10-10 18:10:00-this-is-a-post-with-a-very-long-title-to-see-how-overflows-look.md",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_posts/2014-10-10 17:56:00-blah-blah-blah.md",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/jekyll.thor",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/new.sh",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_posts/2014-10-10 17:54:00-blah-blah-blah.md",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/css/main.css",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_posts/2014-10-10 17:52:00-first-post.md",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_posts/2014-10-10-first-post.md",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_config.yml",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_layouts/default.html",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_layouts/page.html",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_posts/2014-03-19-welcome-to-jekyll.markdown",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/serve.sh",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/about/index.markdown",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_layouts/post.html",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/feed.xml",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/index.html",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/atom.xml",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_posts/2014-5-14-another-post.markdown",
+		"/Users/jonbeebe/Downloads/gereksiz-master/site.json",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/site.json",
+		"/Users/jonbeebe/Downloads/gereksiz-master/atom.xml",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/_layouts/external.html",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/Gemfile",
+		"/Users/jonbeebe/Github/jonbeebe.github.io.git/Gem",
+		"/Users/jonbeebe/Development/FatRedCouch/moonducky/Scenes/Home.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/moonducky/FRC_Modules/FRC_ArtCenter/FRC_ArtCenter_Scene.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/moonducky/FRC_Assets/FRC_ArtCenter/Data/FRC_ArtCenter_Config.json",
+		"/Users/jonbeebe/Development/FatRedCouch/moonducky/FRC_Assets/FRC_ArtCenter/Data/FRC_ArtCenter_SceneLayout.json",
+		"/Users/jonbeebe/Development/FatRedCouch/moonducky/FRC_Modules/FRC_DataLib/FRC_DataLib.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/moonducky/main.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/moonducky/storyboard_legacy.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/moonducky/FRC_Modules/FRC_ArtCenter/FRC_ArtCenter_Settings.lua",
+		"/Users/jonbeebe/Development/fatredcouch/moonducky/storyboard.lua",
+		"/Users/jonbeebe/Development/fatredcouch/moonducky/MoonDucky.sublime-project",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/SceneManager/SceneTransitions.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/playground2.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/UI/DisplayObject.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/UI/DisplayGroup.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/main.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Scenes/Scene2.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Scenes/Scene1.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/SceneManager/SceneManager.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/Class.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/TODO.md",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Scenes/ActionBarTest.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Data/AppSettings.json",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Scenes/Scaling.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/DataSource/DataSource.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Scenes/Scene2.old.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Scenes/Scene1.old.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Scenes/SceneTemplate.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Data/test.json",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/UI/UI.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/DataSource/Collection.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/ClassManager.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Classes/Storage/Storage.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/DataSource/Model.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/UI/DisplayObject.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/SceneManager/Scene.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/DataSource/DataSource.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/AppSettings/AppSettings.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/Package.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/UI/Graphic.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/UI/DisplayGroup.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/SceneManager/SceneManager.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/DataSource/Collection.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/ActionBar/ActionBar.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/PackageManager.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/Storage/Storage.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/playground3.lua",
+		"/Users/jonbeebe/Library/Application Support/Sublime Text 3/Packages/User/ZenTabs.sublime-settings",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/playground1.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/SceneManager/SceneTransitions.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/Layout/Layout.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/UI/UI.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/MagicToyMaker/MagicToyMaker.sublime-project",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/packages.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/SceneManager/SceneManager.old.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/DisplayPackage.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/Graphic/Graphic.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/UI/Button.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/config.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/GenericDisplayPackage.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/GenericPackage.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/SceneManager.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/Storage.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/AppSettings.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/BasePackage.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Packages/BaseDisplayPackage.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Modules/Storage/test.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Modules/Storage/init_old.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Modules/ModuleManager.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Extensions/Sample/init.lua",
+		"/Users/jonbeebe/Development/FatRedCouch/FRC_Module_Sandbox/Extensions/Sample/Sample.lua",
+		"/Users/jonbeebe/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jonbeebe/Development/FatRedCouch/MagicToyMaker/FRC_Assets/FRC_ArtCenter/Images/FRC_ArtCenter_Icon_FreehandDraw_focused.png",
+		"/Users/jonbeebe/Library/Application Support/sublime text 3/Packages/User/Corona Simulator.sublime-build",
+		"/Users/jonbeebe/Development/LaunchCorona.sh",
+		"/Users/jonbeebe/Development/FatRedCouch/MagicToyMaker/MagicToyMaker.sublime-workspace"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"lightert",
+			"7a7a7a",
+			"333333",
+			"e74c3c",
+			"color",
+			"h2",
+			"Porkpie",
+			"actionBarMenu",
+			"canvas_width",
+			"CONFIG",
+			"subtools.left",
+			".left",
+			"hideBackground",
+			"CONFIG",
+			"SPMTM",
+			"json.decode",
+			"playing backgroundMusic",
+			"playing Background music",
+			"_jsonDecode",
+			"json.decode",
+			"clearTimers",
+			":external",
+			"external",
+			"destroy:external",
+			"self._addedListeners[i].source == self and ",
+			"_externalListeners",
+			"fromScene",
+			"listener",
+			"addEventListener",
+			"listener",
+			"local listener = function",
+			"addEventListener",
+			"listenTo",
+			"stopListening",
+			"mFloor",
+			"options",
+			"touchstart",
+			"stopListening",
+			"onRender",
+			"render",
+			"Scene",
+			"Scene1Manager",
+			"Scene",
+			"childClasses",
+			"package",
+			"packages",
+			"Package",
+			"Packages",
+			"SCene",
+			"nextScene",
+			"bg",
+			"bg.",
+			"self.children[i]",
+			"self",
+			"squares",
+			"1024",
+			"bg",
+			"squres",
+			"Scene",
+			"v",
+			"k",
+			"PackageManager",
+			"mAbs",
+			"PackageManager",
+			"isDisabled",
+			"downFill",
+			"Layout",
+			"Layout.",
+			"Layout:",
+			"Layout:width()",
+			"Layout:height()",
+			"Layout:width()",
+			"count",
+			"indentCount",
+			"instance",
+			"string.sub",
+			".sceneLayer",
+			"instance",
+			"SceneManagerPackage",
+			"Destroy",
+			"});\n",
+			":pause",
+			"No longer",
+			"self",
+			"removeAllEventListeners",
+			"removeAllExternalListeners",
+			"_functionListeners",
+			"addEventListener",
+			"--self",
+			"_external",
+			"EventListener.",
+			"__dispatchEvent",
+			"__removeEventListener",
+			"self.__addEventListener",
+			"_externalListeners",
+			"self.sceneLayer",
+			"name = \"destroy\"",
+			"source",
+			"local listener =",
+			"local listener = ",
+			"local listener =",
+			"listener =",
+			"timer",
+			"_timers",
+			"sceneLayer",
+			"options",
+			".eventName",
+			"AppSettings",
+			"SceneManager",
+			"initialize",
+			"object",
+			"id",
+			"loadedResource",
+			"filename",
+			"data",
+			"300",
+			".5",
+			"outElastic",
+			"1.04",
+			"2",
+			"04",
+			"inElastic",
+			"inBounce",
+			"outBounce",
+			".1",
+			"2",
+			"inOutElastic",
+			"1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"attachments",
+			"class",
+			"classes",
+			"Class",
+			"Classes",
+			"__dispatchEvent",
+			"__removeEventListener",
+			"__addEventListener",
+			"downAlpha",
+			":renderedObject(",
+			"DisplayPackage",
+			"Package",
+			"GenericDisplayPackage",
+			"GenericPackage",
+			"packageName",
+			"Package"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 295.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "jonbee.be.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

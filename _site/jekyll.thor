@@ -5,8 +5,33 @@ class Jekyll < Thor
   def new(*title)
     title = title.join(" ")
     date = Time.now.strftime('%Y-%m-%d')
-    dateAttr = Time.now.strftime('%Y-%m-%d %H:%M:00')
+    dateAttr = Time.now.strftime('%Y-%m-%d %H:%M:%S')
     filename = "_posts/#{date}-#{title.to_url}.md"
+
+    if File.exist?(filename)
+      abort("#{filename} already exists!")
+    end
+
+    puts "Creating new post: #{filename}"
+    open(filename, 'w') do |post|
+      post.puts "---"
+      post.puts "layout: post"
+      post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      post.puts "date: #{dateAttr}"
+      post.puts "external_url:"
+      post.puts "---"
+    end
+
+    system(options[:editor], filename)
+  end
+
+  desc "draft", "create a new draft"
+  method_option :editor, :default => "subl"
+  def draft(*title)
+    title = title.join(" ")
+    date = Time.now.strftime('%Y-%m-%d')
+    dateAttr = Time.now.strftime('%Y-%m-%d %H:%M:%S')
+    filename = "_drafts/#{date}-#{title.to_url}.md"
 
     if File.exist?(filename)
       abort("#{filename} already exists!")
