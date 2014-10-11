@@ -48,11 +48,6 @@ a:hover, a:active { color: #657C83; }
    margin-right: 1em;
 }
 
-/* Don't display date if screen is small */
-@media only screen and (max-width: 400px) {
-   .posts li span { display: none; }
-}
-
 main {
    font-size: 115%;
    text-align: left;

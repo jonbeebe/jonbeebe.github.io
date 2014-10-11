@@ -4,7 +4,8 @@ class Jekyll < Thor
   method_option :editor, :default => "subl"
   def new(*title)
     title = title.join(" ")
-    date = Time.now.strftime('%Y-%m-%d %H:%M:00')
+    date = Time.now.strftime('%Y-%m-%d')
+    dateAttr = Time.now.strftime('%Y-%m-%d %H:%M:00')
     filename = "_posts/#{date}-#{title.to_url}.md"
 
     if File.exist?(filename)
@@ -16,7 +17,7 @@ class Jekyll < Thor
       post.puts "---"
       post.puts "layout: post"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-      post.puts "date: #{date}"
+      post.puts "date: #{dateAttr}"
       post.puts "external_url:"
       post.puts "---"
     end

@@ -9,7 +9,7 @@ title: jonbee.be
 	<!--<h2>Entries</h2>-->
 	<ul class="posts">
 		{% for post in paginator.posts %}
-			<li><span>&gt; {{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+			<li><span>&gt; {{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 		{% endfor %}
    </ul>
 
