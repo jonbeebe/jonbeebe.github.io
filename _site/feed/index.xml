@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
    <channel>
       <title>jonbee.be</title>
-      <description>I'm Jonathan Beebe (&lt;a href=&quot;/about&quot;&gt;about&lt;/a&gt;) and this is my website (&lt;a href=&quot;/atom.xml&quot;&gt;subscribe&lt;/a&gt;).
+      <description>I'm Jonathan Beebe (&lt;a href=&quot;/about&quot;&gt;about&lt;/a&gt;) and this is my website (&lt;a href=&quot;/feed.xml&quot;&gt;subscribe&lt;/a&gt;).
 </description>    
       <link>http://jonbee.be</link>
       <atom:link href="http://jonbee.be/feed.xml" rel="self" type="application/rss+xml" />
