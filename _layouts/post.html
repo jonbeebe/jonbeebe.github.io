@@ -3,12 +3,11 @@ layout: default
 ---
 
 <article>
-	{% if page.external_url %}
-		<h2><a href="{{ page.external_url }}">{{ page.title }}</a></h2>
-	{% else %}
-		<h2>{{ page.title }}</h2>
-	{% endif %}
+	<h2>{{ page.title }}</h2>
 	<hr>
+	{% if page.external_url %}
+		<div class="external-link"><a href="{{ page.external_url }}" title="{{ page.external_url }}">{{ page.external_url }}</a></div>
+	{% endif %}
 	{{ content }}
 </article>
 

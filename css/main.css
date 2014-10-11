@@ -12,10 +12,9 @@
 
 html, body { height: auto; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; margin-bottom: 0.7em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-h1 { font-size: 135%; }
 h2 { color: #073643; font-size: 135%; margin-bottom: .5em; font-weight: 300; }
 h2 sup a { font-size: 60%; color: #586E75 !important; }
-p { margin: 1.75em 0; }
+p { margin: 1.75em 0; margin-top: 1em; }
 
 body {
    background-color: #FDF6E3; /* #ecf0f1; */
@@ -70,6 +69,16 @@ main {
    max-width: 42em;
    padding-left: 18px;
    padding-right: 18px;
+}
+
+.search {
+   margin-bottom: 1.5em;
+}
+
+.search input {
+   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 90%;
+   padding-left: 0.25em;
 }
 
 /* Don't display date if screen is small */
@@ -141,7 +150,7 @@ pre code {
    background-color: transparent;
 }
 .highlight {
-   margin-bottom: 15px;
+   margin-bottom: 1.6em;
    border-radius: 4px;
 }
 .highlight pre {
@@ -163,6 +172,14 @@ article {
    overflow: auto;
    word-wrap: break-word;
    margin-bottom: 1em;
+}
+
+article .external-link, article .external-link a  {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   font-size: 90%;
+   color: #586E75;
 }
 
 article h2, article h2 a, article h2 a:visited {

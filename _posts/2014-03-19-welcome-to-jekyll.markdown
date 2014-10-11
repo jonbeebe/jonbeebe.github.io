@@ -7,6 +7,8 @@ date: 2014-03-19 17:40:41
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
+### This is an h3 tag
+
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
@@ -23,7 +25,7 @@ local function testFunc()
 end
 {% endhighlight %}
 
-And a test image:
+## Images
 
 ![Sublime Text 3](/images/sublime_oct_2014.png)
 

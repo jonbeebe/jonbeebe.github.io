@@ -1,16 +1,14 @@
 ---
 layout: page
-title: About Jonathan Beebe
+title: About
 ---
 
-This and that and that and this.
+I'm Jonathan Beebe, a web and mobile software developer in Northern California.
 
-> It supports blockquotes, too.
+### Get in touch
 
-### On the Interwebs...
+* Email me at [me@jonbeebe.net][email]
+* Follow me on Twitter [@jonathanbeebe][twitter]
 
-* [Github][github] on GitHub
-* [Bugs of Bob][bob], theme creator's website
-
-[github]: https://github.com/
-[bob]: http://google.com
+[email]: mailto:me@jonbeebe.net
+[twitter]: http://twitter.com/jonathanbeebe
