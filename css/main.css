@@ -144,7 +144,7 @@ blockquote p {
 article {
    overflow: auto;
    word-wrap: break-word;
-   margin-bottom: 1.2em;
+   margin-bottom: 2em;
 }
 
 article h2, article h2 a, article h2 a:visited {
