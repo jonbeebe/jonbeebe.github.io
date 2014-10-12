@@ -7,7 +7,7 @@
    <link rel="self" type="application/atom+xml" href="http://jonbee.be/feed" />
    <link href="http://jonbee.be" />
    <id>http://jonbee.be/feed</id>
-   <updated>2014-10-12T14:24:14-07:00</updated>
+   <updated>2014-10-12T14:32:33-07:00</updated>
    <author>
       <name>Jonathan Beebe</name>
       <uri>http://jonbee.be</uri>
@@ -61,7 +61,7 @@
          <id>http://jonbee.be/2014/10/reboot/</id>
          <content type="html" xml:base="http://jonbee.be">&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
 
-&lt;p&gt;Things are different now, however. I’m in a professionally stable position. My personal life is great. And I really, really miss writing and sharing stuff on the web. Therefore, I decided to make a clean break with the past and delete my previous website hosted at this domain, redirect my &lt;em&gt;other&lt;/em&gt; domain (&lt;code&gt;jonbeebe.net&lt;/code&gt;) to this blog, and set the stage for a writing environment that motivates me to turn this web property into a place that is informative, somewhat educational, and at the very least, entertaining for those interested in the same topics as myself.&lt;/p&gt;
+&lt;p&gt;Things are different now, however. I’m in a professionally stable position (I’ve long since left Corona Labs). My personal life is great. And I really, really miss writing and sharing stuff on the web. Therefore, I decided to make a clean break with the past and delete my previous website hosted at this domain, redirect my &lt;em&gt;other&lt;/em&gt; domain (&lt;code&gt;jonbeebe.net&lt;/code&gt;) to this blog, and set the stage for a writing environment that motivates me to turn this web property into a place that is informative, somewhat educational, and at the very least, entertaining for those interested in the same topics as myself.&lt;/p&gt;
 
 &lt;p&gt;A long time ago I learned that maintaining a blog, while at times fun and rewarding, is very difficult to do consistently over time, especially with personal and professional responsibilities taking up much of my time. Therefore, in order to “set the stage” properly and position myself to &lt;em&gt;continue&lt;/em&gt; writing over the long-term, I came up with five major things need to be in place before I can begin:&lt;/p&gt;
 
@@ -128,7 +128,7 @@
 </content>
          <published>2014-10-12T04:35:00-07:00</published>
          
-            <updated>2014-10-12T04:35:00-07:00</updated>
+            <updated>2014-10-12T07:32:00-07:00</updated>
          
          
             <link rel="alternate" type="text/html" href="http://jonbee.be/2014/10/reboot/" />
