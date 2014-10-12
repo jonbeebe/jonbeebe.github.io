@@ -16,6 +16,9 @@ layout: null
          <id>tag:{{ site.url }}{{ post.url }}</id>
          <content type="html" xml:base="http://jonbee.be">{{ post.content | xml_escape }}</content>
          <published>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</published>
+         {% if post.updated %}
+            <updated>{{ post.updated | date: "%a, %d %b %Y %H:%M:%S %z" }}</updated>
+         {% endif %}
          {% if post.external_url %}
             <link rel="alternate" type="text/html" href="{{ post.external_url | escape }}" />
             <link rel="related" type="text/html" href="{{ site.url }}{{ post.url }}" />
