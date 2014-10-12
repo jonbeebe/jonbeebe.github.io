@@ -6,19 +6,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Web and technology links and articles by Jonathan Beebe.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jonbee.be" # the base hostname & protocol for your site
-twitter_username: jonathanbeebe
-github_username:  jonbeebe
 
 markdown: kramdown
 highlighter: pygments
 
 permalink: :year/:month/:title/
 paginate: 30
-excerpt_separator: "-"
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE', 'Makefile']
-
-# Information for the Atom feed
-gereksiz:
-   author: "Jonathan Beebe"
-   email: "me@jonbeebe.net"
