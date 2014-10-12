@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="Technology and development punditry by Jonathan Beebe; published semi-regularly and powered by Jekyll.">
+      <meta name="author" content="Jonathan Beebe">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+      <link rel="stylesheet" href="/css/syntax.css">
+      <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76-precomposed.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
+      <meta name="msapplication-square70x70logo" content="/smalltile.png" />
+      <meta name="msapplication-square150x150logo" content="/mediumtile.png" />
+      <meta name="msapplication-wide310x150logo" content="/widetile.png" />
+      <meta name="msapplication-square310x310logo" content="/largetile.png" />
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="http://jonbee.be/feed">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <title>Reboot</title>
+   </head>
+   
+   <body>
+      <main>
+         <header>
+            <h1 class="title"><span class="icon">Æ</span> <a href="/">jonbee.be</a></h1>
+         </header>
+
+         <article>
+	<h2>Reboot</h2>
+	<hr>
+	
+	<p>For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as <a href="http://www.coronalabs.com">Corona Labs</a>), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.</p>
+
+<p>Things are different now, however. I’m in a professionally stable position. My personal life is great. And I really, really miss writing and sharing stuff on the web. Therefore, I decided to make a clean break with the past and delete my previous website hosted at this domain, redirect my <em>other</em> domain (<code>jonbeebe.net</code>) to this blog, and set the stage for a writing environment that motivates me to turn this web property into a place that is informative, somewhat educational, and at the very least, entertaining for those interested in the same topics as myself.</p>
+
+<p>A long time ago I learned that maintaining a blog, while at times fun and rewarding, is very difficult to do consistently over time, especially with personal and professional responsibilities taking up much of my time. Therefore, in order to “set the stage” properly and position myself to <em>continue</em> writing over the long-term, I came up with five major things need to be in place before I can begin:</p>
+
+<ol>
+  <li>Choose the right publishing platform</li>
+  <li>Implement a design I’m pleased with</li>
+  <li>Reduce costs as much as possible</li>
+  <li>Have a frictionless publishing workflow</li>
+  <li>Redefine success</li>
+</ol>
+
+<h3 id="publishing-platform">Publishing platform</h3>
+
+<p>No more Tumblr. No more Svbtle. No more WordPress. Don’t get me wrong, there’s nothing wrong with any of them, but I don’t want to be put in the position of one day having to take the time to “migrate” my website if any of the services shut down, or impose some kind of limitation that I don’t agree with. And while that doesn’t really apply to a self-hosted WordPress setup, even that’s just too “heavy” for what I want: a very simple website—fully mine—where I can routinely publish my writings and links.</p>
+
+<p>After some research, I found a solution that meets my needs perfectly: <a href="http://jekyllrb.com">Jekyll</a>. It’s painless to set up, easy to customize, has all the features I need, and best of all, publishing a new post is as simple as creating a new text file, putting my words in it, and pushing in the changes via <code>git</code>.</p>
+
+<p>As a huge plus, the entire thing ends up being just a folder of static files so if I ever decide to switch hosting providers in the future, it’ll just be a matter of uploading all the files to a different web host (and making the required domain changes of course). No databases, no PHP, and no web interface to fight with—the perfect solution for me.</p>
+
+<h3 id="website-design">Website design</h3>
+
+<p>The way my website looks is important very to me. So much in fact, I have a tendency to spend too much time tweaking things until everything’s “just right”<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>—time I should be spending writing new content. Therefore, I decided to get that all out of my system right off the bat and make the website look, feel, and work just the way I want it to before writing anything. I ended up going with a very minimal design that’s likely to appeal to me for a long time (fingers crossed)<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>.</p>
+
+<h3 id="reducing-costs">Reducing costs</h3>
+
+<p>Feelings of guilt, even if minor, can be a major de-motivator and that’s the last thing I need when it comes to maintaining a website. If I’m spending money every month—money that could be spent on my wife and kids—to keep something going, something’s that’s not brining in any income, then it’ll help me personally to stay motivated if I know I went with the most affordable option I could (without sacrificing quality, of course).</p>
+
+<p>A nice benefit to using Jekyll is that I can host this website using <a href="http://pages.github.com">Github Pages</a>, which is completely free (as in free beer). In fact, they encourage users to use Jekyll with their service. So at the moment, it’s costing me a whopping $10 a year to keep this website live, and that’s for the domain name (which I recently just renewed). It’s amazing that we live in a time where words can be published instantly and read by countless numbers of people around the world at hardly no cost.</p>
+
+<p>So far I’m happy with the quality, but as I mentioned before, if Github Pages doesn’t end up working out in the long run for whatever reason, I can easily switch to another hosting solution within minutes since Jekyll-generated websites are simply a collection of static files.</p>
+
+<h3 id="publishing-workflow">Publishing workflow</h3>
+
+<p>The amount of friction between drafting a post, editing, and finally publishing needs to be as little as possible for me to keep the motivation to continue writing. Fortunately, my setup hits the sweet spot here. I write and edit my posts in <a href="http://bywordapp.com">Byword</a> and do a quick commit/push into my site’s Github repo. Within seconds, the post is live.</p>
+
+<p>When I used Tumblr or Wordpress in the past, I would end up writing my posts in a text editor, and when it’s ready, copy/paste into the web interface. That’s too much friction in my opinion, so being able to cut out the “middle man” is a big win for me<sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup>.</p>
+
+<h3 id="redefining-success">Redefining success</h3>
+
+<p>Since it’s costing me practically nothing to run this site, and I’m making a decent living from my job and other contracting gigs, I’m under no pressure to turn this blog into something that’s going to generate my primary source of income so I can work from home.</p>
+
+<p>I already work from home, which is a goal I had for a long time before it happened, so that need is already met. My purpose for this website is to simply serve as a source of joy for myself as an outlet for my thoughts, and to provide value to readers by being informative, educational, and—at the very least—entertaining. I want this site’s <a href="/feed">feed</a> to be one you look forward to seeing new updates from, much like a few of the blogs I subscribe to and read every day.</p>
+
+<p>If down the line, this website gains enough readership that it can actually contribute to my bottom line, great—it’ll be an added bonus, not a goal I’ll have needed to meet to consider this project a success. Rather, my definition of success for this website is if I meet my goal of posting to this site reguarly, and if a handful of readers get some value out of it.</p>
+
+<p>So now with all five points met, the stage is set. Let the reboot commence.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>In addition to being frameworks engineer, I wrote weekly tutorials for Ansca. The work I posted to my blog was one of the contributing factors to my getting hired, so it wasn’t all for nothing. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Another reason I didn’t go with WordPress this time: it’s way too easy for me to get lost browsing and trying out new plugins. Jekyll supports plugins too, but I’m not familiar with the process so it’s easy to stay away from it. That’s not the case with WordPress, however, where new plugins are just a click away. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>The Jekyll theme I’m using is a highly modified version of <a href="https://github.com/berkoz/gereksiz">Gereksiz</a> by <a href="http://bugsofberk.net/about">Berk Özbalcı</a>, with colors being from the <a href="http://ethanschoonover.com/solarized">Solarized</a> palette. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>I know I could have went with sofware like MarsEdit, but I’m most comfortable writing in a text editor, particularly one made for writing (such as Byword). <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</article>
+
+<footer>
+	<div id="date" class="meta">
+		11 October 2014
+	</div>
+</footer>
+
+<div class="context-nav">
+	<hr>
+	
+		<span class="prev">&#171; PREVIOUS</span>
+	
+	
+		<span class="next">NEXT &#187;</span>
+	
+</div>
+      </main>
+      <div class="top-border"></div>
+      <script type="text/javascript">
+         if (!localStorage.getItem("ga-disable")) {
+            var gaScript = document.createElement("script");
+            gaScript.src = "/assets/js/analytics.js";
+            document.getElementsByTagName("head")[0].appendChild(gaScript);
+         }
+      </script>
+   </body>
+</html>

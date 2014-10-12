@@ -20,12 +20,12 @@ layout: default
 <div class="context-nav">
 	<hr>
 	{% if page.previous %}
-		<span class="prev"><a href="{{ page.previous.url }}">&#171; PREVIOUS</a></span>
+		<span class="prev"><a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&#171; PREVIOUS</a></span>
 	{% else %}
 		<span class="prev">&#171; PREVIOUS</span>
 	{% endif %}
 	{% if page.next %}
-		<span class="next"><a href="{{ page.next.url }}">NEXT &#187;</a></span>
+		<span class="next"><a href="{{ page.next.url }}" title="{{ page.next.title }}">NEXT &#187;</a></span>
 	{% else %}
 		<span class="next">NEXT &#187;</span>
 	{% endif %}

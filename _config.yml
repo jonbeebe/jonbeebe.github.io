@@ -9,7 +9,7 @@ url: "http://jonbee.be" # the base hostname & protocol for your site
 twitter_username: jonathanbeebe
 github_username:  jonbeebe
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
 permalink: :year/:month/:title/
