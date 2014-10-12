@@ -7,12 +7,31 @@
    <link rel="self" type="application/atom+xml" href="http://jonbee.be/feed" />
    <link href="http://jonbee.be" />
    <id>http://jonbee.be/feed</id>
-   <updated>2014-10-12T12:58:03-07:00</updated>
+   <updated>2014-10-12T14:21:31-07:00</updated>
    <author>
       <name>Jonathan Beebe</name>
       <uri>http://jonbee.be</uri>
    </author>
    <rights>Copyright © 2014, Jonathan Beebe</rights>
+   
+      <entry>
+         <title>The Empire Reboots</title>
+         <id>http://jonbee.be/2014/10/the-empire-reboots/</id>
+         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;Speaking of &lt;a href=&quot;/2014/10/reboot&quot;&gt;rebooting&lt;/a&gt;, I came across this long article from Vanity Fair that details a lot of interesting Microsoft history, specifically events surrounding Bill Gates, Steve Ballmer, and the ensuing drama that occurred before Balmer stepped down as CEO last year before delving into Satya Nadella’s new era in Redmond.&lt;/p&gt;
+</content>
+         <published>2014-10-12T07:00:39-07:00</published>
+         
+            <updated>2014-10-12T07:00:39-07:00</updated>
+         
+         
+            <link rel="alternate" type="text/html" href="http://www.vanityfair.com/business/2014/11/satya-nadella-bill-gates-steve-ballmer-microsoft.print" />
+            <link rel="related" type="text/html" href="http://jonbee.be/2014/10/the-empire-reboots/" />
+         
+         <author>
+            <name>Jonathan Beebe</name>
+            <uri>http://jonbee.be</uri>
+         </author>
+      </entry>
    
       <entry>
          <title>Starting an Open Source Project that People Use</title>

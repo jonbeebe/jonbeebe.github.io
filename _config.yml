@@ -14,6 +14,7 @@ highlighter: pygments
 
 permalink: :year/:month/:title/
 paginate: 30
+excerpt_separator: "-"
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE', 'Makefile']
 
