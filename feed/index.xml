@@ -8,6 +8,7 @@ layout: null
    <link rel="alternate" type="text/html" href="{{ site.url }}" />
    <link rel="self" type="application/atom+xml" href="http://jonbee.be/feed"/>
    <id>http://jonbee.be/feed</id>
+   <updated>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</updated>
    <rights>Copyright © 2014, Jonathan Beebe</rights>
    {% for post in site.posts limit:30 %}
       <entry>
