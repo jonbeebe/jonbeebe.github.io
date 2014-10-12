@@ -2,24 +2,29 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-   <channel>
-      <title>{{ site.name | xml_escape }}</title>
-      <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>    
-      <link>{{ site.url }}</link>
-      <atom:link href="{{ site.url }}/feed" rel="self" type="application/rss+xml" />
-      {% for post in site.posts limit:10 %}
-         <item>
-            <title>{{ post.title | xml_escape }}</title>
-            <description>{{ post.content | xml_escape }}</description>
-            <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-            {% if post.external_url %}
-               <link>{{ post.external_url | escape }}</link>
-            {% else %}
-               <link>{{ site.url }}{{ post.url }}</link>
-            {% endif %}
-            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-         </item>
-      {% endfor %}
-   </channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <title>{{ site.name | xml_escape }}</title>
+   {% if site.description %}<description>{{ site.description | xml_escape }}</description>{% endif %}
+   <link rel="alternate" type="text/html" href="{{ site.url }}" />
+   <link rel="self" type="application/atom+xml" href="http://jonbee.be/feed"/>
+   <id>http://jonbee.be/feed</id>
+   <rights>Copyright © 2014, Jonathan Beebe</rights>
+   {% for post in site.posts limit:30 %}
+      <entry>
+         <title>{{ post.title | xml_escape }}</title>
+         <id>tag:{{ site.url }}{{ post.url }}</id>
+         <content type="html" xml:base="http://jonbee.be"><![CDATA[{{ post.content | xml_escape }}]]></content>
+         <published>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</published>
+         {% if post.external_url %}
+            <link rel="alternate" type="text/html" href="{{ post.external_url | escape }}" />
+            <link rel="related" type="text/html" href="{{ site.url }}{{ post.url }}" />
+         {% else %}
+            <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
+         {% endif %}
+         <author>
+            <name>Jonathan Beebe</name>
+            <uri>http://jonbee.be</uri>
+         </author>
+      </entry>
+   {% endfor %}
+</feed>
