@@ -11,12 +11,12 @@
       <entry>
          <title>Starting an Open Source Project that People Use</title>
          <id>tag:http://jonbee.be/2014/10/starting-an-open-source-project/</id>
-         <content type="html" xml:base="http://jonbee.be"><![CDATA[&lt;p&gt;I came across this in my feed reader today. Great advice from Barry Clark for anyone developing an open source project. As he puts it:&lt;/p&gt;
+         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;I came across this in my feed reader today. Great advice from Barry Clark for anyone developing an open source project. As he puts it:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Starting an open source project is a great way to build your web developer portfolio while creating something for everyone’s benefit.&lt;/p&gt;
 &lt;/blockquote&gt;
-]]></content>
+</content>
          <published>Sun, 12 Oct 2014 05:13:17 -0700</published>
          
             <link rel="alternate" type="text/html" href="http://www.barryclark.co/starting-an-open-source-project/" />
@@ -31,7 +31,7 @@
       <entry>
          <title>Reboot</title>
          <id>tag:http://jonbee.be/2014/10/reboot/</id>
-         <content type="html" xml:base="http://jonbee.be"><![CDATA[&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
+         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
 
 &lt;p&gt;Things are different now, however. I’m in a professionally stable position. My personal life is great. And I really, really miss writing and sharing stuff on the web. Therefore, I decided to make a clean break with the past and delete my previous website hosted at this domain, redirect my &lt;em&gt;other&lt;/em&gt; domain (&lt;code&gt;jonbeebe.net&lt;/code&gt;) to this blog, and set the stage for a writing environment that motivates me to turn this web property into a place that is informative, somewhat educational, and at the very least, entertaining for those interested in the same topics as myself.&lt;/p&gt;
 
@@ -97,7 +97,7 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-]]></content>
+</content>
          <published>Sun, 12 Oct 2014 04:35:00 -0700</published>
          
             <link rel="alternate" type="text/html" href="http://jonbee.be/2014/10/reboot/" />
