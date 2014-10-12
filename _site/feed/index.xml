@@ -8,6 +8,21 @@
       <atom:link href="http://jonbee.be/feed" rel="self" type="application/rss+xml" />
       
          <item>
+            <title>Starting an Open Source Project that People Use</title>
+            <description>&lt;p&gt;I came across this in my feed reader today. Great advice from Barry Clark for anyone developing an open source project. As he puts it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Starting an open source project is a great way to build your web developer portfolio while creating something for everyone’s benefit.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+            <pubDate>Sun, 12 Oct 2014 05:13:17 -0700</pubDate>
+            
+               <link>http://www.barryclark.co/starting-an-open-source-project/</link>
+            
+            <guid isPermaLink="true">http://jonbee.be/2014/10/starting-an-open-source-project/</guid>
+         </item>
+      
+         <item>
             <title>Reboot</title>
             <description>&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
 
