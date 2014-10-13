@@ -22,8 +22,8 @@
 
 html, body { height: auto; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; margin-bottom: 0.7em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-h2 { color: #073643; font-size: 150%; margin-bottom: .5em; font-weight: 300; }
-h3 { color: #073643; font-size: 125%; margin-bottom: .5em; font-weight: 300; }
+h2 { color: #073643; font-size: 150%; margin-bottom: .5em; font-weight: 300; line-height: 1.2em; }
+h3 { color: #073643; font-size: 125%; margin-bottom: .5em; font-weight: 300; line-height: 1.2em; }
 /*h3:before { content: "### "; color: #93A2A1; }*/
 h2 sup a { font-size: 60%; color: #586E75 !important; }
 p { margin: 1.75em 0; margin-top: 1em; }
@@ -38,14 +38,14 @@ body {
 }
 
 .top-border {
-   position: fixed;
+   position: absolute;
    top: 0;
    right: 0;
    bottom: auto;
    left: 0;
    margin: auto;
    width: 100%;
-   height: 7px;
+   height: 7.5em;
    background-color: #EFE8D5;
 }
 
@@ -83,6 +83,12 @@ a:hover, a:active { color: #B58916; }
 }
 
 main {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: auto;
+   maring: auto;
    font-size: 110%;
    text-align: left;
    margin: 2em auto 0.5em;
@@ -93,7 +99,7 @@ main {
 }
 
 .search {
-   margin-bottom: 1.5em;
+   margin-bottom: 2.5em;
 }
 
 .search input {
@@ -102,10 +108,12 @@ main {
    padding-left: 0.25em;
 }
 
-/* Don't display date if screen is small */
+/* Increase margins if screen is small */
+/*
 @media only screen and (max-width: 40em) {
-   main { margin-left: 0.5em; margin-right: 0.5em; }
+   main { margin-left: 0em; margin-right: 0em; }
 }
+*/
 
 header a {
    font-weight: bold;
@@ -116,7 +124,7 @@ header a {
 .title {
    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
    display: inline-block;
-   line-height: 0.5em;
+   line-height: 1.0em;
    margin-top: .4em;
    margin-bottom: 3.5em;
 }

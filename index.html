@@ -12,7 +12,7 @@ title: jonbee.be
 			{% if post.external_url %}
 				<li><span>&gt; {{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">È</span></li>
 			{% else %}
-				<li><span>&gt; {{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+				<li><span>&gt; {{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">&#149;</span></li>
 			{% endif %}
 		{% endfor %}
    </ul>

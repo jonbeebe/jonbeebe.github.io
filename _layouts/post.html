@@ -7,15 +7,19 @@ layout: default
 	<hr>
 	{% if page.external_url %}
 		<div class="external-link"><a href="{{ page.external_url }}" title="{{ page.external_url }}">{{ page.external_url }}</a></div>
+	{% else %}
+		<div class="external-link">{{ page.date | date_to_long_string }}</div>
 	{% endif %}
 	{{ content }}
 </article>
 
+{% if page.external_url %}
 <footer>
 	<div id="date" class="meta">
 		{{ page.date | date_to_long_string }}
 	</div>
 </footer>
+{% endif %}
 
 <div class="context-nav">
 	<hr>
