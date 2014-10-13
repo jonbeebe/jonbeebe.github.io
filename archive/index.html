@@ -21,7 +21,7 @@ title: Archive
 			{% if post.external_url %}
 				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">È</span></li>
 			{% else %}
-				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">&#149;</span></li>
+				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">&bullet;</span></li>
 			{% endif %}
 		{% endfor %}
    </ul>
