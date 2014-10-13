@@ -70,14 +70,14 @@ a:hover, a:active { color: #B58916; }
    color: #93A2A1;
    font-family: Menlo, Monaco, "Courier New", monospace;
    font-size: 80%;
-   margin-left: 0.25em;
+   margin-left: 0em;
    margin-right: 1em;
 }
 
 .posts span.icon {
    font-size: 125%;
    margin-bottom: -0.6em;
-   margin-right: 0.25em;
+   margin-left: 0.25em;
    font-weight: ligher;
    color: #B7B1A3;
 }
