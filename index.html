@@ -10,9 +10,9 @@ title: jonbee.be
 	<ul class="posts">
 		{% for post in paginator.posts %}
 			{% if post.external_url %}
-				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">È</span></li>
+				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
 			{% else %}
-				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">&bullet;</span></li>
+				<li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">&sext;</span></li>
 			{% endif %}
 		{% endfor %}
    </ul>
