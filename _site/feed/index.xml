@@ -7,12 +7,114 @@
    <link rel="self" type="application/atom+xml" href="http://jonbee.be/feed" />
    <link href="http://jonbee.be" />
    <id>http://jonbee.be/feed</id>
-   <updated>2014-10-13T14:40:59-07:00</updated>
+   <updated>2014-10-14T12:34:45-07:00</updated>
    <author>
       <name>Jonathan Beebe</name>
       <uri>http://jonbee.be</uri>
    </author>
    <rights>Copyright © 2014, Jonathan Beebe</rights>
+   
+      <entry>
+         <title>Windows X</title>
+         <id>http://jonbee.be/2014/10/windows-x/</id>
+         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;I’m not a Windows user myself, and haven’t been for almost six years now, but I was forced to use it for the first part of my computer-using life so I still enjoy following new releases. This next one brings Windows and OS X closer together than every before, and I’m not talking about just the version number.&lt;/p&gt;
+
+&lt;h3 id=&quot;top-new-feature&quot;&gt;Top New Feature&lt;/h3&gt;
+
+&lt;p&gt;On September 30, Microsoft unveiled the next installment of their operating system, &lt;a href=&quot;http://www.theverge.com/2014/9/30/6868695/microsoft-windows-10-announced-official&quot;&gt;Windows 10&lt;/a&gt;,&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and consistently at-or-near the top of every related news article is this revolutionary new thing called the Start Menu. Suddenly I’m having a really strong case of déjà vu.&lt;/p&gt;
+
+&lt;p&gt;Sarcasm aside, Windows 95—the OS where the Start Menu really &lt;em&gt;was&lt;/em&gt; a new feature—is the first operating system I really got to know, and one of the things I actually liked about the Start Menu was how concise it was. Does anyone else out there think the Windows 10 Start Menu is a little… bloated? I know I would if I was still a Windows user, but then again, maybe I wouldn’t if the previous major version’s replacement for the Start Menu (the Start Screen) actually took up the entire screen.&lt;/p&gt;
+
+&lt;h3 id=&quot;putting-the-x-in-10&quot;&gt;Putting the X in 10&lt;/h3&gt;
+
+&lt;p&gt;Operating systems have an (understandable) history of “borrowing” features from one another. Over the years OS X borrowed features from Windows and vice-versa, but as I read about &lt;a href=&quot;http://www.techradar.com/us/news/software/operating-systems/10-great-new-features-in-windows-10-1267365&quot;&gt;new Windows 10 features&lt;/a&gt;, as an OS X user I couldn’t help but notice quite a bit of familiarity:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start Menu tiles. These are actually taken from the Windows 8 Start Screen, not a “borrowed” feature from OS X, but I’m reminded of Notification Center widgets in the soon to be released OS X Yosemite.&lt;/li&gt;
+  &lt;li&gt;Task View looks hands-down like a Windows port of Mission Control, a feature I’ve become pretty fond of on my Mac.&lt;/li&gt;
+  &lt;li&gt;Virtual desktops. I first experienced these while dabbling with Linux, and was glad they were available OS X when I first made the switch from Windows six years ago. Not everyone uses these, but if you do, you can’t live without it.&lt;/li&gt;
+  &lt;li&gt;Command prompt improvements seem to be inspired by the Unix Terminal.&lt;/li&gt;
+  &lt;li&gt;Continuum seems to be the Windows version of Continuity for OS X (Yosemite), and even have a similar name. Both are a little different in that the former is for hybrid devices and the latter for sharing an experience across multiple devices (since there are no “hybrid” Macs), but both are about adapting the user experience to match the form factor you are using &lt;em&gt;right now&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course, Yosemite and Windows 10 were—for the most part—developed in parallel, so any shared features across these releases are likely coincidence, not inspiration.&lt;/p&gt;
+
+&lt;h3 id=&quot;floating-apps&quot;&gt;Floating Apps&lt;/h3&gt;
+
+&lt;p&gt;One major Windows 10 feature that has no OS X equivalent is the ability to float Metro… I mean Modern, no, Universal (!) apps over the desktop (as opposed to requiring them to run full-screen as in Windows 8).&lt;/p&gt;
+
+&lt;p&gt;This is definitely an improvement over having mandatory full-screen apps, but it seems like a bandaid for a much deeper design flaw. If these Modern apps are floating on the desktop, what’s the difference—from a user perspective—between these apps and any other apps. Why is there a distinction at all?&lt;/p&gt;
+
+&lt;p&gt;Of course, modern apps look different and are optimized for touch, but now you have touch-optimized apps all over the desktop. It’s not as awkward as having full-screen apps on a 27” monitor, but it still feels like two worlds colliding, even if the impact has been blunted. Native apps on the desktop shouldn’t feel like virtual machine instances.&lt;/p&gt;
+
+&lt;p&gt;Imagine how strange it would be to have iOS apps, as-is, running on OS X. As cool as that may seem to some, it introduces a lot of inconsistency into the UI and makes things more complicated for both users and developers. I’ve dabbled with Linux here and there over the years, and one of the things that made me cringe were all the UI inconsistencies between apps that used different UI frameworks, even more-so than running an iOS 6 (or lower) app in iOS 7/8.&lt;/p&gt;
+
+&lt;p&gt;Perhaps this is a case where Microsoft really should have taken a page from Apple’s playbook and require desktop apps to use desktop APIs (and thus have the desktop-mode look and feel), and add a “fullscreen” button to the title bar that maximizes the app into the full-screen Modern version. I’ve seen OS X apps that update the UI into a more iOS-style interface upon going into full-screen, and returning to the Mac paradigm when exiting full-screen mode. It seems to work well.&lt;/p&gt;
+
+&lt;p&gt;At the very least, Microsoft could do a Yosemite-scale UI overhaul of the desktop interface to at least make it match the modern look and feel, similar to the mockups &lt;a href=&quot;http://jaymachalani.com/blog/2013/12/12/fixing-windows-8&quot;&gt;Joseph Machalani posted in December 2013&lt;/a&gt;, which would be the more practical solution since they are already committed to the floating apps feature. At least every app, whether Modern or Oldie, would still &lt;em&gt;feel&lt;/em&gt; like a “Windows” app.&lt;/p&gt;
+
+&lt;p&gt;Anyway, with all that out of my system, let’s see what history has to say about this next release of Windows…&lt;/p&gt;
+
+&lt;h3 id=&quot;the-star-trek-theory&quot;&gt;The Star Trek Theory&lt;/h3&gt;
+
+&lt;p&gt;I remember reading an article before Windows 8 launched that pointed out a trend where every &lt;em&gt;other&lt;/em&gt; version of Windows since Windows 3.1x was good, while the in-between releases “sucked” (much like Star Trek movies).&lt;/p&gt;
+
+&lt;p&gt;I tracked down said article, titled &lt;a href=&quot;http://orclev.tumblr.com/post/18555141412/why-windows-8-will-suck&quot;&gt;“Why it’s likely Windows 8 Will Suck”&lt;/a&gt; posted on March 1, 2012 by &lt;a href=&quot;https://twitter.com/Orclev&quot;&gt;Chris Keener&lt;/a&gt;, and I’m glad I did:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What I have seen is that, starting from about Windows 3.1x, every other Windows release has sucked (I’m also discounting the server and business releases). So, lets review:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Windows 3.1x (1992) - Good&lt;/li&gt;
+    &lt;li&gt;Windows 95 (1995) - Mixed bag, at the beginning it sucked&lt;/li&gt;
+    &lt;li&gt;Windows 98 (1998) - Good&lt;/li&gt;
+    &lt;li&gt;Windows ME (2000) - Sucked (hard)&lt;/li&gt;
+    &lt;li&gt;Windows XP (2001) - Good&lt;/li&gt;
+    &lt;li&gt;Windows Vista (2006) - Sucked although not as hard as ME&lt;/li&gt;
+    &lt;li&gt;Windows 7 (2009) - Good&lt;/li&gt;
+    &lt;li&gt;Windows 8 (2012?) - ???&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;So, it seems fairly obvious that every other release of Windows has in fact sucked, but why has it sucked?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Keener goes into all a lot of explanation, positing that the every other release is intentionally crippled by Microsoft (more on that in a moment) before making his predictions:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So, based on the history we’ve seen, I’m making two predictions:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Windows 8 is going to suck.&lt;/li&gt;
+    &lt;li&gt;We’ll see Windows 9 (or whatever they’re going to call it) released sometime in the next 3 years and it will fix nearly every problem in Windows 8.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Windows 8 would definitely meet the author’s “sucked” criteria, so… he pretty much nailed it. Windows 10 hasn’t been officially released yet, but based on what we know about the developer preview, it’s obvious that one of its primary goals is to “fix nearly every problem in Windows 8”.&lt;/p&gt;
+
+&lt;p&gt;I don’t buy into the conspiracy theory of Microsoft purposefully crippling every other release, however. As a developer, I know that the likely scenario is that it’s much easier to fix, or rather fine-tune something that’s flawed than it is to get it right the first time. It’s not a whole lot different than OS X Snow Leopard’s ZERO new features… feature, except Windows 10 actually does have a lot of new things in &lt;em&gt;addition&lt;/em&gt; to dealing with gripes people had with Windows 8.&lt;/p&gt;
+
+&lt;p&gt;All in all, Windows 10 looks like it’s going to be a solid update. If you ask me though, I think what Windows users really need is a new Recycle Bin icon.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Yes, Microsoft is skipping Windows 9 and jumping straight to Windows 10. That means they’re at least a few years ahead now, right? &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</content>
+         <published>2014-10-13T05:00:00-07:00</published>
+         
+            <updated>2014-10-13T05:00:00-07:00</updated>
+         
+         
+            <link rel="alternate" type="text/html" href="http://jonbee.be/2014/10/windows-x/" />
+         
+         <author>
+            <name>Jonathan Beebe</name>
+            <uri>http://jonbee.be</uri>
+         </author>
+      </entry>
    
       <entry>
          <title>The Empire Reboots</title>

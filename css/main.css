@@ -191,10 +191,10 @@ blockquote {
    padding: 0px 18px;
    margin: 15px 0;
    border-left: 3px solid #839596;
+   margin-bottom: 0;
 }
 
-blockquote p {
-   margin-bottom: 0;
+blockquote p, blockquote li {
    color: #657C83;
 }
 
