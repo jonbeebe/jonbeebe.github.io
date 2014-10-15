@@ -19,7 +19,7 @@ layout: null
                <link>{{ site.url }}{{ post.url }}</link>
                <guid isPermaLink="false">{{ site.url }}{{ post.url }}</guid>
             {% endif %}
-            <pubDate>{{ post.date | date: "%a, %d %b %Y %T %Z" }}</pubDate>
+            <pubDate>{{ post.date | date: "%a, %d %b %Y %T GMT" }}</pubDate>
             <description>{{ post.content | xml_escape }}</description>
          </item>
       {% endfor %}
