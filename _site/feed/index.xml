@@ -1,46 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-   <title>jonbee.be</title>
-   <subtitle>Web and technology links and articles by Jonathan Beebe.
-</subtitle>
-   <link rel="alternate" type="text/html" href="http://jonbee.be" />
-   <link rel="self" type="application/atom+xml" href="http://jonbee.be/feed" />
-   <link href="http://jonbee.be" />
-   <id>http://jonbee.be/feed</id>
-   <updated>2014-10-14T20:36:22-07:00</updated>
-   <author>
-      <name>Jonathan Beebe</name>
-      <uri>http://jonbee.be</uri>
-   </author>
-   <rights>Copyright © 2014, Jonathan Beebe</rights>
-   
-      <entry>
-         <title>Mac App Store: The Subtle Exodus</title>
-         <id>http://jonbee.be/2014/10/mac-app-store-the-subtle-exodus/</id>
-         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;Milen Dzhumerov:&lt;/p&gt;
+<rss version="2.0">
+   <channel>
+      <title>jonbee.be</title>
+      <link>http://jonbee.be</link>
+      <description>Web and technology links and articles by Jonathan Beebe.
+</description>
+      
+         <item>
+            <title>Mac App Store: The Subtle Exodus</title>
+            
+               <link>http://blog.helftone.com/mac-app-store-the-subtle-exodus/</link>
+               <guid isPermaLink="false">http://blog.helftone.com/mac-app-store-the-subtle-exodus/</guid>
+            
+            <pubDate>Tue, 14 Oct 2014 12:56:40 -0700</pubDate>
+            <description>&lt;p&gt;Milen Dzhumerov:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The Mac App Store can be so much better, it can sustain businesses and foster an ecosystem that values and rewards innovation and high quality software. But if you talk to developers behind the scenes or explore the Mac App Store, you’ll find something completely different.&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
-         <published>2014-10-14T12:56:40-07:00</published>
-         
-            <updated>2014-10-14T12:56:40-07:00</updated>
-         
-         
-            <link rel="alternate" type="text/html" href="http://blog.helftone.com/mac-app-store-the-subtle-exodus/" />
-            <link rel="related" type="text/html" href="http://jonbee.be/2014/10/mac-app-store-the-subtle-exodus/" />
-         
-         <author>
-            <name>Jonathan Beebe</name>
-            <uri>http://jonbee.be</uri>
-         </author>
-      </entry>
-   
-      <entry>
-         <title>Windows X</title>
-         <id>http://jonbee.be/2014/10/windows-x/</id>
-         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;I’m not a Windows user myself, and haven’t been for almost six years now, but I was forced to use it for the first part of my computer-using life so I still enjoy following new releases. This next one brings Windows and OS X closer together than every before, and I’m not talking about just the version number.&lt;/p&gt;
+</description>
+         </item>
+      
+         <item>
+            <title>Windows X</title>
+            
+               <link>http://jonbee.be/2014/10/windows-x/</link>
+               <guid isPermaLink="false">http://jonbee.be/2014/10/windows-x/</guid>
+            
+            <pubDate>Tue, 14 Oct 2014 06:30:00 -0700</pubDate>
+            <description>&lt;p&gt;I’m not a Windows user myself, and haven’t been for almost six years now, but I was forced to use it for the first part of my computer-using life so I still enjoy following new releases. This next one brings Windows and OS X closer together than every before, and I’m not talking about just the version number.&lt;/p&gt;
 
 &lt;h3 id=&quot;top-new-feature&quot;&gt;Top New Feature&lt;/h3&gt;
 
@@ -125,66 +113,43 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</content>
-         <published>2014-10-14T06:30:00-07:00</published>
-         
-            <updated>2014-10-14T06:30:00-07:00</updated>
-         
-         
-            <link rel="alternate" type="text/html" href="http://jonbee.be/2014/10/windows-x/" />
-         
-         <author>
-            <name>Jonathan Beebe</name>
-            <uri>http://jonbee.be</uri>
-         </author>
-      </entry>
-   
-      <entry>
-         <title>The Empire Reboots</title>
-         <id>http://jonbee.be/2014/10/the-empire-reboots/</id>
-         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;Speaking of &lt;a href=&quot;/2014/10/reboot&quot;&gt;rebooting&lt;/a&gt;, I came across this long article from Vanity Fair that details a lot of interesting Microsoft history, specifically events surrounding Bill Gates, Steve Ballmer, and the drama that occurred before Balmer stepped down as CEO last year before delving into Satya Nadella’s new era in Redmond.&lt;/p&gt;
-</content>
-         <published>2014-10-12T07:00:39-07:00</published>
-         
-            <updated>2014-10-12T07:24:00-07:00</updated>
-         
-         
-            <link rel="alternate" type="text/html" href="http://www.vanityfair.com/business/2014/11/satya-nadella-bill-gates-steve-ballmer-microsoft.print" />
-            <link rel="related" type="text/html" href="http://jonbee.be/2014/10/the-empire-reboots/" />
-         
-         <author>
-            <name>Jonathan Beebe</name>
-            <uri>http://jonbee.be</uri>
-         </author>
-      </entry>
-   
-      <entry>
-         <title>Starting an Open Source Project that People Use</title>
-         <id>http://jonbee.be/2014/10/starting-an-open-source-project/</id>
-         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;Great advice from Barry Clark for anyone developing an open source project. As he puts it:&lt;/p&gt;
+</description>
+         </item>
+      
+         <item>
+            <title>The Empire Reboots</title>
+            
+               <link>http://www.vanityfair.com/business/2014/11/satya-nadella-bill-gates-steve-ballmer-microsoft.print</link>
+               <guid isPermaLink="false">http://www.vanityfair.com/business/2014/11/satya-nadella-bill-gates-steve-ballmer-microsoft.print</guid>
+            
+            <pubDate>Sun, 12 Oct 2014 07:00:39 -0700</pubDate>
+            <description>&lt;p&gt;Speaking of &lt;a href=&quot;/2014/10/reboot&quot;&gt;rebooting&lt;/a&gt;, I came across this long article from Vanity Fair that details a lot of interesting Microsoft history, specifically events surrounding Bill Gates, Steve Ballmer, and the drama that occurred before Balmer stepped down as CEO last year before delving into Satya Nadella’s new era in Redmond.&lt;/p&gt;
+</description>
+         </item>
+      
+         <item>
+            <title>Starting an Open Source Project that People Use</title>
+            
+               <link>http://www.barryclark.co/starting-an-open-source-project/</link>
+               <guid isPermaLink="false">http://www.barryclark.co/starting-an-open-source-project/</guid>
+            
+            <pubDate>Sun, 12 Oct 2014 05:13:17 -0700</pubDate>
+            <description>&lt;p&gt;Great advice from Barry Clark for anyone developing an open source project. As he puts it:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Starting an open source project is a great way to build your web developer portfolio while creating something for everyone’s benefit.&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
-         <published>2014-10-12T05:13:17-07:00</published>
-         
-            <updated>2014-10-12T18:52:00-07:00</updated>
-         
-         
-            <link rel="alternate" type="text/html" href="http://www.barryclark.co/starting-an-open-source-project/" />
-            <link rel="related" type="text/html" href="http://jonbee.be/2014/10/starting-an-open-source-project/" />
-         
-         <author>
-            <name>Jonathan Beebe</name>
-            <uri>http://jonbee.be</uri>
-         </author>
-      </entry>
-   
-      <entry>
-         <title>Reboot</title>
-         <id>http://jonbee.be/2014/10/reboot/</id>
-         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
+</description>
+         </item>
+      
+         <item>
+            <title>Reboot</title>
+            
+               <link>http://jonbee.be/2014/10/reboot/</link>
+               <guid isPermaLink="false">http://jonbee.be/2014/10/reboot/</guid>
+            
+            <pubDate>Sun, 12 Oct 2014 04:35:00 -0700</pubDate>
+            <description>&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
 
 &lt;p&gt;Things are different now, however. I’m in a professionally stable position (I’ve long since left Corona Labs). My personal life is great. And I really, really miss writing and sharing stuff on the web. Therefore, I decided to make a clean break with the past and delete my previous website hosted at this domain, redirect my &lt;em&gt;other&lt;/em&gt; domain (&lt;code&gt;jonbeebe.net&lt;/code&gt;) to this blog, and set the stage for a writing environment that motivates me to turn this web property into a place that is informative, somewhat educational, and at the very least, entertaining for those interested in the same topics as myself.&lt;/p&gt;
 
@@ -250,18 +215,8 @@
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-</content>
-         <published>2014-10-12T04:35:00-07:00</published>
-         
-            <updated>2014-10-12T18:51:00-07:00</updated>
-         
-         
-            <link rel="alternate" type="text/html" href="http://jonbee.be/2014/10/reboot/" />
-         
-         <author>
-            <name>Jonathan Beebe</name>
-            <uri>http://jonbee.be</uri>
-         </author>
-      </entry>
-   
-</feed>
+</description>
+         </item>
+      
+   </channel>
+</rss>
