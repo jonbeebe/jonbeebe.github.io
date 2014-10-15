@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mac App Store: The Subtle Exodus"
-date: 2014-10-14T19:56:40-07:00
+date: 2014-10-14 19:56:40
 external_url: http://blog.helftone.com/mac-app-store-the-subtle-exodus/
 ---
 
