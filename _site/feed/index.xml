@@ -7,12 +7,35 @@
    <link rel="self" type="application/atom+xml" href="http://jonbee.be/feed" />
    <link href="http://jonbee.be" />
    <id>http://jonbee.be/feed</id>
-   <updated>2014-10-14T12:34:45-07:00</updated>
+   <updated>2014-10-14T19:58:38-07:00</updated>
    <author>
       <name>Jonathan Beebe</name>
       <uri>http://jonbee.be</uri>
    </author>
    <rights>Copyright © 2014, Jonathan Beebe</rights>
+   
+      <entry>
+         <title>Mac App Store: The Subtle Exodus</title>
+         <id>http://jonbee.be/2014/10/mac-app-store-the-subtle-exodus/</id>
+         <content type="html" xml:base="http://jonbee.be">&lt;p&gt;Milen Dzhumerov:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Mac App Store can be so much better, it can sustain businesses and foster an ecosystem that values and rewards innovation and high quality software. But if you talk to developers behind the scenes or explore the Mac App Store, you’ll find something completely different.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+         <published>2014-10-14T12:56:40-07:00</published>
+         
+            <updated>2014-10-14T12:56:40-07:00</updated>
+         
+         
+            <link rel="alternate" type="text/html" href="http://blog.helftone.com/mac-app-store-the-subtle-exodus/" />
+            <link rel="related" type="text/html" href="http://jonbee.be/2014/10/mac-app-store-the-subtle-exodus/" />
+         
+         <author>
+            <name>Jonathan Beebe</name>
+            <uri>http://jonbee.be</uri>
+         </author>
+      </entry>
    
       <entry>
          <title>Windows X</title>
@@ -103,9 +126,9 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </content>
-         <published>2014-10-13T05:00:00-07:00</published>
+         <published>2014-10-14T06:30:00-07:00</published>
          
-            <updated>2014-10-13T05:00:00-07:00</updated>
+            <updated>2014-10-14T06:30:00-07:00</updated>
          
          
             <link rel="alternate" type="text/html" href="http://jonbee.be/2014/10/windows-x/" />
