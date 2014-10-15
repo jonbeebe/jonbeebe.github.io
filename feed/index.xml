@@ -7,7 +7,7 @@ layout: null
       <title>{{ site.name | xml_escape }}</title>
       <link>{{ site.url }}</link>
       {% if site.description %}<description>{{ site.description | xml_escape }}</description>{% endif %}
-      <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %T %Z" }}</lastBuildDate>
+      <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 
       {% for post in site.posts limit:30 %}
          <item>
