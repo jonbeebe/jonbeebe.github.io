@@ -10,7 +10,7 @@ BBEdit originally debuted on Macintosh System Software 6[^1], and while it may h
 
 1. Truly native Mac software; feels "at home" visually and works as you would expect a Mac app to work. In other words, it's very "Mac-like".
 2. Has a history that can provide assurance that it'll most likely be sticking around and actively developed for many more years to come.
-3. It has to be fast.
+3. It is fast.
 
 We're getting to a time where text editor speed is almost taken for granted, but point 1 is often difficult to meet because of cross-platform requirements, and unless your vim or Emacs, there's really no competing with BBEdit's history. [Bare Bones][barebones] as a company is up there with [The Omni Group][omni] and [Panic][panic] as far as the respect it has among Mac software enthusiasts.
 
