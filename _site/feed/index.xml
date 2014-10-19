@@ -5,8 +5,153 @@
       <link>http://jonbee.be</link>
       <description>Web and technology links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Thu, 16 Oct 2014 17:28:33 -0700</lastBuildDate>
+      <lastBuildDate>Sun, 19 Oct 2014 15:44:05 -0700</lastBuildDate>
 
+      
+         <item>
+            <title>Back to BBEdit</title>
+            
+               <link>http://jonbee.be/2014/10/back-to-bbedit/</link>
+               <guid isPermaLink="false">http://jonbee.be/2014/10/back-to-bbedit/</guid>
+            
+            <pubDate>Sun, 19 Oct 2014 15:43:00 -0700</pubDate>
+            <description>&lt;blockquote&gt;
+  &lt;p&gt;It doesn’t suck.®&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;BBEdit originally debuted on Macintosh System Software 6&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, and while it may have been surpassed—feature-wise—by other text editors in recent years, it’s actually one of the only OS X text editors that can meet the following criteria (and meet it well):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Truly native Mac software; feels “at home” visually and works as you would expect a Mac app to work. In other words, it’s very “Mac-like”.&lt;/li&gt;
+  &lt;li&gt;Has a history that can provide assurance that it’ll most likely be sticking around and actively developed for many more years to come.&lt;/li&gt;
+  &lt;li&gt;It has to be fast.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We’re getting to a time where text editor speed is almost taken for granted, but point 1 is often difficult to meet because of cross-platform requirements, and unless your vim or Emacs, there’s really no competing with BBEdit’s history. &lt;a href=&quot;http://www.barebones.com&quot;&gt;Bare Bones&lt;/a&gt; as a company is up there with &lt;a href=&quot;http://www.omnigroup.com&quot;&gt;The Omni Group&lt;/a&gt; and &lt;a href=&quot;http://www.panic.com&quot;&gt;Panic&lt;/a&gt; as far as the respect it has among Mac software enthusiasts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com&quot;&gt;Sublime Text&lt;/a&gt; is blazing fast, but it has a somewhat spotty development history and correct me if I’m wrong, it looks like it’s created and maintained by a sole developer (Jon Skinner). Out of the box, as a Mac app, it’s ugly as sin. You can customize it to look better, but that doesn’t make everything else about it any more “Mac-like”. Really the one true thing I love about Sublime Text is the way it does multi-word selection via Cmd + D, and that’s by no means a deal-breaker.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chocolatapp.com&quot;&gt;Chocolat&lt;/a&gt; definitely hits points 1 and 3. Visually, it looks very nice, and while I’ve seen some users complain of its speed with some text files, it’s fast enough on my machine and for my particular usage (I’m not editing any megabyte-or-larger sized text files). It doesn’t currently have anything that makes me want to use it over BBEdit, however.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-im-switching-at-all&quot;&gt;Why I’m switching at all&lt;/h3&gt;
+
+&lt;p&gt;I’m a developer, so I’m obviously switching “back” to BBEdit from something. Well in my case, it’s two somethings. I’m a web developer by day (Backbone + Marionette) and my company’s workflow is heavily dependent on &lt;a href=&quot;https://www.jetbrains.com/idea/&quot;&gt;IntelliJ IDEA&lt;/a&gt; (lots of servlets and such).  On my “own” time, I still do lot of contracting work developing &lt;a href=&quot;http://coronalabs.com/products/corona-sdk/&quot;&gt;Corona&lt;/a&gt; apps, and for that I’ve been using Sublime Text (version 3 beta).&lt;/p&gt;
+
+&lt;p&gt;I want to change things for the following reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;IntelliJ can be dog slow on my machine. I use it for web development with a late-2012 Mac mini. It has a 2.3 GHz Intel Core i7 with 16 GB of DDR3 RAM and a 250 GB solid-state drive, so there’s no reason why my development environment should ever feel like it’s crawling. It does. Often. I even limit my number of open editor tabs to 10, and I followed all the optimization tips I could find. I want to use something faster than IntelliJ, period.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As previously mentioned, Sublime Text is fast. Really fast. But it’s only used for some of my work. It’s also jarring to have to switch between using two different editors. I want one programming environment to rule them all (even if I’m still bound to IntelliJ in some ways, more on that later).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I love BBEdit, and I miss it. I’ve been dying for a reason to dust off my license and make it my full-time text editor again. I used &lt;a href=&quot;http://www.barebones.com/products/textwrangler/&quot;&gt;TextWrangler&lt;/a&gt; for a while back in 2010 to do all of my work at Ansca and then I purchased a BBEdit license when version 10 launched. I continued to use BBEdit for a while until I started working at &lt;a href=&quot;http://lanica.co&quot;&gt;Lanica&lt;/a&gt;, where we used &lt;a href=&quot;http://www.appcelerator.com/titanium/titanium-studio/&quot;&gt;Titanium Studio&lt;/a&gt; (Eclipse rebranded—yuck) and I eventually jumped onto the Sublime Text bandwagon based on recommendations from some colleagues. I began using it and got very used to it, but I never loved it.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So dust off my BBEdit 10 license I did, and I’m now using it as my full-time editor for all things programming (and writing for that matter, this blog post was happily written in BBEdit). How did I do it?&lt;/p&gt;
+
+&lt;h3 id=&quot;replacing-intellij-with-bbedit&quot;&gt;Replacing IntelliJ with BBEdit&lt;/h3&gt;
+
+&lt;p&gt;I have to use IntelliJ because of there are servlets combined with a Tomcat Run/Debug configuration we use at my company that are required for me to do my work. Once those are running, however, 100% of what I’m doing in IntelliJ is editing text. Why can’t I use an external text editor of my choice and just have IntelliJ do it’s thing separately without me needing to be &lt;em&gt;in it&lt;/em&gt; to do my actual work?&lt;/p&gt;
+
+&lt;p&gt;There’s a big problem I ran into with this approach, however. If a file is modified outside of IntelliJ, it being a Java app (not a native Mac app), you have to click “Synchronize” on the toolbar (or &lt;code&gt;CMD+OPT+Y&lt;/code&gt;) for it to pick up the changes (which it needs in order for the servlets to serve the proper stuff). I refuse to do that.&lt;/p&gt;
+
+&lt;p&gt;Every time I have a change I need to test in the browser, the last thing I want to do is click the IntelliJ window and “synchronize” before clicking away &lt;em&gt;again&lt;/em&gt; into the web browser. It’s bad enough I already have to do that whenever I pull in changes from SourceTree (my Mercurial client of choice). My goal is to make my development environment more pleasant, not less.&lt;/p&gt;
+
+&lt;p&gt;Then, I remembered BBEdit’s excellent AppleScript support. There’s even an AppleScript menu, &lt;em&gt;and&lt;/em&gt; you can assign hotkeys to individual scripts. Perfect. The only problem is, I don’t know AppleScript. Fortunately, a lot of folks on the internet do, so after some Googling, I was able to shamble together a script that does the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Activate IntelliJ and invoke the keyboard shortcut to “synchronize” files.&lt;/li&gt;
+  &lt;li&gt;Put BBEdit back in front of IntelliJ, for easier access when I need to go back to programming.&lt;/li&gt;
+  &lt;li&gt;Launch and/or activate Google Chrome&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So now I can do my programming in BBEdit, and when I’m ready to test my changes, I can simply invoke a keyboard shortcut that will synchronize the files in IntelliJ, and Google Chrome is activated (thus updating assets and resources due to “frame deactivation”). I’m all set.&lt;/p&gt;
+
+&lt;p&gt;Here’s the AppleScript (bound to &lt;code&gt;CMD+OPTION+Y&lt;/code&gt;, same as IntelliJ synchronize):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;-- Store reference to BBEdit in a variable, for later activation
+set currentApp to path to frontmost application
+
+activate application &quot;IntelliJ&quot;
+tell application &quot;System Events&quot;
+    delay 0.1
+
+    -- Invoke IntelliJ's keyboard shortcut for &quot;synchronize&quot;
+    keystroke &quot;y&quot; using {option down, command down}
+end tell
+
+-- Give IntelliJ a couple of seconds to refresh files
+delay 2
+
+-- Put BBEdit back in front of IntelliJ
+activate currentApp
+delay 0.5
+
+-- Launch and/or activate Google Chrome
+tell application &quot;Google Chrome&quot;
+    if it is running then
+        activate
+    else
+        open application &quot;Google Chrome&quot;
+    end if
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So with minimal fuss (an added keyboard shortcut to my workflow), I get to use a (much faster) text editor I’m very comfortable with. Reasonable trade-off.&lt;/p&gt;
+
+&lt;h3 id=&quot;replacing-sublime-text-with-bbedit&quot;&gt;Replacing Sublime Text with BBEdit&lt;/h3&gt;
+
+&lt;p&gt;So that takes care of my IntelliJ workflow. What about my work that I use Sublime for? That one’s an even easier AppleScript. I just need it to launch/activate the Corona Simulator (also bound to a keyboard shortcut):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;activate application &quot;Corona Simulator&quot;
+tell application &quot;System Events&quot;
+    -- Relaunch the Corona Simulator
+    keystroke &quot;r&quot; using command down
+end tell
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And that’s it. Just two AppleScripts and my workflow completely lends itself to BBEdit.&lt;/p&gt;
+
+&lt;h3 id=&quot;favorite-features&quot;&gt;Favorite Features&lt;/h3&gt;
+
+&lt;p&gt;Here are some of my favorite things about BBEdit (and yes, I’m well aware Sublime either has all of the following, or has a package that can do it, but I much prefer the BBEdit approach in overlapping features):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is one of the few text editors that has a default syntax color scheme I actually like (good thing too, because BBEdit’s online color scheme selection is admittedly pretty weak).&lt;/li&gt;
+  &lt;li&gt;Awesome searching capabilities.&lt;/li&gt;
+  &lt;li&gt;Cmd + R symbol search, just like Sublime (meaning I don’t have to get used to a different keyboard shortcut). I think this must have been added fairly recently (I’m using version 10.5.13 currently), because I don’t remember this being available last time I used BBEdit around the time version 10.0 was released.&lt;/li&gt;
+  &lt;li&gt;Projects are easy to create and re-open.&lt;/li&gt;
+  &lt;li&gt;The AppleScript menu + custom key bindings to individual scripts.&lt;/li&gt;
+  &lt;li&gt;Very well-presented Preferences pane. No more editing a JSON file (Sublime), and no more dealing with IntelliJ’s horrendous implementation.&lt;/li&gt;
+  &lt;li&gt;Scratchpad. I used to have to open a TextEdit window when I needed this functionality. Now it’s built-in.&lt;/li&gt;
+  &lt;li&gt;Clippings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;wishlist&quot;&gt;Wishlist&lt;/h3&gt;
+
+&lt;p&gt;I’m pretty happy with BBEdit, but of course it doesn’t have everything I could possibly hope for. I plan on submitting the following items as feature requests to Bare Bones, and if I’m lucky, maybe one (or more?) will be included in a future update:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Per-project AppleScripts with their own keyboard shortcuts. Remember the AppleScripts I mentioned earlier? It would be nice to assign them both to the same keyboard shortcut, and have the correct script run depending on the project I’m currently working in.&lt;/li&gt;
+  &lt;li&gt;Multiple selection/cursors implemented &lt;em&gt;exactly&lt;/em&gt; as Sublime Text does it.&lt;/li&gt;
+  &lt;li&gt;Git and Mercurial as first-class citizens, on par with BBEdit’s Subversion features (which I currently have no use for).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And that’s really it. BBEdit is almost perfect for my needs, and I plan on sticking with it for the long haul. If you’re in the same boat as me and want to switch to BBEdit but are tied to other tools, see if an AppleScript can’t do most of the heavy lifting for you.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Read more about its history on the &lt;a href=&quot;http://en.wikipedia.org/wiki/BBEdit&quot;&gt;BBEdit Wikipedia page&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+         </item>
       
          <item>
             <title>Things 2.5 Released</title>
