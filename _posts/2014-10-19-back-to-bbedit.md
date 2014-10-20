@@ -28,7 +28,7 @@ I want to change things for the following reasons:
 
 2. As previously mentioned, Sublime Text is fast. Really fast. But it's only used for some of my work. It's also jarring to have to switch between using two different editors. I want one programming environment to rule them all (even if I'm still bound to IntelliJ in some ways, more on that later).
 
-3. I love BBEdit, and I miss it. I've been dying for a reason to dust off my license and make it my full-time text editor again. I used [TextWrangler][textwrangler] for a while back in 2010 to do all of my work at Ansca and then I purchased a BBEdit license when version 10 launched. I continued to use BBEdit for a while until I started working at [Lanica][lanica], where we used [Titanium Studio][tistudio] (Eclipse rebranded&mdash;yuck) and I eventually jumped onto the Sublime Text bandwagon based on recommendations from some colleagues. I began using it and got very used to it, but I never loved it.
+3. I love BBEdit, and I miss it. I've been dying for a reason to dust off my license and make it my full-time text editor again. I used [TextWrangler][textwrangler][^2] for a while back in 2010 to do all of my work at Ansca and then I purchased a BBEdit license when version 10 launched. I continued to use BBEdit for a while until I started working at [Lanica][lanica], where we used [Titanium Studio][tistudio] (Eclipse rebranded&mdash;yuck) and I eventually jumped onto the Sublime Text bandwagon based on recommendations from some colleagues. I began using it and got very used to it, but I never loved it.
 
 So dust off my BBEdit 10 license I did, and I'm now using it as my full-time editor for all things programming (and writing for that matter, this blog post was happily written in BBEdit). How did I do it?
 
@@ -115,6 +115,7 @@ I'm pretty happy with BBEdit, but of course it doesn't have everything I could p
 And that's really it. BBEdit is almost perfect for my needs, and I plan on sticking with it for the long haul. If you're in the same boat as me and want to switch to BBEdit but are tied to other tools, see if an AppleScript can't do most of the heavy lifting for you.
 
 [^1]: Read more about its history on the [BBEdit Wikipedia page][bbedit-wikipedia].
+[^2]: At the time TextWranger was for all intents and purposes "BBEdit 9 Lite", and it stayed that way for a while after BBEdit 10 was released. I happily upgraded. It has long since been updated to basically being a "lite" version of BBEdit 10, however.
 
 [barebones]: http://www.barebones.com
 [omni]: http://www.omnigroup.com

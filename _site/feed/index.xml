@@ -5,7 +5,7 @@
       <link>http://jonbee.be</link>
       <description>Web and technology links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Sun, 19 Oct 2014 17:36:10 -0700</lastBuildDate>
+      <lastBuildDate>Sun, 19 Oct 2014 17:41:55 -0700</lastBuildDate>
 
       
          <item>
@@ -62,7 +62,7 @@
     &lt;p&gt;As previously mentioned, Sublime Text is fast. Really fast. But it’s only used for some of my work. It’s also jarring to have to switch between using two different editors. I want one programming environment to rule them all (even if I’m still bound to IntelliJ in some ways, more on that later).&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;I love BBEdit, and I miss it. I’ve been dying for a reason to dust off my license and make it my full-time text editor again. I used &lt;a href=&quot;http://www.barebones.com/products/textwrangler/&quot;&gt;TextWrangler&lt;/a&gt; for a while back in 2010 to do all of my work at Ansca and then I purchased a BBEdit license when version 10 launched. I continued to use BBEdit for a while until I started working at &lt;a href=&quot;http://lanica.co&quot;&gt;Lanica&lt;/a&gt;, where we used &lt;a href=&quot;http://www.appcelerator.com/titanium/titanium-studio/&quot;&gt;Titanium Studio&lt;/a&gt; (Eclipse rebranded—yuck) and I eventually jumped onto the Sublime Text bandwagon based on recommendations from some colleagues. I began using it and got very used to it, but I never loved it.&lt;/p&gt;
+    &lt;p&gt;I love BBEdit, and I miss it. I’ve been dying for a reason to dust off my license and make it my full-time text editor again. I used &lt;a href=&quot;http://www.barebones.com/products/textwrangler/&quot;&gt;TextWrangler&lt;/a&gt;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; for a while back in 2010 to do all of my work at Ansca and then I purchased a BBEdit license when version 10 launched. I continued to use BBEdit for a while until I started working at &lt;a href=&quot;http://lanica.co&quot;&gt;Lanica&lt;/a&gt;, where we used &lt;a href=&quot;http://www.appcelerator.com/titanium/titanium-studio/&quot;&gt;Titanium Studio&lt;/a&gt; (Eclipse rebranded—yuck) and I eventually jumped onto the Sublime Text bandwagon based on recommendations from some colleagues. I began using it and got very used to it, but I never loved it.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -162,6 +162,9 @@ end tell
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;Read more about its history on the &lt;a href=&quot;http://en.wikipedia.org/wiki/BBEdit&quot;&gt;BBEdit Wikipedia page&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;At the time TextWranger was for all intents and purposes “BBEdit 9 Lite”, and it stayed that way for a while after BBEdit 10 was released. I happily upgraded. It has long since been updated to basically being a “lite” version of BBEdit 10, however. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
