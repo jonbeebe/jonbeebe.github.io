@@ -41,9 +41,9 @@ body {
 }
 
 /* Gentle links */
-a, article a, .context-nav a { color: #55e677; text-decoration: none; background-color: #152b2a; }
+a, article a, #home a, .context-nav a { color: #55e677; text-decoration: none; background-color: #152b2a; }
 a, a:visited { color: #55e677; text-decoration: none; background: #152b2a; }
-a:hover, a:active { color: #edd98a; background: #1c1f0e;}
+artice a:hover, article a:active, #home a:hover, #home a:active, a:hover, a:active { color: #edd98a; background: #1c1f0e;}
 .external-link a, .external-link a:visited { background-color: #1c1f0e; }
 
 /* The blog posts archive, a long list */
