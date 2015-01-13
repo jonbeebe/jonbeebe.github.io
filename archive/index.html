@@ -14,15 +14,14 @@ title: Archive
 		    <input type="submit" value="Search" style="visibility: hidden;" />
 		</div>
 	</form>
-	
+
 	<h2>Every. Single. Post. <sup><a href="/sitemap">SITEMAP</a></sup></h2>
 	<ul class="posts">
 		{% for post in site.posts %}
 			{% if post.external_url %}
 				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
 			{% else %}
-				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">&sext;</span></li>
-			{% endif %}
+				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">#</span></li> {% endif %}
 		{% endfor %}
    </ul>
 </div>
