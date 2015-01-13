@@ -44,6 +44,7 @@ body {
 a, article a, .context-nav a { color: #55e677; text-decoration: none; background-color: #152b2a; }
 a, a:visited { color: #55e677; text-decoration: none; background: #152b2a; }
 a:hover, a:active { color: #edd98a; background: #1c1f0e;}
+.external-link a, .external-link a:visited { background-color: #1c1f0e; }
 
 /* The blog posts archive, a long list */
 .posts {
@@ -141,7 +142,7 @@ header a {
 }
 
 .meta {
-   color: #93A2A1;
+   color: #8da1a7;
 }
 
 code,
@@ -207,7 +208,8 @@ article .external-link, article .external-link a  {
    text-overflow: ellipsis;
    white-space: nowrap;
    font-size: 90%;
-   color: #8da1a7;
+   color: #edd98a;
+   /* background-color: #1c1f0e; */
 }
 
 article h2, article h2 a, article h2 a:visited {
@@ -253,7 +255,7 @@ article img {
    height: 4em;
    width: 100%;
    text-align: left;
-   color: #93A2A1
+   color: #8da1a7
 }
 
 .context-nav hr {
@@ -276,13 +278,13 @@ footer {
 
 footer #date, footer #date a {
    float: right;
-   color: #93A2A1;
+   color: #8da1a7;
 }
 
 footer span.separator {
    margin-left: 0.25em;
    margin-right: 0.25em;
-   color: #93A2A1;
+   color: #8da1a7;
 }
 
 footer #return,
