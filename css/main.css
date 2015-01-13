@@ -1,14 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
-
-@font-face {font-family:
-    'RaphaelIcons';
-    src:
-    url('../fonts/raphaelicons-webfont.eot');
-    src:
-    local('☺'), url('../fonts/raphaelicons-webfont.woff') format('woff'), url('../fonts/raphaelicons-webfont.ttf') format('truetype'), url('../fonts/raphaelicons-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,500,500italic);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700);
 
 /* Some assumptions */
 * {
@@ -21,20 +12,20 @@
 }
 
 html, body { height: auto; }
-h1, h2, h3, h4, h5, h6 { font-size: 100%; margin-bottom: 0.7em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-h2 { color: #073643; font-size: 150%; margin-bottom: .5em; font-weight: 300; line-height: 1.2em; }
-h3 { color: #073643; font-size: 125%; margin-bottom: .5em; font-weight: 300; line-height: 1.2em; }
-/*h3:before { content: "### "; color: #93A2A1; }*/
-h2 sup a { font-size: 60%; color: #586E75 !important; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; margin-bottom: 0.7em; font-family: "Istok", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h2 { color: #21e6ae; font-size: 150%; margin-bottom: .5em; font-weight: 300; line-height: 1.2em; /* background-color: #152b2a; */}
+h3 { color: #21e6ae; font-size: 135%; margin-bottom: .5em; font-weight: 300; line-height: 1.2em; }
+h2 sup a { font-size: 60%; color: #8da1a7 !important; }
 p { margin: 1.75em 0; margin-top: 1em; }
 
 body {
-   background-color: #FDF6E3; /* #ecf0f1; */
-   font: 13.34px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #12191a; /* #ecf0f1; */
+   background: #12191a;
+   font: 13.34px "Ubuntu" "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: small;
    -webkit-font-smoothing: antialiased;
    text-align: center;
-   color: #002C36;
+   color: #e1e1e6;
 }
 
 .top-border {
@@ -46,12 +37,13 @@ body {
    margin: auto;
    width: 100%;
    height: 7.5em;
-   background-color: #EFE8D5;
+   /* background-color: #152b2a; */
 }
 
 /* Gentle links */
-a, a:visited { color: #C54815; text-decoration: none; }
-a:hover, a:active { color: #B58916; }
+a, article a, .context-nav a { color: #55e677; text-decoration: none; background-color: #152b2a; }
+a, a:visited { color: #55e677; text-decoration: none; background: #152b2a; }
+a:hover, a:active { color: #edd98a; background: #1c1f0e;}
 
 /* The blog posts archive, a long list */
 .posts {
@@ -67,7 +59,7 @@ a:hover, a:active { color: #B58916; }
 }
 
 .posts span {
-   color: #93A2A1;
+   color: #8da1a7;
    font-family: Menlo, Monaco, "Courier New", monospace;
    font-size: 80%;
    margin-left: 0em;
@@ -75,10 +67,14 @@ a:hover, a:active { color: #B58916; }
 }
 
 .posts span.icon {
-   font-size: 125%;
+   font-size: 120%;
+   /* padding-top: 2em; */
    margin-left: 0.25em;
+   /* line-height: 3.25em; */
    font-weight: ligher;
-   color: #B7B1A3;
+   color: #e633e0;
+   top: 0;
+   background-color: #301930;
 }
 
 main {
@@ -102,7 +98,7 @@ main {
 }
 
 .search input {
-   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: 90%;
    padding-left: 0.25em;
 }
@@ -121,24 +117,26 @@ header a {
 
 /* the website's name on the header */
 .title {
-   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
    display: inline-block;
    line-height: 1.0em;
    margin-top: .4em;
-   margin-bottom: 3.5em;
+   margin-bottom: 1.75em;
 }
 
-.title a, .title a:visited {
-   color: #586E75;
+.title a, .title a:visited, .title a:hover {
+   color: #21e6ae;
    font-weight: 500;
+   background-color: #152b2a;
 }
 
 .title a:hover {
-   color: #B58916;
+   background-color: transparent;
 }
 
 .title .icon {
-   color: #586E75;
+   color: #e633e0;
+   background-color:  #301930;
    margin-right: 0.35em;
 }
 
@@ -153,8 +151,8 @@ pre {
 code {
    padding: .25em .25em;
    font-size: 85%;
-   color: #DD322F; /*#bf616a;*/
-   background-color: transparent;
+   color: #edd98a; /*#bf616a;*/
+   background-color: #1c1f0e;
    border-radius: 3px;
 }
 pre {
@@ -170,8 +168,8 @@ pre {
    white-space: pre-wrap;
    word-break: break-all;
    word-wrap: break-word;
-   background-color: #EFE8D5;
-   border: 1px solid #EFE8D5;
+   background-color: #152b2a;
+   border: 1px solid #152b2a;
 }
 pre code {
    padding: 0;
@@ -190,12 +188,12 @@ pre code {
 blockquote {
    padding: 0px 18px;
    margin: 15px 0;
-   border-left: 3px solid #839596;
+   border-left: 3px solid #8da1a7;
    margin-bottom: 0;
 }
 
 blockquote p, blockquote li {
-   color: #657C83;
+   color: #8da1a7;
 }
 
 article {
@@ -209,21 +207,21 @@ article .external-link, article .external-link a  {
    text-overflow: ellipsis;
    white-space: nowrap;
    font-size: 90%;
-   color: #586E75;
+   color: #8da1a7;
 }
 
 article h2, article h2 a, article h2 a:visited {
-   color: #C54815;
+   color: #21e6ae;
    font-weight: 300;
 }
 
 article h2 a:hover {
-   color: #B58916;
+   color: #edd98a;
 }
 
 article h2 .icon {
    margin-left: 0.2em;
-   color: #B7B1A3;
+   color: #8da1a7;
 }
 
 article ul, article ol {
@@ -303,7 +301,6 @@ footer #date {
     font-weight: normal;
     font-style: normal;
     line-height: normal;
-    font-family: 'RaphaelIcons' !important;
     font-size: 1.25em;
     position: relative;
     top: 0.1em;
@@ -316,6 +313,6 @@ footer #date {
    padding-right: 2em;
    padding-bottom: 0.75em;
    font-size: 90%;
-   background-color: #EFE8D5;
-   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+   background-color: #152b2a;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
