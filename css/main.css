@@ -11,6 +11,66 @@
    box-sizing: border-box;
 }
 
+#typed-cursor {
+    font-weight: 100;
+    font-size: 99%;
+    color: #21e6ae;
+    margin-left: 0.1em;
+}
+
+#typed-cursor.blinking {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+    from,to {
+        color: transparent;
+    }
+    50% {
+        color: #21e6ae;
+    }
+}
+
+@-moz-keyframes blink {
+    from,to {
+		color: transparent;
+	}
+	50% {
+		color: #21e6ae;
+	}
+}
+
+@-webkit-keyframes "blink" {
+	from,to {
+		color: transparent;
+	}
+	50% {
+		color: #21e6ae;
+	}
+}
+
+@-ms-keyframes "blink" {
+	from,to {
+		color: transparent;
+	}
+	50% {
+		color: #21e6ae;
+	}
+}
+
+@-o-keyframes "blink" {
+	from,to {
+		color: transparent;
+	}
+	50% {
+		color: #21e6ae;
+	}
+}
+
 html, body { height: auto; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%; margin-bottom: 0.7em; font-family: "Istok", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 h2 { color: #21e6ae; font-size: 150%; margin-bottom: .5em; font-weight: 300; line-height: 1.2em; /* background-color: #152b2a; */}
@@ -19,7 +79,7 @@ h2 sup a { font-size: 60%; color: #8da1a7 !important; }
 p { margin: 1.75em 0; margin-top: 1em; }
 
 body {
-   background-color: #12191a; /* #ecf0f1; */
+   background-color: #12191a;
    background: #12191a;
    font: 13.34px "Ubuntu" "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: 75%;
@@ -37,7 +97,6 @@ body {
    margin: auto;
    width: 100%;
    height: 7.5em;
-   /* background-color: #152b2a; */
 }
 
 /* Gentle links */
