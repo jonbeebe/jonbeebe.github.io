@@ -4,7 +4,7 @@ name: jonbee.be
 author: Jonathan Beebe
 email: me@jonbeebe.net
 description: > # this means to ignore newlines until "baseurl:"
-  Web and technology links and articles by Jonathan Beebe.
+    Tech industry links and articles by Jonathan Beebe.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jonbee.be" # the base hostname & protocol for your site
 
