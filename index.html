@@ -7,14 +7,14 @@ title: Blog Posts
   <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
   
   {% for post in site.posts %}
-    {% assign currentdate = post.date | date: "%Y" %}
+    {% assign currentdate = post.date | date: "%B %Y" %}
     {% if currentdate != date %}
       {% unless forloop.first %}</ul>{% endunless %}
       <h3>{{ post.date | date: "%Y" }}</h3>
       <ul class="posts">
       {% assign date = currentdate %}
     {% endif %}
-      <li><span>{{ post.date | date: "%B -%d" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date: "%d" }}: &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
 
