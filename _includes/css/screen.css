@@ -18,7 +18,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "Bitter", "Noto Sans", "open sans", sans-serif;
+  font-family: "Bitter", "Muli", "open sans", sans-serif;
   font-weight: 600;
 }
 
@@ -145,7 +145,7 @@ nav h1, nav h2 {
 
 .sidebar {
   padding-top: 25px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .sidebar p {
@@ -157,7 +157,7 @@ nav h1, nav h2 {
 }
 
 .content {
-  font: 400 16px/22px "Noto Sans", sans-serif;
+  font: 400 16px/22px "Muli", sans-serif;
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
@@ -218,7 +218,7 @@ nav h1, nav h2 {
 }
 
 i.fa-hn {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Muli", sans-serif;
   text-align: center;
   font-size: 18px !important;
   position: relative;
