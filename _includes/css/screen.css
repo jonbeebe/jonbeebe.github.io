@@ -166,6 +166,15 @@ nav h1, nav h2 {
   font-weight: 600;
 }
 
+.sidebar ul {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.sidebar ul li {
+    line-height: 14px;
+}
+
 .content {
   font: 400 16px/22px "{{ site.data.theme.body_font }}", sans-serif;
   border-left: 1px solid #DDD;

@@ -35,7 +35,18 @@
 	nav { position: relative; }
 	nav ul,
 	#logo { text-align: left; }
-	.sidebar {
+	.sidebar ul {
+	    margin-bottom: 0;
+	}
+	.sidebar ul li {
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-right: 15px;
+	}
+	.sidebar #bio {
+	    margin-bottom: 0;
+	}
+	.sidebar #social {
 		display: none;
 	}
 	.content {
@@ -46,7 +57,18 @@
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.sidebar {
+    .sidebar ul {
+	    margin-bottom: 0;
+	}
+	.sidebar ul li {
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-right: 15px;
+	}
+	.sidebar #bio {
+	    margin-bottom: 0;
+	}
+	.sidebar #social {
 		display: none;
 	}
 
@@ -58,7 +80,18 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	.sidebar {
+	.sidebar ul {
+	    margin-bottom: 0;
+	}
+	.sidebar ul li {
+	    font-size: 14px;
+	    display: inline-block;
+	    margin-right: 15px;
+	}
+	.sidebar #bio {
+	    margin-bottom: 0;
+	}
+	.sidebar #social {
 		display: none;
 	}
 
