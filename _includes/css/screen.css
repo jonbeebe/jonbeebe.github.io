@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Crete+Round);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +21,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "open sans", sans-serif;
+  font-family: "Crete Round", "Noto Sans", "open sans", sans-serif;
   font-weight: 600;
 }
 
@@ -145,7 +148,7 @@ nav h1, nav h2 {
 
 .sidebar {
   padding-top: 25px;
-  font-family: "open sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .sidebar p {
@@ -157,7 +160,7 @@ nav h1, nav h2 {
 }
 
 .content {
-  font: 400 16px/22px "open sans", sans-serif;
+  font: 400 16px/22px "Noto Sans", sans-serif;
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
@@ -218,7 +221,7 @@ nav h1, nav h2 {
 }
 
 i.fa-hn {
-  font-family: "open sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   text-align: center;
   font-size: 18px !important;
   position: relative;
