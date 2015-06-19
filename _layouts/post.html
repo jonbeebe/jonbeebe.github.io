@@ -13,7 +13,7 @@ layout: default
 
 <div id="post">
   {% if page.external_url %}
-    <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis"><span><small><i class="fa fa-anchor"></small></i></span> <a href="{{ page.external_url }}">{{ page.external_url }}</a></p>
+    <p style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis"><a href="{{ page.external_url }}">{{ page.external_url }}</a></p>
   {% endif %}
   
   {{ content }}
