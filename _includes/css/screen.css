@@ -87,6 +87,10 @@ ul.posts li {
   text-overflow: ellipsis;
 }
 
+ul.posts li a {
+  color: #000000;
+}
+
 ul.posts span {
   font-family: 'Lucida Console', 'Andale Mono', monospace;
   color: #aaa;
