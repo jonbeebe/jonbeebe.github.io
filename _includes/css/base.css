@@ -56,7 +56,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "Muli", "Open Sans", Helvetica, Arial, sans-serif;
+		font: 14px/21px "{{ site.data.theme.body_font }}", "Open Sans", Helvetica, Arial, sans-serif;
 		color: #444;
 		font-weight: 400;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -68,7 +68,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "Bitter", "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+		font-family: "{{ site.data.theme.heading_font }}", "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
@@ -160,7 +160,7 @@
 	  cursor: pointer;
 	  margin-bottom: 20px;
 	  line-height: 21px;
-	  font-family: "Muli", "Open Sans", Helvetica, Arial, sans-serif; }
+	  font-family: "{{ site.data.theme.body_font }}", "Open Sans", Helvetica, Arial, sans-serif; }
 
 	a.button:hover,
 	button:hover,
@@ -294,7 +294,7 @@
 		-moz-border-radius: 2px;
 		-webkit-border-radius: 2px;
 		border-radius: 2px;
-		font: 13px "Muli", "Open Sans", Helvetica, Arial, sans-serif;
+		font: 13px "{{ site.data.theme.body_font }}", "Open Sans", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
 		width: 210px;
