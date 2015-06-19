@@ -12,6 +12,10 @@ layout: default
 <h1 class="title">{{ page.title }}</h1>
 
 <div id="post">
+  {% if page.external_url %}
+    <p><a href="{{ page.external_url }}">{{ page.external_url }}</a></p>
+  {% endif %}
+  
   {{ content }}
 </div>
 
