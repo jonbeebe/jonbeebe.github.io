@@ -13,7 +13,7 @@ layout: default
 
 <div id="post">
   {% if page.external_url %}
-    <p><a href="{{ page.external_url }}">{{ page.external_url }}</a></p>
+    <p><span><i class="fa fa-anchor"></i></span> <a href="{{ page.external_url }}">{{ page.external_url }}</a></p>
   {% endif %}
   
   {{ content }}
