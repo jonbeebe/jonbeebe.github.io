@@ -58,6 +58,7 @@
 		background: #fff;
 		font: 14px/21px "Noto Sans", "Open Sans", Helvetica, Arial, sans-serif;
 		color: #444;
+		font-weight: 400;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
  }
