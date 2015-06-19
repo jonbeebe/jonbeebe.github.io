@@ -29,7 +29,6 @@ h1.title {
 h1 {
   font-size: 32px;
   line-height: 40px;
-  color: {{ site.data.theme.icon_color }}
 }
 
 h2 {
@@ -189,7 +188,7 @@ nav h1, nav h2 {
 }
 
 #home h2 {
-  color: {{ site.data.theme.highlight_color }};
+  color: {{ site.data.theme.icon_color }};
 }
 
 #logo, #gravatar {
@@ -207,13 +206,13 @@ nav h1, nav h2 {
   display: inline-block;
   height: 18px;
   margin-left: 5px;
-  color: {{ site.data.theme.icon_color }};
 }
 
 #stalker a {
   width: 29px;
   overflow: hidden;
   float: left;
+  color: {{ site.data.theme.icon_color }};
 }
 
 #stalker i {
