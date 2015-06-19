@@ -3,9 +3,9 @@
    <channel>
       <title>jonbee.be</title>
       <link>http://jonbee.be</link>
-      <description>Web and technology links and articles by Jonathan Beebe.
+      <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Sun, 19 Oct 2014 17:41:55 -0700</lastBuildDate>
+      <lastBuildDate>Fri, 19 Jun 2015 13:48:16 -0700</lastBuildDate>
 
       
          <item>
@@ -95,7 +95,7 @@ activate application &quot;IntelliJ&quot;
 tell application &quot;System Events&quot;
     delay 0.1
 
-    -- Invoke IntelliJ's keyboard shortcut for &quot;synchronize&quot;
+    -- Invoke IntelliJ&#39;s keyboard shortcut for &quot;synchronize&quot;
     keystroke &quot;y&quot; using {option down, command down}
 end tell
 

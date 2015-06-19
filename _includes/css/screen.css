@@ -121,6 +121,10 @@ nav h1, nav h2 {
   border-width: 1px 0;
 }
 
+#bio a {
+  color: #000000;
+}
+
 #social {
   margin-bottom: 10px;
   font-size: 13px;
@@ -179,6 +183,7 @@ nav h1, nav h2 {
   color: #666;
   border-top: 4px solid #EEE;
   overflow: hidden;
+  margin-top: 25px;
 }
 
 .aside {

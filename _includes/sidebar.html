@@ -1,6 +1,11 @@
 <nav>
   <div id="bio">
-    <p>Personal website of {{ site.data.theme.name }}.</p>
+    <p style="text-transform: uppercase">{{ site.title }}</p
+    <p>
+      <i class="fa fa-home" style="color: #aaa; width: 15px; text-align: center"></i> &nbsp;<strong><a href="/">homepage</a></strong><br />
+      <i class="fa fa-info" style="color: #aaa; width: 15px; text-align: center"></i> &nbsp;<strong><a href="/about">about + contact</a></strong><br/>
+      <i class="fa fa-archive" style="color: #aaa; width: 15px; text-align: center"></i> &nbsp;<strong><a href="/archive">blog archive</a></strong>
+    </p>
   </div>
   <div id="social">
     {% include social.html %}

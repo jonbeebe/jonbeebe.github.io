@@ -11,21 +11,26 @@ title: Archive
 		    <input type="hidden" name="k9" value="#D51920"/>
 		    <input type="hidden" name="kt" value="h"/>
 		    <input type="text" name="q" maxlength="255" placeholder="Search&hellip;" style="width: 240px" />
-		    <input type="submit" value="Search" style="visibility: hidden;" />
+		    <input type="submit" value="Search" style="display: none;" />
 		</div>
 	</form>
 
-	<h2>Every. Single. Post. <sup><a href="/sitemap">SITEMAP</a></sup></h2>
-	<ul class="posts">
-		{% for post in site.posts %}
-			{% if post.external_url %}
-				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-			{% else %}
-				<li><span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a> <span class="icon">#</span></li> {% endif %}
-		{% endfor %}
-   </ul>
+	{% for post in site.posts %}
+      {% assign currentdate = post.date | date: "%Y" %}
+      {% if currentdate != date %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <h3>{{ post.date | date: "%Y" }}</h3>
+        <ul class="posts">
+        {% assign date = currentdate %}
+      {% endif %}
+        {% if post.external_url %}
+          <li><span>{{ post.date | date: "%B %d" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a> <span><small><i class="fa fa-anchor"></i></small></span></li>
+        {% else %}
+          <li><span>{{ post.date | date: "%B %d" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% if forloop.last %}</ul>{% endif %}
+    {% endfor %}
+    
+    <p><a href="/sitemap">sitemap</a></p>
 </div>
 
-<div class="context-nav">
-	<span class="prev"><a href="/">&#171; Return to home page</a></span>
-</div>
