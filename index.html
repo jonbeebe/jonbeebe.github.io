@@ -14,7 +14,11 @@ title: Home
       <ul class="posts">
       {% assign date = currentdate %}
     {% endif %}
-      <li><span>{{ post.date | date: "%d" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% if post.external_url %}
+        <li><span>{{ post.date | date: "%d" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a> <span><small><i class="fa fa-anchor"></i></small></span></li>
+      {% else %}
+        <li><span>{{ post.date | date: "%d" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
 
