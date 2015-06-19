@@ -13,5 +13,6 @@ highlighter: pygments
 
 permalink: :year/:month/:title/
 paginate: 30
+lsi: false
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE', 'Makefile']

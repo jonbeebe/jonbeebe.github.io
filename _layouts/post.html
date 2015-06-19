@@ -2,35 +2,26 @@
 layout: default
 ---
 
-<article>
-	<h2>{{ page.title }}</h2>
-	<hr>
-	{% if page.external_url %}
-		<div class="external-link"><a href="{{ page.external_url }}" title="{{ page.external_url }}">{{ page.external_url }}</a></div>
-	{% else %}
-		<div class="external-link">{{ page.date | date_to_long_string }}</div>
-	{% endif %}
-	{{ content }}
-</article>
+<p class="meta">
+  {{ page.date | date: "%B %d, %Y" }} 
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+</p>
 
-{% if page.external_url %}
-<footer>
-	<div id="date" class="meta">
-		{{ page.date | date_to_long_string }}
-	</div>
-</footer>
-{% endif %}
+<h1 class="title">{{ page.title }}</h1>
 
-<div class="context-nav">
-	<hr>
-	{% if page.previous %}
-		<span class="prev"><a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&#171; PREVIOUS</a></span>
-	{% else %}
-		<span class="prev">&#171; PREVIOUS</span>
-	{% endif %}
-	{% if page.next %}
-		<span class="next"><a href="{{ page.next.url }}" title="{{ page.next.title }}">NEXT &#187;</a></span>
-	{% else %}
-		<span class="next">NEXT &#187;</span>
-	{% endif %}
+<div id="post">
+  {{ content }}
+</div>
+
+<div id="related">
+  <h3>Related Posts</h3>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+    <li>
+      <span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
