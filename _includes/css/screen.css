@@ -126,7 +126,6 @@ nav h1, nav h2 {
 #social {
   margin-bottom: 10px;
   font-size: 13px;
-  color: {{ site.data.theme.icon_color }};
 }
 
 #post pre {
@@ -208,6 +207,7 @@ nav h1, nav h2 {
   display: inline-block;
   height: 18px;
   margin-left: 5px;
+  color: {{ site.data.theme.icon_color }};
 }
 
 #stalker a {
