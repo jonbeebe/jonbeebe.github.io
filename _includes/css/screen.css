@@ -29,6 +29,7 @@ h1.title {
 h1 {
   font-size: 32px;
   line-height: 40px;
+  color: {{ site.data.theme.icon_color }}
 }
 
 h2 {
@@ -125,6 +126,7 @@ nav h1, nav h2 {
 #social {
   margin-bottom: 10px;
   font-size: 13px;
+  color: {{ site.data.theme.icon_color }};
 }
 
 #post pre {

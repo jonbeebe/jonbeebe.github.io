@@ -3,6 +3,7 @@
 # Color for top bar, links, etc
 topborder_color: '#00d8ff'
 highlight_color: '#3497db'
+icon_color: '#ff4e00'
 heading_font: "Bitter"
 body_font: "Muli"
 
