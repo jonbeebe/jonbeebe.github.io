@@ -590,7 +590,7 @@ body {
   color: #222222;
   line-height: 24px;
   margin: 0;
-  border-top: 7px solid #00d8ff;
+  border-top: 7px solid #2a2a2a;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -709,7 +709,7 @@ nav h1, nav h2 {
 
 #post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #f3f3f5;
   padding: 0 .4em;
   margin-bottom: 20px !important;
 }
@@ -721,7 +721,7 @@ nav h1, nav h2 {
 
 #post code {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #f3f3f5;
   font-size: 85%;
   padding: 0 .2em;
 }
@@ -778,7 +778,7 @@ nav h1, nav h2 {
 }
 
 #home h2 {
-  color: #ff4e00;
+  color: #d54d2a;
 }
 
 #logo, #gravatar {
@@ -802,7 +802,7 @@ nav h1, nav h2 {
   width: 29px;
   overflow: hidden;
   float: left;
-  color: #ff4e00;
+  color: #d54d2a;
 }
 
 #stalker i {
