@@ -114,20 +114,25 @@ nav h1, nav h2 {
   text-align: center;
 }
 
-#bio {
+.sidebar #bio {
   margin-bottom: 15px;
   border: dotted #ddd;
   border-top: none;
   border-width: 1px 0;
 }
 
-#bio a {
+.sidebar #bio a {
   color: #000000;
+}
+
+.sidebar #bio ul {
+    margin-left: 46px;
 }
 
 #social {
   margin-bottom: 10px;
   font-size: 13px;
+  text-align: center;
 }
 
 #post pre {
