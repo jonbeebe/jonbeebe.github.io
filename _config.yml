@@ -9,10 +9,11 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jonbee.be" # the base hostname & protocol for your site
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 permalink: :year/:month/:title/
 paginate: 30
 lsi: false
+gems: ['jekyll-paginate']
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'LICENSE', 'Makefile']

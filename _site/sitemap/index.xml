@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+        <loc>http://jonbee.be/2015/07/my-desktop-july-2015/</loc>
+    </url>
+    
+    <url>
         <loc>http://jonbee.be/2014/10/ipads-the-bad-the-good-and-the-takeaway/</loc>
     </url>
     
@@ -46,7 +50,7 @@
     
     
     <url>
-        <loc>http://jonbee.be/404.html</loc>
+        <loc>http://jonbee.be/404/</loc>
     </url>
     
     

@@ -5,8 +5,22 @@
       <link>http://jonbee.be</link>
       <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Tue, 30 Jun 2015 12:47:22 -0700</lastBuildDate>
+      <lastBuildDate>Tue, 09 Feb 2016 08:10:19 -0800</lastBuildDate>
 
+      
+         <item>
+            <title>My Desktop: July 2015</title>
+            
+               <link>/images/2015-07-11-xfce4.12.png</link>
+               <guid isPermaLink="false">/images/2015-07-11-xfce4.12.png</guid>
+            
+            <pubDate>Sat, 11 Jul 2015 20:56:00 -0700</pubDate>
+            <description>&lt;p&gt;&lt;img src=&quot;/images/2015-07-11-xfce4.12-thumb.png&quot; alt=&quot;XFCE 4.12&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Recently upgraded to XFCE 4.12 and loving it.&lt;/p&gt;
+
+</description>
+         </item>
       
          <item>
             <title>iPads: The Bad, The Good And The Takeaway</title>
@@ -44,7 +58,7 @@
 
 &lt;p&gt;We’re getting to a time where text editor speed is almost taken for granted, but point 1 is often difficult to meet because of cross-platform requirements, and unless your vim or Emacs, there’s really no competing with BBEdit’s history. &lt;a href=&quot;http://www.barebones.com&quot;&gt;Bare Bones&lt;/a&gt; as a company is up there with &lt;a href=&quot;http://www.omnigroup.com&quot;&gt;The Omni Group&lt;/a&gt; and &lt;a href=&quot;http://www.panic.com&quot;&gt;Panic&lt;/a&gt; as far as the respect it has among Mac software enthusiasts.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com&quot;&gt;Sublime Text&lt;/a&gt; is blazing fast, but it has a somewhat spotty development history and correct me if I’m wrong, it looks like it’s created and maintained by a sole developer (Jon Skinner). Out of the box, as a Mac app, it’s ugly as sin. You can customize it to look better, but that doesn’t make everything else about it any more “Mac-like”. Really the one true thing I love about Sublime Text is the way it does multi-word selection via &lt;code&gt;CMD+D&lt;/code&gt;, and that’s by no means a deal-breaker.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com&quot;&gt;Sublime Text&lt;/a&gt; is blazing fast, but it has a somewhat spotty development history and correct me if I’m wrong, it looks like it’s created and maintained by a sole developer (Jon Skinner). Out of the box, as a Mac app, it’s ugly as sin. You can customize it to look better, but that doesn’t make everything else about it any more “Mac-like”. Really the one true thing I love about Sublime Text is the way it does multi-word selection via &lt;code class=&quot;highlighter-rouge&quot;&gt;CMD+D&lt;/code&gt;, and that’s by no means a deal-breaker.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://chocolatapp.com&quot;&gt;Chocolat&lt;/a&gt; definitely hits points 1 and 3. Visually, it looks very nice, and while I’ve seen some users complain of its speed with some text files, it’s fast enough on my machine and for my particular usage (I’m not editing any megabyte-or-larger sized text files). It doesn’t currently have anything that makes me want to use it over BBEdit, however.&lt;/p&gt;
 
@@ -72,7 +86,7 @@
 
 &lt;p&gt;I have to use IntelliJ because of there are servlets combined with a Tomcat Run/Debug configuration we use at my company that are required for me to do my work. Once those are running, however, 100% of what I’m doing in IntelliJ is editing text. Why can’t I use an external text editor of my choice and just have IntelliJ do it’s thing separately without me needing to be &lt;em&gt;in it&lt;/em&gt; to do my actual work?&lt;/p&gt;
 
-&lt;p&gt;There’s a big problem I ran into with this approach, however. If a file is modified outside of IntelliJ, it being a Java app (not a native Mac app), you have to click “Synchronize” on the toolbar (or &lt;code&gt;CMD+OPT+Y&lt;/code&gt;) for it to pick up the changes (which it needs in order for the servlets to serve the proper stuff). I refuse to do that.&lt;/p&gt;
+&lt;p&gt;There’s a big problem I ran into with this approach, however. If a file is modified outside of IntelliJ, it being a Java app (not a native Mac app), you have to click “Synchronize” on the toolbar (or &lt;code class=&quot;highlighter-rouge&quot;&gt;CMD+OPT+Y&lt;/code&gt;) for it to pick up the changes (which it needs in order for the servlets to serve the proper stuff). I refuse to do that.&lt;/p&gt;
 
 &lt;p&gt;Every time I have a change I need to test in the browser, the last thing I want to do is click the IntelliJ window and “synchronize” before clicking away &lt;em&gt;again&lt;/em&gt; into the web browser. It’s bad enough I already have to do that whenever I pull in changes from SourceTree (my Mercurial client of choice). My goal is to make my development environment more pleasant, not less.&lt;/p&gt;
 
@@ -86,9 +100,9 @@
 
 &lt;p&gt;So now I can do my programming in BBEdit, and when I’m ready to test my changes, I can simply invoke a keyboard shortcut that will synchronize the files in IntelliJ, and Google Chrome is activated (thus updating assets and resources due to “frame deactivation”). I’m all set.&lt;/p&gt;
 
-&lt;p&gt;Here’s the AppleScript (bound to &lt;code&gt;CMD+OPTION+Y&lt;/code&gt;, same as IntelliJ synchronize):&lt;/p&gt;
+&lt;p&gt;Here’s the AppleScript (bound to &lt;code class=&quot;highlighter-rouge&quot;&gt;CMD+OPTION+Y&lt;/code&gt;, same as IntelliJ synchronize):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;-- Store reference to BBEdit in a variable, for later activation
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-- Store reference to BBEdit in a variable, for later activation
 set currentApp to path to frontmost application
 
 activate application &quot;IntelliJ&quot;
@@ -115,6 +129,7 @@ tell application &quot;Google Chrome&quot;
     end if
 end tell
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;So with minimal fuss (an added keyboard shortcut to my workflow), I get to use a (much faster) text editor I’m very comfortable with. Reasonable trade-off.&lt;/p&gt;
 
@@ -122,12 +137,13 @@ end tell
 
 &lt;p&gt;So that takes care of my IntelliJ workflow. What about my work that I use Sublime for? That one’s an even easier AppleScript. I just need it to launch/activate the Corona Simulator (also bound to a keyboard shortcut):&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;activate application &quot;Corona Simulator&quot;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;activate application &quot;Corona Simulator&quot;
 tell application &quot;System Events&quot;
     -- Relaunch the Corona Simulator
     keystroke &quot;r&quot; using command down
 end tell
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;And that’s it. Just two AppleScripts and my workflow completely lends itself to BBEdit.&lt;/p&gt;
 
@@ -365,7 +381,7 @@ end tell
             <pubDate>Sun, 12 Oct 2014 11:35:00 -0700</pubDate>
             <description>&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
 
-&lt;p&gt;Things are different now, however. I’m in a professionally stable position (I’ve long since left Corona Labs). My personal life is great. And I really, really miss writing and sharing stuff on the web. Therefore, I decided to make a clean break with the past and delete my previous website hosted at this domain, redirect my &lt;em&gt;other&lt;/em&gt; domain (&lt;code&gt;jonbeebe.net&lt;/code&gt;) to this blog, and set the stage for a writing environment that motivates me to turn this web property into a place that is informative, somewhat educational, and at the very least, entertaining for those interested in the same topics as myself.&lt;/p&gt;
+&lt;p&gt;Things are different now, however. I’m in a professionally stable position (I’ve long since left Corona Labs). My personal life is great. And I really, really miss writing and sharing stuff on the web. Therefore, I decided to make a clean break with the past and delete my previous website hosted at this domain, redirect my &lt;em&gt;other&lt;/em&gt; domain (&lt;code class=&quot;highlighter-rouge&quot;&gt;jonbeebe.net&lt;/code&gt;) to this blog, and set the stage for a writing environment that motivates me to turn this web property into a place that is informative, somewhat educational, and at the very least, entertaining for those interested in the same topics as myself.&lt;/p&gt;
 
 &lt;p&gt;A long time ago I learned that maintaining a blog, while at times fun and rewarding, is very difficult to do consistently over time, especially with personal and professional responsibilities taking up much of my time. Therefore, in order to “set the stage” properly and position myself to &lt;em&gt;continue&lt;/em&gt; writing over the long-term, I came up with five major things need to be in place before I can begin:&lt;/p&gt;
 
@@ -381,7 +397,7 @@ end tell
 
 &lt;p&gt;No more Tumblr. No more Svbtle. No more WordPress. Don’t get me wrong, there’s nothing wrong with any of them, but I don’t want to be put in the position of one day having to take the time to “migrate” my website if any of the services shut down, or impose some kind of limitation that I don’t agree with. And while that doesn’t really apply to a self-hosted WordPress setup, even that’s just too “heavy” for what I want: a very simple website—fully mine—where I can routinely publish my writings and links.&lt;/p&gt;
 
-&lt;p&gt;After some research, I found a solution that meets my needs perfectly: &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. It’s painless to set up, easy to customize, has all the features I need, and best of all, publishing a new post is as simple as creating a new text file, putting my words in it, and pushing in the changes via &lt;code&gt;git&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After some research, I found a solution that meets my needs perfectly: &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. It’s painless to set up, easy to customize, has all the features I need, and best of all, publishing a new post is as simple as creating a new text file, putting my words in it, and pushing in the changes via &lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;As a huge plus, the entire thing ends up being just a folder of static files so if I ever decide to switch hosting providers in the future, it’ll just be a matter of uploading all the files to a different web host (and making the required domain changes of course). No databases, no PHP, and no web interface to fight with—the perfect solution for me.&lt;/p&gt;
 

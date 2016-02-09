@@ -104,7 +104,7 @@
 
 <p>We’re getting to a time where text editor speed is almost taken for granted, but point 1 is often difficult to meet because of cross-platform requirements, and unless your vim or Emacs, there’s really no competing with BBEdit’s history. <a href="http://www.barebones.com">Bare Bones</a> as a company is up there with <a href="http://www.omnigroup.com">The Omni Group</a> and <a href="http://www.panic.com">Panic</a> as far as the respect it has among Mac software enthusiasts.</p>
 
-<p><a href="http://www.sublimetext.com">Sublime Text</a> is blazing fast, but it has a somewhat spotty development history and correct me if I’m wrong, it looks like it’s created and maintained by a sole developer (Jon Skinner). Out of the box, as a Mac app, it’s ugly as sin. You can customize it to look better, but that doesn’t make everything else about it any more “Mac-like”. Really the one true thing I love about Sublime Text is the way it does multi-word selection via <code>CMD+D</code>, and that’s by no means a deal-breaker.</p>
+<p><a href="http://www.sublimetext.com">Sublime Text</a> is blazing fast, but it has a somewhat spotty development history and correct me if I’m wrong, it looks like it’s created and maintained by a sole developer (Jon Skinner). Out of the box, as a Mac app, it’s ugly as sin. You can customize it to look better, but that doesn’t make everything else about it any more “Mac-like”. Really the one true thing I love about Sublime Text is the way it does multi-word selection via <code class="highlighter-rouge">CMD+D</code>, and that’s by no means a deal-breaker.</p>
 
 <p><a href="https://chocolatapp.com">Chocolat</a> definitely hits points 1 and 3. Visually, it looks very nice, and while I’ve seen some users complain of its speed with some text files, it’s fast enough on my machine and for my particular usage (I’m not editing any megabyte-or-larger sized text files). It doesn’t currently have anything that makes me want to use it over BBEdit, however.</p>
 
@@ -132,7 +132,7 @@
 
 <p>I have to use IntelliJ because of there are servlets combined with a Tomcat Run/Debug configuration we use at my company that are required for me to do my work. Once those are running, however, 100% of what I’m doing in IntelliJ is editing text. Why can’t I use an external text editor of my choice and just have IntelliJ do it’s thing separately without me needing to be <em>in it</em> to do my actual work?</p>
 
-<p>There’s a big problem I ran into with this approach, however. If a file is modified outside of IntelliJ, it being a Java app (not a native Mac app), you have to click “Synchronize” on the toolbar (or <code>CMD+OPT+Y</code>) for it to pick up the changes (which it needs in order for the servlets to serve the proper stuff). I refuse to do that.</p>
+<p>There’s a big problem I ran into with this approach, however. If a file is modified outside of IntelliJ, it being a Java app (not a native Mac app), you have to click “Synchronize” on the toolbar (or <code class="highlighter-rouge">CMD+OPT+Y</code>) for it to pick up the changes (which it needs in order for the servlets to serve the proper stuff). I refuse to do that.</p>
 
 <p>Every time I have a change I need to test in the browser, the last thing I want to do is click the IntelliJ window and “synchronize” before clicking away <em>again</em> into the web browser. It’s bad enough I already have to do that whenever I pull in changes from SourceTree (my Mercurial client of choice). My goal is to make my development environment more pleasant, not less.</p>
 
@@ -146,9 +146,9 @@
 
 <p>So now I can do my programming in BBEdit, and when I’m ready to test my changes, I can simply invoke a keyboard shortcut that will synchronize the files in IntelliJ, and Google Chrome is activated (thus updating assets and resources due to “frame deactivation”). I’m all set.</p>
 
-<p>Here’s the AppleScript (bound to <code>CMD+OPTION+Y</code>, same as IntelliJ synchronize):</p>
+<p>Here’s the AppleScript (bound to <code class="highlighter-rouge">CMD+OPTION+Y</code>, same as IntelliJ synchronize):</p>
 
-<pre><code>-- Store reference to BBEdit in a variable, for later activation
+<div class="highlighter-rouge"><pre class="highlight"><code>-- Store reference to BBEdit in a variable, for later activation
 set currentApp to path to frontmost application
 
 activate application "IntelliJ"
@@ -175,6 +175,7 @@ tell application "Google Chrome"
     end if
 end tell
 </code></pre>
+</div>
 
 <p>So with minimal fuss (an added keyboard shortcut to my workflow), I get to use a (much faster) text editor I’m very comfortable with. Reasonable trade-off.</p>
 
@@ -182,12 +183,13 @@ end tell
 
 <p>So that takes care of my IntelliJ workflow. What about my work that I use Sublime for? That one’s an even easier AppleScript. I just need it to launch/activate the Corona Simulator (also bound to a keyboard shortcut):</p>
 
-<pre><code>activate application "Corona Simulator"
+<div class="highlighter-rouge"><pre class="highlight"><code>activate application "Corona Simulator"
 tell application "System Events"
     -- Relaunch the Corona Simulator
     keystroke "r" using command down
 end tell
 </code></pre>
+</div>
 
 <p>And that’s it. Just two AppleScripts and my workflow completely lends itself to BBEdit.</p>
 
@@ -237,6 +239,12 @@ end tell
     
     <li>
       
+        <span>&raquo;</span> <a href="/2015/07/my-desktop-july-2015/">My Desktop: July 2015</a> <span><small><i class="fa fa-anchor"></i></small></span>
+      
+    </li>
+    
+    <li>
+      
         <span>&raquo;</span> <a href="/2014/10/ipads-the-bad-the-good-and-the-takeaway/">iPads: The Bad, The Good And The Takeaway</a> <span><small><i class="fa fa-anchor"></i></small></span>
       
     </li>
@@ -256,12 +264,6 @@ end tell
     <li>
       
         <span>&raquo;</span> <a href="/2014/10/josh-ginter-reviews-the-iphone-6-plus/">Josh Ginter Reviews the iPhone 6 Plus</a> <span><small><i class="fa fa-anchor"></i></small></span>
-      
-    </li>
-    
-    <li>
-      
-        <span>&raquo;</span> <a href="/2014/10/mac-app-store-the-subtle-exodus/">Mac App Store: The Subtle Exodus</a> <span><small><i class="fa fa-anchor"></i></small></span>
       
     </li>
     
