@@ -2,10 +2,10 @@
 <rss version="2.0">
    <channel>
       <title>Jonathan Beebe</title>
-      <link>http://jonbee.be</link>
+      <link>http://jonbeebe.net</link>
       <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Tue, 09 Feb 2016 08:11:31 -0800</lastBuildDate>
+      <lastBuildDate>Tue, 09 Feb 2016 08:16:39 -0800</lastBuildDate>
 
       
          <item>
@@ -40,8 +40,8 @@
          <item>
             <title>Back to BBEdit</title>
             
-               <link>http://jonbee.be/2014/10/back-to-bbedit/</link>
-               <guid isPermaLink="false">http://jonbee.be/2014/10/back-to-bbedit/</guid>
+               <link>http://jonbeebe.net/2014/10/back-to-bbedit/</link>
+               <guid isPermaLink="false">http://jonbeebe.net/2014/10/back-to-bbedit/</guid>
             
             <pubDate>Sun, 19 Oct 2014 15:43:00 -0700</pubDate>
             <description>&lt;blockquote&gt;
@@ -254,8 +254,8 @@ end tell
          <item>
             <title>Windows X</title>
             
-               <link>http://jonbee.be/2014/10/windows-x/</link>
-               <guid isPermaLink="false">http://jonbee.be/2014/10/windows-x/</guid>
+               <link>http://jonbeebe.net/2014/10/windows-x/</link>
+               <guid isPermaLink="false">http://jonbeebe.net/2014/10/windows-x/</guid>
             
             <pubDate>Tue, 14 Oct 2014 13:30:00 -0700</pubDate>
             <description>&lt;p&gt;I’m not a Windows user myself, and haven’t been for almost six years now, but I was forced to use it for the first part of my computer-using life so I still enjoy following new releases. This next one brings Windows and OS X closer together than every before, and I’m not talking about just the version number.&lt;/p&gt;
@@ -375,8 +375,8 @@ end tell
          <item>
             <title>Reboot</title>
             
-               <link>http://jonbee.be/2014/10/reboot/</link>
-               <guid isPermaLink="false">http://jonbee.be/2014/10/reboot/</guid>
+               <link>http://jonbeebe.net/2014/10/reboot/</link>
+               <guid isPermaLink="false">http://jonbeebe.net/2014/10/reboot/</guid>
             
             <pubDate>Sun, 12 Oct 2014 11:35:00 -0700</pubDate>
             <description>&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
