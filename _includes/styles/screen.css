@@ -1,0 +1,222 @@
+body {
+    font-family: 'Lora', serif;
+    font-size: 100%;
+    color: #041E23;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #008080;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #E35B00; /* Spacedust dark orange */
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8 {
+    font-family: 'Montserrat', sans-serif;
+    color: #6E5346; /* Spacedust brown */
+}
+
+h1, h1 a, h1 a:visited {
+    color: #041E23; /* Spacedust dark bg color */
+    line-height: 1.25em;
+}
+
+#container {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-top: 5px solid #041E23; /* Spacedust dark bg color */
+}
+
+#main {
+    padding: 0;
+    margin: 0 auto auto 1.5em;
+    min-width: 875px;
+    max-width: 900px;
+    height: 100%;
+}
+
+#main > #col-sidebar {
+    float: left;
+    width: 220px;
+    padding: 0;
+    margin: 0;
+    padding-top: 1em;
+    text-align: center;
+    height: 100%;
+}
+
+#main > #col-sidebar img.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+}
+
+#main > #col-sidebar .site-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 105%;
+}
+
+#main > #col-sidebar > #nav {
+    margin-top: 2em;
+    font-weight: 700;
+    font-size: 102%;
+    line-height: 0.85em;
+}
+
+#main > #col-sidebar > #nav a {
+    color: #041E23;
+}
+
+#main > #col-sidebar > #nav a:hover {
+    text-decoration: underline;
+    color: #E35B00; /* Spacedust dark orange */
+}
+
+#main > #col-sidebar > hr {
+    border: none;
+    height: 1px;
+    color: #dddddd;
+    background-color: #dddddd;
+    margin: 2.5em auto;
+    width: 75%;
+}
+
+#main > #col-2 {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 655px;
+    float: left;
+    padding: 0;
+    border-left: 1px solid #dddddd;
+    height: 100%;
+    line-height: 1.5em;
+    min-height: 300px;
+    font-weight: 400;
+}
+
+#main > #col-2 ul, #main > #col-2 ol {
+    margin-left: 0;
+    padding-left: 1.5em;
+}
+
+#main .written-by {
+    color: #6E5346; /* Spacedust brown */
+    font-weight: 400;
+    margin-top: -1em;
+    font-style: italic;
+    font-size: 90%;
+}
+
+#main .external-url {
+    margin-top: -1em;
+    font-size: 85%;
+}
+
+#main .external-url a {
+    font-family: 'Montserrat', monospace;
+    color: #6E5346; /* Spacedust brown */
+    font-weight: 400;
+}
+
+#main > #col-2 blockquote {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 2px solid #dddddd;
+    color: #a5a5a5; /* Spacedust gray */
+    margin-left: 0;
+    padding-left: 1.5em;
+}
+
+.col-container {
+    padding: 1em 2.5em;
+}
+
+.col-container .monthyear {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.col-container img {
+    max-width: 100%;
+}
+
+.col-container .spacer {
+    height: 0.25em;
+}
+
+.col-container .index-title {
+    color: #041E23; /* Spacedust dark bg color */
+    font-weight: 700;
+    margin-left: 0.5em;
+}
+
+.col-container .day {
+    color: #a5a5a5; /* Spacedust gray */
+    font-weight: 400;
+    margin-right: 0.25em;
+}
+
+.col-container .index-title a {
+    color: #041E23; /* Spacedust dark bg color */
+}
+
+.col-container .index-title a:hover {
+    color: #E35B00; /* Spacedust dark orange */
+}
+
+.col-container .index-title.link {
+    font-weight: 400;
+}
+
+.footnotes {
+    background-color: #efefef;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 88%;
+    font-weight: 400;
+    padding: 1em;
+}
+
+#footer {
+    border-top: 1px solid #dddddd;
+    text-align: center;
+    float: left;
+    padding-top: 1.5em;
+    margin-bottom: 2em;
+    width: 100%;
+    color: #6E5346; /* Spacedust brown */
+    font-weight: 400;
+}
+
+pre {
+    background-color: #efefef;
+    padding: 1em;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    line-height: 1em;
+}
+
+pre::-webkit-scrollbar {
+    display: none;
+}
+
+pre code {
+    font-family: "Cousine", monospace;
+    font-size: 85%;
+}

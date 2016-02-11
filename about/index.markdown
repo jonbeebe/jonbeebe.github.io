@@ -1,7 +1,9 @@
 ---
 layout: default
-title: About
+title: About + Contact
 ---
+
+# {{ page.title }}
 
 I'm Jonathan Beebe, a software engineer in Northern California.
 

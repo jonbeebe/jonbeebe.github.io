@@ -1,0 +1,140 @@
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 792px) and (max-width: 918px) {
+    body {
+        font-size: 95%;
+    }
+
+    #main {
+        min-width: 755px;
+        max-width: 765px;
+    }
+
+    #main > #col-2 {
+        width: 535px;
+    }
+
+    .col-container {
+        padding: 1em 2.5em;
+        padding-right: 2.5em;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 791px) {
+    body {
+        font-size: 95%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #main {
+        min-width: 450px;
+        max-width: 767px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #main > #col-sidebar {
+        float: left;
+        width: 100%;
+        vertical-align: top;
+        text-align: center;
+        display: block;
+    }
+
+    #main > #col-sidebar .site-title {
+        display: none;
+    }
+
+    #main > #col-sidebar img.logo {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    #main > #col-sidebar #nav {
+        margin-top: 0.2em;
+        display: inline-block;
+    }
+
+    #main > #col-sidebar hr {
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    #main > #col-sidebar #nav p {
+        display: inline-block;
+        margin-left: 0.75em;
+        margin-right: 0.75em;
+    }
+
+    #main > #col-2 {
+        display: block;
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+
+    .col-container {
+        padding: 1em 2.5em;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    body {
+        font-size: 95%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #main {
+        min-width: 320px;
+        max-width: 479px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #main > #col-sidebar {
+        float: left;
+        width: 100%;
+        vertical-align: top;
+        text-align: center;
+        display: block;
+    }
+
+    #main > #col-sidebar .site-title {
+        display: none;
+    }
+
+    #main > #col-sidebar img.logo {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    #main > #col-sidebar #nav {
+        margin-top: 0em;
+        display: inline-block;
+    }
+
+    #main > #col-sidebar hr {
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+
+    #main > #col-sidebar #nav p {
+
+    }
+
+    #main > #col-2 {
+        display: block;
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+
+    .col-container {
+        padding: 1em 2.5em;
+    }
+}

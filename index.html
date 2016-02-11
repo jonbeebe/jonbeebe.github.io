@@ -3,21 +3,33 @@ layout: default
 title: Home
 ---
 
-<div id="home">  
-  {% for post in site.posts %}
+{% for post in site.posts %}
     {% assign currentdate = post.date | date: "%B %Y" %}
     {% if currentdate != date %}
-      {% unless forloop.first %}</ul>{% endunless %}
-      <h3 style="margin-top: 0">{{ post.date | date: "%B %Y" }}</h3>
-      <ul class="posts">
-      {% assign date = currentdate %}
+        {% unless forloop.first %}<div class="spacer"></div>{% endunless %}
+        <h4 class="monthyear">{{ post.date | date: "%B %Y" }}</h4>
+        {% assign date = currentdate %}
     {% endif %}
-      {% if post.external_url %}
-        <li><span>{{ post.date | date: "%d" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a> <span><small><i class="fa fa-anchor"></i></small></span></li>
-      {% else %}
-        <li><span>{{ post.date | date: "%d" }} &raquo;</span><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></li>
-      {% endif %}
-    {% if forloop.last %}</ul>{% endif %}
-  {% endfor %}
-  
-</div>
+
+    {% assign d = post.date | date: "%-d" %}
+    {% if post.external_url %}
+        <p class="index-title link"><span class="day">
+            {% case d %}
+                {% when '1' or '21' or '31' %}{{ d }}st
+                {% when '2' or '22' %}{{ d }}nd
+                {% when '3' or '23' %}{{ d }}rd
+                {% else %}{{ d }}th
+            {% endcase %}:
+        </span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+    {% else %}
+        <p class="index-title"><span class="day">
+            {% case d %}
+                {% when '1' or '21' or '31' %}{{ d }}st
+                {% when '2' or '22' %}{{ d }}nd
+                {% when '3' or '23' %}{{ d }}rd
+                {% else %}{{ d }}th
+            {% endcase %}:
+        </span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+    {% endif %}
+    {% if forloop.last %}<div class="spacer"></div>{% endif %}
+{% endfor %}

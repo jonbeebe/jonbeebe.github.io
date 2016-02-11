@@ -1,11 +1,11 @@
 # Theme customization - please change from the defaults!
 
 # Color for top bar, links, etc
-topborder_color: '#2a2a2a'
-highlight_color: '#3497db'
-icon_color: '#d54d2a'
-heading_font: "Bitter"
-body_font: "Muli"
+topborder_color: '#07171b'
+highlight_color: '#009fc5'
+icon_color: '#e45a00'
+heading_font: "Montserrat"
+body_font: "Merriweather"
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
@@ -27,7 +27,7 @@ email: me@jonbeebe.net
 tagline: "..."
 
 # Google Analytics key, leave blank to ignore
-#google_analytics_key: UA-xxxx-x
+google_analytics_key: UA-73640718-1
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: false
