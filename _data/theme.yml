@@ -5,21 +5,8 @@ topborder_color: '#07171b'
 highlight_color: '#009fc5'
 icon_color: '#e45a00'
 heading_font: "Montserrat"
-body_font: "Merriweather"
-
-# Profile links on the left sidebar, leave blank to ignore
-social:
-  github: jonbeebe
-  #bitbucket: philipj
-  hacker_news: jonbeebe
-  #stackexchange: 348619
-  #stackoverflow: 348619
-  twitter: jonathanbeebe
-  #facebook: zuck
-  #tumblr: animalygifs
-  #linkedin: philipjagielski
-  #gplus: 110552447039675960964
-  #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
+body_font: "Lora"
+mono_font: "Cousine"
 
 # "Hi, I'm _______"
 name: Jonathan Beebe

@@ -51,7 +51,7 @@
         margin-bottom: 0;
     }
 
-    #main > #col-sidebar #nav {
+    #main > #col-sidebar nav {
         margin-top: 0.2em;
         display: inline-block;
     }
@@ -62,7 +62,7 @@
         margin-bottom: 0;
     }
 
-    #main > #col-sidebar #nav p {
+    #main > #col-sidebar nav p {
         display: inline-block;
         margin-left: 0.75em;
         margin-right: 0.75em;
@@ -112,7 +112,7 @@
         margin-bottom: 0;
     }
 
-    #main > #col-sidebar #nav {
+    #main > #col-sidebar nav {
         margin-top: 0em;
         display: inline-block;
     }
@@ -123,7 +123,7 @@
         margin-bottom: 0;
     }
 
-    #main > #col-sidebar #nav p {
+    #main > #col-sidebar nav p {
 
     }
 

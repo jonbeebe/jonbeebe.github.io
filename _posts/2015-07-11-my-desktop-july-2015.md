@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My Desktop: July 2015"
-date: 2015-07-11 20:56:00-0700
+date: 2015-07-11 20:56:00-0800
 external_url: http://jonbeebe.net/images/2015-07-11-xfce4.12.png
 ---
 

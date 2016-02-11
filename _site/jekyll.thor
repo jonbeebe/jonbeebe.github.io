@@ -17,7 +17,7 @@ class Jekyll < Thor
       post.puts "---"
       post.puts "layout: post"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-      post.puts "date: #{dateAttr}-0700"
+      post.puts "date: #{dateAttr}-0800"
       post.puts "external_url:"
       post.puts "---"
     end

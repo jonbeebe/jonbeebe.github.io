@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lora', serif;
+    font-family: '{{ site.data.theme.body_font }}', serif;
     font-size: 100%;
     color: #041E23;
     background-color: #ffffff;
@@ -19,7 +19,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, h7, h8 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: '{{ site.data.theme.heading_font }}', sans-serif;
     color: #6E5346; /* Spacedust brown */
 }
 
@@ -68,23 +68,23 @@ h1, h1 a, h1 a:visited {
     font-size: 105%;
 }
 
-#main > #col-sidebar > #nav {
+#main > #col-sidebar nav {
     margin-top: 2em;
     font-weight: 700;
     font-size: 102%;
     line-height: 0.85em;
 }
 
-#main > #col-sidebar > #nav a {
+#main > #col-sidebar  nav a {
     color: #041E23;
 }
 
-#main > #col-sidebar > #nav a:hover {
+#main > #col-sidebar nav a:hover {
     text-decoration: underline;
     color: #E35B00; /* Spacedust dark orange */
 }
 
-#main > #col-sidebar > hr {
+#main > #col-sidebar hr {
     border: none;
     height: 1px;
     color: #dddddd;
@@ -105,6 +105,8 @@ h1, h1 a, h1 a:visited {
     line-height: 1.5em;
     min-height: 300px;
     font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #main > #col-2 ul, #main > #col-2 ol {
@@ -117,7 +119,7 @@ h1, h1 a, h1 a:visited {
     font-weight: 400;
     margin-top: -1em;
     font-style: italic;
-    font-size: 90%;
+    font-size: 95%;
 }
 
 #main .external-url {
@@ -126,7 +128,7 @@ h1, h1 a, h1 a:visited {
 }
 
 #main .external-url a {
-    font-family: 'Montserrat', monospace;
+    font-family: '{{ site.data.theme.heading_font }}', sans-serif;
     color: #6E5346; /* Spacedust brown */
     font-weight: 400;
 }
@@ -192,7 +194,7 @@ h1, h1 a, h1 a:visited {
     padding: 1em;
 }
 
-#footer {
+footer {
     border-top: 1px solid #dddddd;
     text-align: center;
     float: left;
@@ -217,6 +219,6 @@ pre::-webkit-scrollbar {
 }
 
 pre code {
-    font-family: "Cousine", monospace;
+    font-family: '{{ site.data.theme.mono_font }}', monospace;
     font-size: 85%;
 }
