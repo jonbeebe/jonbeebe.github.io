@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ignore the Noise"
-date: 2016-02-11 18:00:00-0800
+date: 2016-02-11 18:00:00-0700
 ---
 
 Whether you're new to the JavaScript ecosystem or have some experience, unless you're super-human, you'll inevitably become overwhelmed at the sheer number of frameworks, libraries, build systems, preprocessors, template engines (the list goes on and on) that are available. What's worse, as you put a significant chunk of time into a certain stack, there will inevitably be other libraries, frameworks, and tools that gain more popularity than the ones you chose, and likely brand new projects that became the *shiny new thing* while you were busy getting things done. Before long, you start to feel like you're suddenly becoming irrelevant.

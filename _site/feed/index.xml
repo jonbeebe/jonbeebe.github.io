@@ -5,8 +5,63 @@
       <link>http://jonbeebe.net</link>
       <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Thu, 11 Feb 2016 15:38:29 -0800</lastBuildDate>
+      <lastBuildDate>Thu, 11 Feb 2016 18:22:16 -0800</lastBuildDate>
 
+      
+         <item>
+            <title>Ignore the Noise</title>
+            
+               <link>http://jonbeebe.net/2016/02/ignore-the-noise/</link>
+               <guid isPermaLink="false">http://jonbeebe.net/2016/02/ignore-the-noise/</guid>
+            
+            <pubDate>Thu, 11 Feb 2016 17:00:00 -0800</pubDate>
+            <description>&lt;p&gt;Whether you’re new to the JavaScript ecosystem or have some experience, unless you’re super-human, you’ll inevitably become overwhelmed at the sheer number of frameworks, libraries, build systems, preprocessors, template engines (the list goes on and on) that are available. What’s worse, as you put a significant chunk of time into a certain stack, there will inevitably be other libraries, frameworks, and tools that gain more popularity than the ones you chose, and likely brand new projects that became the &lt;em&gt;shiny new thing&lt;/em&gt; while you were busy getting things done. Before long, you start to feel like you’re suddenly becoming irrelevant.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bitworking.org&quot;&gt;Joe Gregorio&lt;/a&gt; argued in 2014 that we should abandon all frameworks in favor of plain HTML+CSS+JS in his &lt;a href=&quot;http://bitworking.org/news/2014/05/zero_framework_manifesto&quot;&gt;zero framework manifesto&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I think it’s time to rethink the model of JS frameworks. There’s no need to invent yet another way to do something, just use HTML+CSS+JS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The landscape has only gotten more cluttered since then, so I don’t think the web development community as a whole agrees, probably because that approach may not be practical for everyone and for every project. Still, I think it’s a good starting point. More on that later.&lt;/p&gt;
+
+&lt;p&gt;A couple of years ago, I invested quite a bit of time into &lt;a href=&quot;http://marionettejs.com&quot;&gt;Backbone.Marionette&lt;/a&gt;, and once I had some breathing room and took a step back, I saw that &lt;a href=&quot;https://angularjs.org&quot;&gt;Angular&lt;/a&gt; was actually the cool kid on the block. I also used &lt;a href=&quot;http://lesscss.org&quot;&gt;Less&lt;/a&gt; and &lt;a href=&quot;http://handlebarsjs.com&quot;&gt;Handlebars&lt;/a&gt; (for CSS preprocessing and HTML templating, respectively), although tons of shops prefer &lt;a href=&quot;http://sass-lang.com&quot;&gt;Sass&lt;/a&gt; and there are many other popular alternatives to Handlebars. It’s easy to feel like you’re not keeping up, and that your skills will soon become irrelevant if you’re not sprinting at top-speed, 24 hours a day. Unfortunately, no matter what you do, at least when it comes to web development, you’re going to be “behind” in one way or another.&lt;/p&gt;
+
+&lt;p&gt;All this to say: it doesn’t matter. &lt;strong&gt;Ignore the noise&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;But that begs the question, how can you determine what path to choose when there’s this vast sea of choices out there? Fortunately, depending on your personal situation, there’s a way through this.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-own-projects&quot;&gt;Your Own Projects&lt;/h2&gt;
+
+&lt;p&gt;For personal projects where you have complete control over your technology stack, I recommend starting with just plain HTML+CSS+JS (which have standards that don’t become outdated very frequently), and only add libraries that fit your needs—as needed. In other words, let the requirements of your project determine its dependencies. If you &lt;em&gt;do&lt;/em&gt; want to go with a full-blown framework, take a look at some of the more popular and stable options out there and just go with the one that matches you and your project best and proceed full steam ahead.&lt;/p&gt;
+
+&lt;p&gt;Don’t worry about falling behind. Just do some research, &lt;em&gt;choose something&lt;/em&gt;, and move forward with with your decisions. The important thing to remember here is that you don’t need to be a pro at everything, or worry if you chose the &lt;em&gt;best&lt;/em&gt; thing out there (that’ll change anyway, and probably next week). You’ll end up learning a ton about your chosen stack and that experience alone will be valuable.&lt;/p&gt;
+
+&lt;p&gt;I mentioned research, but it’s worth emphasizing. Last year, &lt;a href=&quot;http://www.breck-mckye.com&quot;&gt;Jimmy Breck-Mckye&lt;/a&gt; wrote about the “&lt;a href=&quot;http://www.breck-mckye.com/blog/2014/12/the-state-of-javascript-in-2015/&quot;&gt;State of JavaScript in 2015&lt;/a&gt;” and cited “framework churn” as a major problem. Angular, one of the most popular front-end JavaScript frameworks, was used as an example:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;At the close of 2014, it’s difficult as a JavaScript developer to back a particular library or technology with confidence. Even the mighty Angular, which seemed set to establish itself as the One True Framework of Single Page Applications, looks destabilized by recent events.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m not in the Angular camp, at least not currently, so I have no comment on that in particular, but it’s an interesting perspective from someone who obviously was.&lt;/p&gt;
+
+&lt;p&gt;I personally tend to favor the “pick and choose small libraries to fit your needs” over the the “one size fits all” approach of monolithic frameworks, but your mileage (and requirements) may vary. If you &lt;em&gt;do&lt;/em&gt; go the monolithic framework route, it’s worth making sure what you choose is actively maintained and has a healthy community around it—unless of course, you plan on maintaining it yourself, which is probably not likely.&lt;/p&gt;
+
+&lt;h2 id=&quot;work-requirements&quot;&gt;Work Requirements&lt;/h2&gt;
+
+&lt;p&gt;If you’re employed and your company has chosen the stack for you, then you already have your answer. If you &lt;em&gt;don’t&lt;/em&gt; have a say-so, you don’t need to worry about drowning in choices because you won’t have one! Spend time learning and improving your skills in Marionette, Angular, &lt;a href=&quot;https://facebook.github.io/react/&quot;&gt;React&lt;/a&gt;, &lt;a href=&quot;http://backbonejs.org&quot;&gt;Backbone&lt;/a&gt; or whatever it is your company uses. With your own time, you can choose to develop other skills or improve on your work-mandated ones.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, if you’re in a position to have some say in these kinds of decisions, then tackle it as you would with your own projects. Research the actively developed, mature options out there and choose the frameworks and/or libraries that fit your project and team best, ignoring the others (no matter how new and shiny they are) until there’s a problem you can’t solve—or solve well—with the decisions you’ve made.&lt;/p&gt;
+
+&lt;h2 id=&quot;developer-for-hire&quot;&gt;Developer for Hire&lt;/h2&gt;
+
+&lt;p&gt;The more difficult scenario is if you’re trying to build up your skills in hopes of getting hired as a JavaScript engineer, and need to decide what the best course of action is to achieve your goal. Unless there’s a specific role you’re targeting, in which case what to learn should be a little more clear, I recommend starting your own open-source project, making it public, and stick with it through completion. When you’re done, you can always choose a different stack for your next project, swap out the pieces that didn’t work well for you, and go from there. Over time, you’ll gain some valuable experience and you’ll not only know enough to be relevant, you’ll be agile enough to &lt;em&gt;adapt&lt;/em&gt; to any other stack that’s thrown your way by a future employer. Without a doubt, &lt;strong&gt;doing is the best way to learn&lt;/strong&gt; anything, and that absolutely applies in this field.&lt;/p&gt;
+
+&lt;p&gt;Today, as JavaScript developers, we are flooded with choice. Fortunately, if you can block out the excessive noise and commit to making some decisions, you’ll find that having an abundance of choices can actually be a benefit: there is something for just about anyone, and any project you can think of. The worst choice you can make is no choice at all, allowing decision paralysis to prevent you from getting any meaningful work done out of fear you’ll make the &lt;em&gt;wrong&lt;/em&gt; choices and waste a bunch of time.&lt;/p&gt;
+
+&lt;p&gt;Don’t fall into that trap. Make decisions. Stick with them. Adapt as needed. Keep moving forward. &lt;em&gt;That&lt;/em&gt; is how to stay relevant as a JavaScript developer in today’s tumultuous environment.&lt;/p&gt;
+</description>
+         </item>
       
          <item>
             <title>My Desktop: July 2015</title>
@@ -14,7 +69,7 @@
                <link>http://jonbeebe.net/images/2015-07-11-xfce4.12.png</link>
                <guid isPermaLink="false">http://jonbeebe.net/images/2015-07-11-xfce4.12.png</guid>
             
-            <pubDate>Sat, 11 Jul 2015 21:56:00 -0700</pubDate>
+            <pubDate>Sat, 11 Jul 2015 20:56:00 -0700</pubDate>
             <description>&lt;p&gt;&lt;img src=&quot;http://jonbeebe.net/images/2015-07-11-xfce4.12-thumb.png&quot; alt=&quot;XFCE 4.12&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Recently upgraded to XFCE 4.12 and loving it.&lt;/p&gt;
@@ -28,7 +83,7 @@
                <link>http://techpinions.com/ipads-the-bad-the-good-and-the-takeaway/35720</link>
                <guid isPermaLink="false">http://techpinions.com/ipads-the-bad-the-good-and-the-takeaway/35720</guid>
             
-            <pubDate>Sun, 19 Oct 2014 18:32:56 -0700</pubDate>
+            <pubDate>Sun, 19 Oct 2014 17:32:56 -0700</pubDate>
             <description>&lt;p&gt;Very insightful analysis by John Kirk. This line in particular was an eye-opener:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -43,7 +98,7 @@
                <link>http://jonbeebe.net/2014/10/back-to-bbedit/</link>
                <guid isPermaLink="false">http://jonbeebe.net/2014/10/back-to-bbedit/</guid>
             
-            <pubDate>Sun, 19 Oct 2014 16:43:00 -0700</pubDate>
+            <pubDate>Sun, 19 Oct 2014 15:43:00 -0700</pubDate>
             <description>&lt;blockquote&gt;
   &lt;p&gt;It doesn’t suck.®&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -193,7 +248,7 @@ end tell
                <link>http://culturedcode.com/things/blog/2014/10/yosemite-and-things-2-5.html</link>
                <guid isPermaLink="false">http://culturedcode.com/things/blog/2014/10/yosemite-and-things-2-5.html</guid>
             
-            <pubDate>Thu, 16 Oct 2014 18:26:26 -0700</pubDate>
+            <pubDate>Thu, 16 Oct 2014 17:26:26 -0700</pubDate>
             <description>&lt;p&gt;My favorite task management app for Mac (and iOS) just got updated to support OS X 10.10 Yosemite. The visual changes mirror that of Yosemite’s: refreshing but still familiar.&lt;/p&gt;
 
 &lt;p&gt;I haven’t got used to using Notification Center Widgets regularly yet, but the new “Today” widget in Things may be just what I need to get started.&lt;/p&gt;
@@ -206,7 +261,7 @@ end tell
                <link>http://arstechnica.com/apple/2014/10/os-x-10-10/</link>
                <guid isPermaLink="false">http://arstechnica.com/apple/2014/10/os-x-10-10/</guid>
             
-            <pubDate>Thu, 16 Oct 2014 15:28:09 -0700</pubDate>
+            <pubDate>Thu, 16 Oct 2014 14:28:09 -0700</pubDate>
             <description>&lt;p&gt;For some, John Siracusa’s OS X reviews are almost as anticipated as the OS release itself. Myself included.&lt;/p&gt;
 
 &lt;p&gt;His conclusion sums up all twenty-five pages well:&lt;/p&gt;
@@ -224,7 +279,7 @@ end tell
                <link>http://toolsandtoys.net/reviews/the-iphone-6-plus/</link>
                <guid isPermaLink="false">http://toolsandtoys.net/reviews/the-iphone-6-plus/</guid>
             
-            <pubDate>Wed, 15 Oct 2014 16:08:31 -0700</pubDate>
+            <pubDate>Wed, 15 Oct 2014 15:08:31 -0700</pubDate>
             <description>&lt;p&gt;Posted yesterday on the newly redesigned &lt;a href=&quot;http://toolsandtoys.net&quot;&gt;Tools and Toys&lt;/a&gt; website:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -242,7 +297,7 @@ end tell
                <link>http://blog.helftone.com/mac-app-store-the-subtle-exodus/</link>
                <guid isPermaLink="false">http://blog.helftone.com/mac-app-store-the-subtle-exodus/</guid>
             
-            <pubDate>Tue, 14 Oct 2014 20:56:40 -0700</pubDate>
+            <pubDate>Tue, 14 Oct 2014 19:56:40 -0700</pubDate>
             <description>&lt;p&gt;Milen Dzhumerov:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -257,7 +312,7 @@ end tell
                <link>http://jonbeebe.net/2014/10/windows-x/</link>
                <guid isPermaLink="false">http://jonbeebe.net/2014/10/windows-x/</guid>
             
-            <pubDate>Tue, 14 Oct 2014 14:30:00 -0700</pubDate>
+            <pubDate>Tue, 14 Oct 2014 13:30:00 -0700</pubDate>
             <description>&lt;p&gt;I’m not a Windows user myself, and haven’t been for almost six years now, but I was forced to use it for the first part of my computer-using life so I still enjoy following new releases. This next one brings Windows and OS X closer together than every before, and I’m not talking about just the version number.&lt;/p&gt;
 
 &lt;h3 id=&quot;top-new-feature&quot;&gt;Top New Feature&lt;/h3&gt;
@@ -352,7 +407,7 @@ end tell
                <link>http://www.vanityfair.com/business/2014/11/satya-nadella-bill-gates-steve-ballmer-microsoft.print</link>
                <guid isPermaLink="false">http://www.vanityfair.com/business/2014/11/satya-nadella-bill-gates-steve-ballmer-microsoft.print</guid>
             
-            <pubDate>Sun, 12 Oct 2014 15:00:39 -0700</pubDate>
+            <pubDate>Sun, 12 Oct 2014 14:00:39 -0700</pubDate>
             <description>&lt;p&gt;Speaking of &lt;a href=&quot;/2014/10/reboot&quot;&gt;rebooting&lt;/a&gt;, I came across this long article from Vanity Fair that details a lot of interesting Microsoft history, specifically events surrounding Bill Gates, Steve Ballmer, and the drama that occurred before Balmer stepped down as CEO last year before delving into Satya Nadella’s new era in Redmond.&lt;/p&gt;
 </description>
          </item>
@@ -363,7 +418,7 @@ end tell
                <link>http://www.barryclark.co/starting-an-open-source-project/</link>
                <guid isPermaLink="false">http://www.barryclark.co/starting-an-open-source-project/</guid>
             
-            <pubDate>Sun, 12 Oct 2014 13:13:17 -0700</pubDate>
+            <pubDate>Sun, 12 Oct 2014 12:13:17 -0700</pubDate>
             <description>&lt;p&gt;Great advice from Barry Clark for anyone developing an open source project. As he puts it:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -378,7 +433,7 @@ end tell
                <link>http://jonbeebe.net/2014/10/reboot/</link>
                <guid isPermaLink="false">http://jonbeebe.net/2014/10/reboot/</guid>
             
-            <pubDate>Sun, 12 Oct 2014 12:35:00 -0700</pubDate>
+            <pubDate>Sun, 12 Oct 2014 11:35:00 -0700</pubDate>
             <description>&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc. It was actually gaining quite a bit of traction before I was hired by Ansca (now known as &lt;a href=&quot;http://www.coronalabs.com&quot;&gt;Corona Labs&lt;/a&gt;), in which my work there took priority and the type of content I would post to my blog was being published on the company blog anyway&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, so there was little time or motivation for me to continue. Over the years I registered a couple of domain names and tried to start writing again but it never quite caught on for me.&lt;/p&gt;
 
 &lt;p&gt;Things are different now, however. I’m in a professionally stable position (I’ve long since left Corona Labs). My personal life is great. And I really, really miss writing and sharing stuff on the web. Therefore, I decided to make a clean break with the past and delete my previous website hosted at this domain, redirect my &lt;em&gt;other&lt;/em&gt; domain (&lt;code class=&quot;highlighter-rouge&quot;&gt;jonbeebe.net&lt;/code&gt;) to this blog, and set the stage for a writing environment that motivates me to turn this web property into a place that is informative, somewhat educational, and at the very least, entertaining for those interested in the same topics as myself.&lt;/p&gt;

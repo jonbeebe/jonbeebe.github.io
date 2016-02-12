@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Siracusa Reviews OS X 10.10 Yosemite"
-date: 2014-10-16 14:28:09-0800
+date: 2014-10-16 14:28:09-0700
 external_url: http://arstechnica.com/apple/2014/10/os-x-10-10/
 ---
 
