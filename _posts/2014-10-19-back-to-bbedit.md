@@ -6,9 +6,11 @@ date: 2014-10-19 15:43:00
 
 > It doesn’t suck.®
 
-BBEdit originally debuted on Macintosh System Software 6[^1], and while it may have been surpassed&mdash;feature-wise&mdash;by other text editors in recent years, it's actually one of the only OS X text editors that can meet the following criteria (and meet it well):
+BBEdit originally debuted on Macintosh System Software 6, and while it may have been surpassed&mdash;feature-wise&mdash;by other text editors in recent years, it's actually one of the only OS X text editors that can meet the following criteria (and meet it well):
 
-1. Truly native Mac software; feels "at home" visually and works as you would expect a Mac app to work. In other words, it's very "Mac-like".
+<!--more-->
+
+1. Truly native Mac software[^1]; feels "at home" visually and works as you would expect a Mac app to work. In other words, it's very "Mac-like".
 2. Has a history that can provide assurance that it'll most likely be sticking around and actively developed for many more years to come.
 3. It is fast.
 
