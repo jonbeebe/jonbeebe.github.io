@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Back to BBEdit"
-date: 2014-10-19 15:43:00-0700
+date: 2014-10-19 15:43:00-0800
 ---
 
 > It doesn’t suck.®
