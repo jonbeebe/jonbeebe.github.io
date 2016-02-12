@@ -429,7 +429,7 @@ th {
 
 body {
     font-family: 'Lora', serif;
-    font-size: 100%;
+    font-size: 95%;
     color: #041E23;
     background-color: #ffffff;
     padding: 0;
@@ -450,6 +450,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6, h7, h8 {
     font-family: 'Montserrat', sans-serif;
     color: #6E5346; /* Spacedust brown */
+    text-align: left;
 }
 
 h1, h1 a, h1 a:visited {
@@ -526,7 +527,7 @@ h1, h1 a, h1 a:visited {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    width: 655px;
+    width: 600px;
     float: left;
     padding: 0;
     border-left: 1px solid #dddddd;
@@ -616,17 +617,20 @@ h1, h1 a, h1 a:visited {
 }
 
 .col-container .index-excerpt {
-    font-size: 90%
+    font-size: 100%
 }
 
 .col-container .index-continue {
-    font-size: 90%;
+    font-size: 100%;
     font-style: italic;
 }
 
 .col-container .index-external-url {
     font-size: 90%;
     margin-top: -0.75em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .col-container .index-external-url a {
@@ -810,7 +814,7 @@ pre code {
     }
 
     .col-container {
-        padding: 1em 2.5em;
+        padding: 1em 1.75em;
     }
 }
 
