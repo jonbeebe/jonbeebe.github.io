@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ignore the Noise"
-date: 2016-02-11 18:00:00
+date: 2016-02-11 18:00:00 -0800
 ---
 
 Whether you're new to the JavaScript ecosystem or have some experience, unless you're super-human, you'll inevitably become overwhelmed at the sheer number of frameworks, libraries, build systems, preprocessors, template engines (the list goes on and on) that are available.

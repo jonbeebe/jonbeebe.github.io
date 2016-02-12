@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Starting an Open Source Project that People Use"
-date: 2014-10-12 12:13:17
-updated: 2014-10-13 01:52:00
+date: 2014-10-12 12:13:17 -0800
+updated: 2014-10-13 01:52:00 -0800
 external_url: http://www.barryclark.co/starting-an-open-source-project/
 ---
 

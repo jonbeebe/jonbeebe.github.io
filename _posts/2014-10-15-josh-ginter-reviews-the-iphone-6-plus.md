@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Josh Ginter Reviews the iPhone 6 Plus"
-date: 2014-10-15 15:08:31
+date: 2014-10-15 15:08:31 -0800
 external_url: http://toolsandtoys.net/reviews/the-iphone-6-plus/
 ---
 
