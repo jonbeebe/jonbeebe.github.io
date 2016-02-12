@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Back to BBEdit"
-date: 2014-10-19 15:43:00-0800
+date: 2014-10-19 15:43:00
 ---
 
 > It doesn’t suck.®
@@ -52,15 +52,15 @@ Here's the AppleScript (bound to `CMD+OPTION+Y`, same as IntelliJ synchronize):
 
     -- Store reference to BBEdit in a variable, for later activation
     set currentApp to path to frontmost application
-    
+
     activate application "IntelliJ"
     tell application "System Events"
         delay 0.1
-    
+
         -- Invoke IntelliJ's keyboard shortcut for "synchronize"
         keystroke "y" using {option down, command down}
     end tell
-    
+
     -- Give IntelliJ a couple of seconds to refresh files
     delay 2
 
@@ -76,7 +76,7 @@ Here's the AppleScript (bound to `CMD+OPTION+Y`, same as IntelliJ synchronize):
             open application "Google Chrome"
         end if
     end tell
-    
+
 So with minimal fuss (an added keyboard shortcut to my workflow), I get to use a (much faster) text editor I'm very comfortable with. Reasonable trade-off.
 
 ### Replacing Sublime Text with BBEdit
@@ -88,7 +88,7 @@ So that takes care of my IntelliJ workflow. What about my work that I use Sublim
         -- Relaunch the Corona Simulator
         keystroke "r" using command down
     end tell
-    
+
 And that's it. Just two AppleScripts and my workflow completely lends itself to BBEdit.
 
 ### Favorite Features

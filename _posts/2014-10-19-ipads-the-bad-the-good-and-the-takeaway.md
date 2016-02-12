@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "iPads: The Bad, The Good And The Takeaway"
-date: 2014-10-19 17:32:56-0800
+date: 2014-10-19 17:32:56
 external_url: http://techpinions.com/ipads-the-bad-the-good-and-the-takeaway/35720
 ---
 

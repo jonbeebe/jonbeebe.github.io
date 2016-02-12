@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Things 2.5 Released"
-date: 2014-10-16 17:26:26-0800
+date: 2014-10-16 17:26:26
 external_url: http://culturedcode.com/things/blog/2014/10/yosemite-and-things-2-5.html
 ---
 
