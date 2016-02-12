@@ -5,7 +5,7 @@
       <link>http://jonbeebe.net</link>
       <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Thu, 11 Feb 2016 18:26:02 -0800</lastBuildDate>
+      <lastBuildDate>Thu, 11 Feb 2016 18:30:01 -0800</lastBuildDate>
 
       
          <item>
@@ -14,7 +14,7 @@
                <link>http://jonbeebe.net/2016/02/ignore-the-noise/</link>
                <guid isPermaLink="false">http://jonbeebe.net/2016/02/ignore-the-noise/</guid>
             
-            <pubDate>Thu, 11 Feb 2016 18:00:00 -0800</pubDate>
+            <pubDate>Thu, 11 Feb 2016 12:00:00 -0800</pubDate>
             <description>&lt;p&gt;Whether you’re new to the JavaScript ecosystem or have some experience, unless you’re super-human, you’ll inevitably become overwhelmed at the sheer number of frameworks, libraries, build systems, preprocessors, template engines (the list goes on and on) that are available. What’s worse, as you put a significant chunk of time into a certain stack, there will inevitably be other libraries, frameworks, and tools that gain more popularity than the ones you chose, and likely brand new projects that became the &lt;em&gt;shiny new thing&lt;/em&gt; while you were busy getting things done. Before long, you start to feel like you’re suddenly becoming irrelevant.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://bitworking.org&quot;&gt;Joe Gregorio&lt;/a&gt; argued in 2014 that we should abandon all frameworks in favor of plain HTML+CSS+JS in his &lt;a href=&quot;http://bitworking.org/news/2014/05/zero_framework_manifesto&quot;&gt;zero framework manifesto&lt;/a&gt;:&lt;/p&gt;
