@@ -89,7 +89,7 @@
     }
 
     #main {
-        min-width: 320px;
+        min-width: 300px;
         max-width: 479px;
         padding: 0;
         margin: 0;
@@ -136,5 +136,9 @@
 
     .col-container {
         padding: 1em 1.75em;
+    }
+
+    footer {
+        font-size: 80%;
     }
 }
