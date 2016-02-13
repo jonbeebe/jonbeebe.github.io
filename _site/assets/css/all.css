@@ -439,12 +439,12 @@ body {
 
 a, a:visited, a:active {
     text-decoration: none;
-    color: #008080;
+    color: #E35B00; /* Spacedust dark orange */
 }
 
 a:hover {
     text-decoration: underline;
-    color: #E35B00; /* Spacedust dark orange */
+    color: #CB7636; /* Spacedust light orange */
 }
 
 h1, h2, h3, h4, h5, h6, h7, h8 {
@@ -456,6 +456,10 @@ h1, h2, h3, h4, h5, h6, h7, h8 {
 h1, h1 a, h1 a:visited {
     color: #041E23; /* Spacedust dark bg color */
     line-height: 1.25em;
+}
+
+h2 {
+    color: #4A9D8F; /* Spacedust light green */
 }
 
 #container {
@@ -511,7 +515,7 @@ h1, h1 a, h1 a:visited {
 
 #main > #col-sidebar nav a:hover {
     text-decoration: underline;
-    color: #E35B00; /* Spacedust dark orange */
+    color: #CB7636; /* Spacedust light orange */
 }
 
 #main > #col-sidebar hr {
@@ -609,7 +613,7 @@ h1, h1 a, h1 a:visited {
 }
 
 .col-container .index-title a:hover {
-    color: #E35B00; /* Spacedust dark orange */
+    color: #CB7636; /* Spacedust dark orange */
 }
 
 .col-container .index-title.link {

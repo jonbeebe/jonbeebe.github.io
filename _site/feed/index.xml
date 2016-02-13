@@ -5,8 +5,98 @@
       <link>http://jonbeebe.net</link>
       <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Fri, 12 Feb 2016 12:24:51 -0800</lastBuildDate>
+      <lastBuildDate>Fri, 12 Feb 2016 19:51:30 -0800</lastBuildDate>
 
+      
+         <item>
+            <title>Plain Text Notes</title>
+            
+               <link>http://jonbeebe.net/2016/02/plain-text-notes/</link>
+               <guid isPermaLink="false">http://jonbeebe.net/2016/02/plain-text-notes/</guid>
+            
+            <pubDate>Fri, 12 Feb 2016 19:48:00 -0800</pubDate>
+            <description>&lt;p&gt;After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, cross-platform, freely available, and will surely stand the test of time: plain text.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Journal entries. Recipes. Work log. Grocery lists. Things I need to quickly pull up on my phone when I’m on the go. Ideas for gifts I want to buy my wife and kids. Anything, and everything. Digital notes have been an absolutely essential part of my personal and professional life. What I use to &lt;em&gt;manage&lt;/em&gt; the notes essentially serves as my secondary brain&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Without putting a lot of thought into it initially, I started out using the stock Notes app on iOS and the OS X, which worked until I took a &lt;a href=&quot;{$ post_url 2015-07-11-my-desktop-july-2015 %}&quot;&gt;detour&lt;/a&gt; into the land of Linux&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; and it suddenly became annoyingly painful to access my notes&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. In my frustration, I began thinking about my mobile needs. If I were to move away from iOS in the future, even if temporarily (be it Android or something else), what would I do then? I often need to access my notes when I’m on the go, so this was a big concern.&lt;/p&gt;
+
+&lt;p&gt;It was clear that I needed a cross-platform solution that could withstand my (admittedly erratic) computing habits over time. I don’t think vendor lock-in is an acceptable option for me.&lt;/p&gt;
+
+&lt;h2 id=&quot;runner-ups&quot;&gt;Runner-ups&lt;/h2&gt;
+
+&lt;h3 id=&quot;evernote&quot;&gt;Evernote&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://evernote.com&quot;&gt;Evernote&lt;/a&gt; was the first contender, but I ultimately decided against it because, like Apple Notes, it stores notes as &lt;a href=&quot;https://en.wikipedia.org/wiki/Rich_Text_Format&quot;&gt;Rich Text&lt;/a&gt;. I really dislike WYSIWYG&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; editing, and that is the bread and butter of Evernote. Not necessarily a bad thing, but not for me. I’ll admit that being able to embed media and adding attachments to notes is really nice though.&lt;/p&gt;
+
+&lt;h3 id=&quot;simplenote&quot;&gt;Simplenote&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://simplenote.com&quot;&gt;Simplenote&lt;/a&gt; was next in line, and I almost went with it as it was very similar to what Apple offers, but notes are plain text and the service is cross-platform due to being web-based. However, there were some concerns that kept me at bay.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3rd-party app selection&lt;/strong&gt;. I don’t like being tied to the web app&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; and wasn’t completely happy with the available 3rd party clients (I did like the first-party iOS app, however). There is a &lt;a href=&quot;http://fletcherpenney.net/other_projects/simplenotesync/&quot;&gt;script&lt;/a&gt; that can be used to sync notes to a local folder, but I didn’t really want to have to go through that, and more importantly, I wasn’t confident enough that the script wouldn’t wipe my notes on accident, or be maintained long enough to withstand any API changes that Simplenote might introduce in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Limited ways to organize my notes&lt;/strong&gt;. I really want better organization for my notes, such as a “Work” folder for work-related notes, a “Journal” folder for journal entries, and so on. I know I could use tags instead of folders, but that leads me to my next point…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is it future-proof?&lt;/strong&gt; What happens if Simplenote shuts down before I no longer need to keep notes (in other words, before I die)? Simplenote &lt;em&gt;does&lt;/em&gt; have an export option, but it gives each note a crazy, random filename and the tags don’t seem to be preserved (there goes any work I put into tag-based organization).&lt;/p&gt;
+
+&lt;p&gt;Evernote was pretty great about being able to organize notes into separate “Notebooks”, and I’m sure there are other services that do something similar, but the other two points mentioned could easily apply to just about any third-party note-keeping service.&lt;/p&gt;
+
+&lt;p&gt;The thought of relying on my chosen note-keeping service to outlive me makes me a little uncomfortable, so the only remaining option seemed to be manually handling the notes myself via locally saved, old-fashioned plain text.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-setup&quot;&gt;The Setup&lt;/h2&gt;
+
+&lt;p&gt;All of my notes live in a single, top-level folder on my computer’s hard drive. I have sub-directories for Work, Personal, Journal, Projects, Media and Attachments. The notes themselves are just plain text files, saved as &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;sync-and-backup&quot;&gt;Sync and backup&lt;/h3&gt;
+
+&lt;p&gt;Since I need to be able to access my notes from multiple devices (my laptop, desktop, and phone), syncing is a huge requirement for me. I already use &lt;a href=&quot;http://dropbox.com&quot;&gt;Dropbox&lt;/a&gt;, so my top-level “Notes” folder lives in my Dropbox folder. Any changes I make to notes are automatically synced (and backed-up online).&lt;/p&gt;
+
+&lt;p&gt;If Dropbox ever goes away, or I want to stop using it, I can just turn my notes folder into a &lt;a href=&quot;https://git-scm.com&quot;&gt;Git&lt;/a&gt; or &lt;a href=&quot;https://www.mercurial-scm.org&quot;&gt;Mercurial&lt;/a&gt; repository and host it privately on &lt;a href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt; or &lt;a href=&quot;http://bitbucket.org&quot;&gt;Bitbucket&lt;/a&gt;. I’m tempted to go this route &lt;em&gt;now&lt;/em&gt; for the ability to track changes and revert notes to an older state (if necessary), but what’s holding me back from this approach is mobile. While there are many great mobile apps for viewing and editing Markdown files in a Dropbox folder, I haven’t yet found the same for a hosted repository&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;editing-and-viewing&quot;&gt;Editing and viewing&lt;/h3&gt;
+
+&lt;p&gt;This is where “everything as plain text” really shines. I spend most of my day in a text editor (&lt;a href=&quot;http://www.barebones.com/products/bbedit/&quot;&gt;BBEdit&lt;/a&gt;), so it’s just comfortable for me to edit my notes in the same app. BBEdit also has a nice Projects feature, so all I need to do is open &lt;em&gt;Notes.bbprojectd&lt;/em&gt; and all my notes are there, nicely organized in the sidebar. I can now take advantage of BBEdit’s robust search capabilities for all of my notes, which is a huge plus.&lt;/p&gt;
+
+&lt;p&gt;As far as mobile goes, all I needed was a text editor that could link to Dropbox and allow you to select a folder. I’m pretty happy with &lt;a href=&quot;https://ia.net/writer&quot;&gt;iA Writer&lt;/a&gt;, but there are other options as well (some of which are free). My requirements for mobile aren’t that extensive, however, as I rarely do any significant editing of notes on my phone, but I often need to view them.&lt;/p&gt;
+
+&lt;h3 id=&quot;media-and-attachments&quot;&gt;Media and attachments&lt;/h3&gt;
+
+&lt;p&gt;This is something that was good about Evernote, and is surprisingly easy to duplicate with my current setup. As mentioned, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images and links as I would with a blog post.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![My Image](../Images/2016-02-12-my-image.jpg)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In fact, if I really want to get fancy, I could turn my notes into a private &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; blog, but I digress (that’s probably overkill anyway). In any case, BBEdit has a Markdown previewer (as well as iA Writer), so I can just use the built-in viewers when I want to see embedded media and links.&lt;/p&gt;
+
+&lt;p&gt;All in all, this plain text setup has been working out really well for me, and I don’t feel like I’m missing out on any features by not going with a dedicated app or service. If you’re looking for a note-keeping service, or feel like a change, I recommend giving it a shot!&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Although, having a “second brain” doesn’t seem to make me any smarter for some reason. Weird. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;It was a short detour. I’m back on OS X now. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;No, &lt;a href=&quot;http://icloud.com&quot;&gt;iCloud.com&lt;/a&gt; doesn’t do it for me. Does that site even work on Linux browsers? &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;WYSIWYG = “What you see is what you get” &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;I’m a web developer, but for something I access and use as frequently as my notes, I like to have a dedicated app with a first-class dock icon on my Mac. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;It occurs to me that in the meantime, I can still use Git or Mercurial for my notes while still on Dropbox. Noted! &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+         </item>
       
          <item>
             <title>Ignore the Noise</title>
