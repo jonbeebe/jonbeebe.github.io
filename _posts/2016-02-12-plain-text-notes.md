@@ -2,7 +2,7 @@
 layout: post
 title: "Plain Text Notes"
 date: 2016-02-12 19:48:00 -0800
-updated: 2016-02-13 09:47:00 -0800
+updated: 2016-02-13 10:15:00 -0800
 ---
 
 After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, cross-platform, freely available, and will surely stand the test of time: plain text.
@@ -49,17 +49,17 @@ If Dropbox ever goes away, or I want to stop using it, I can just turn my notes 
 
 This is where "everything as plain text" really shines. I spend most of my day in a text editor ([BBEdit](http://www.barebones.com/products/bbedit/)), so it's just comfortable for me to edit my notes in the same app. BBEdit also has a nice Projects feature, so all I need to do is open *Notes.bbprojectd* and all my notes are there, nicely organized in the sidebar. I can now take advantage of BBEdit's robust search capabilities for all of my notes, which is a huge plus.
 
-As far as mobile goes, all I needed was a text editor that could link to Dropbox and allow you to select a folder. I'm pretty happy with [iA Writer](https://ia.net/writer), but there are other options as well (some of which are free). My requirements for mobile aren't that extensive, however, as I rarely do any significant editing of notes on my phone, but I often need to view them.
+As far as mobile goes, all I needed was a text editor that could link to Dropbox. I'm pretty happy with [iA Writer](https://ia.net/writer), but there are other options as well (some of which are free). My requirements for mobile aren't that extensive, however, as I rarely do any significant editing of notes on my phone, but I often need to view them.
 
 ### Media and attachments
 
-This is something that was good about Evernote, and is surprisingly easy to duplicate with my current setup. As mentioned, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images and links as I would with a blog post.
+This is something that was good about Evernote, and is surprisingly easy to duplicate with my current setup. In my top-level folder, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images and links as I would when writing a blog post.
 
     ![My Image](../Images/2016-02-12-my-image.jpg)
 
 In fact, if I really want to get fancy, I could turn my notes into a private [Jekyll](https://jekyllrb.com) blog, but I digress (that's probably overkill anyway). In any case, BBEdit has a Markdown previewer (as well as iA Writer), so I can just use the built-in viewers when I want to see embedded media and links.
 
-All in all, this plain text setup has been working out really well for me, and I don't feel like I'm missing out on any features by not going with a dedicated app or service. If you're looking for a note-keeping service, or feel like a change, I recommend giving it a shot!
+All in all, this plain text setup has been working out really well for me, and I don't feel like I'm missing out on any features by not going with a dedicated app or service. If you're in search of a note-keeping service, or feel like a change, I recommend giving the plain text approach a shot!
 
 [^1]: Although, having a "second brain" doesn't seem to make me any smarter for some reason. Weird.
 
