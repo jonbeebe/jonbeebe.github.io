@@ -42,7 +42,7 @@ All of my notes live in a single, top-level folder on my computer's hard drive. 
 
 Since I need to be able to access my notes from multiple devices (my laptop, desktop, and phone), syncing is a huge requirement for me. I already use [Dropbox](http://dropbox.com), so my top-level "Notes" folder lives in my Dropbox folder. Any changes I make to notes are automatically synced (and backed-up online).
 
-If Dropbox ever goes away, or I want to stop using it, I can just turn my notes folder into a [Git](https://git-scm.com) or [Mercurial](https://www.mercurial-scm.org) repository and host it privately on [GitHub](http://github.com) or [Bitbucket](http://bitbucket.org). I'm tempted to go this route *now* for the ability to track changes and revert notes to an older state (if necessary), but what's holding me back from this approach is mobile. While there are many great mobile apps for viewing and editing Markdown files in a Dropbox folder, I haven't yet found the same for a hosted repository.
+If Dropbox ever goes away, or I want to stop using it, I can just turn my notes folder into a [Git](https://git-scm.com) or [Mercurial](https://www.mercurial-scm.org) repository and host it privately on [GitHub](http://github.com) or [Bitbucket](http://bitbucket.org). I'm tempted to go this route *now* for the ability to track changes and revert notes to an older state (if necessary), but what's holding me back from this approach is mobile. While there are many great mobile apps for viewing and editing Markdown files in a Dropbox folder, I haven't yet found the same for a hosted repository. It occurs to me that in the meantime, I can still go this route while still on Dropbox. Noted!
 
 ### Editing and viewing
 
@@ -68,4 +68,4 @@ In fact, if I really want to get fancy, I could turn my notes into a private [Je
 
 [^4]: WYSIWYG = "What you see is what you get"
 
-[^5]: I'm a web developer, but for something I access and use as frequently as my notes, I like to have a dedicated app with a first-class dock item on my Mac.
+[^5]: I'm a web developer, but for something I access and use as frequently as my notes, I like to have a dedicated app with a first-class dock icon on my Mac.
