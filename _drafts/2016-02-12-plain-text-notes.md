@@ -4,7 +4,7 @@ title: "Plain Text Notes"
 date: 2016-02-12 13:00:00 -0800
 ---
 
-After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, truly cross-platform, freely available, and will surely stand the test of time: plain text.
+After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, cross-platform, freely available, and will surely stand the test of time: plain text.
 
 <!--more-->
 
