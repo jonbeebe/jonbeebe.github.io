@@ -2,6 +2,7 @@
 layout: post
 title: "Plain Text Notes"
 date: 2016-02-12 19:48:00 -0800
+updated: 2016-02-13 09:47:00 -0800
 ---
 
 After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, cross-platform, freely available, and will surely stand the test of time: plain text.
@@ -10,7 +11,7 @@ After bouncing between various note-keeping apps, I finally settled on a very si
 
 Journal entries. Recipes. Work log. Grocery lists. Things I need to quickly pull up on my phone when I'm on the go. Ideas for gifts I want to buy my wife and kids. Anything, and everything. Digital notes have been an absolutely essential part of my personal and professional life. What I use to *manage* the notes essentially serves as my secondary brain[^1].
 
-Without putting a lot of thought into it initially, I started out using the stock Notes app on iOS and the OS X, which worked until I took a [detour]({$ post_url 2015-07-11-my-desktop-july-2015 %}) into the land of Linux[^2] and it suddenly became annoyingly painful to access my notes[^3]. In my frustration, I began thinking about my mobile needs. If I were to move away from iOS in the future, even if temporarily (be it Android or something else), what would I do then? I often need to access my notes when I'm on the go, so this was a big concern.
+Without putting a lot of thought into it initially, I started out using the stock Notes app on iOS and the OS X, which worked until I took a [detour]({% post_url 2015-07-11-my-desktop-july-2015 %}) into the land of Linux[^2] and it suddenly became annoyingly painful to access my notes[^3]. In my frustration, I began thinking about my mobile needs. If I were to move away from iOS in the future, even if temporarily (be it Android or something else), what would I do then? I often need to access my notes when I'm on the go, so this was a big concern.
 
 It was clear that I needed a cross-platform solution that could withstand my (admittedly erratic) computing habits over time. I don't think vendor lock-in is an acceptable option for me.
 
