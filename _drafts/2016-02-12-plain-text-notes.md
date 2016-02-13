@@ -18,7 +18,7 @@ It was clear that I needed a cross-platform solution that could withstand my (ad
 
 ### Evernote
 
-[Evernote](http://evernote.com) was the first contender, but I ultimately decided against it because, like Apple Notes, it stores notes as [Rich Text](https://en.wikipedia.org/wiki/Rich_Text_Format). I really dislike WYSIWYG[^4] editing, and that is the bread and butter of Evernote. Not necessarily a bad thing, but not for me. I'll admit that being able to embed media and adding attachments to notes was really nice though.
+[Evernote](http://evernote.com) was the first contender, but I ultimately decided against it because, like Apple Notes, it stores notes as [Rich Text](https://en.wikipedia.org/wiki/Rich_Text_Format). I really dislike WYSIWYG[^4] editing, and that is the bread and butter of Evernote. Not necessarily a bad thing, but not for me. I'll admit that being able to embed media and adding attachments to notes is really nice though.
 
 ### Simplenote
 
@@ -32,7 +32,7 @@ It was clear that I needed a cross-platform solution that could withstand my (ad
 
 Evernote was pretty great about being able to organize notes into separate "Notebooks", and I'm sure there are other services that do something similar, but the other two points mentioned could easily apply to just about any third-party note-keeping service.
 
-Since having to outlive my chosen note service doesn't sound like something I want to rely on, the only option left was to manually handle notes myself via locally saved, old-fashioned plain text.
+The thought of relying on my chosen note-keeping service to outlive me makes me a little uncomfortable, so the only remaining option seemed to be manually handling the notes myself via locally saved, old-fashioned plain text.
 
 ## The Setup
 
