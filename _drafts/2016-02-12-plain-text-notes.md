@@ -8,9 +8,9 @@ After bouncing between various note-keeping apps, I finally settled on a very si
 
 <!--more-->
 
-Journal entries. Recipes. What I did today at work. Grocery lists. Things I need to quickly pull up on my phone when I'm on the go. Ideas for gifts I want to buy my wife and kids. Anything, and everything. Digital notes have been an absolutely essential part of my personal and professional life. What I use to *manage* the notes essentially serves as my secondary brain[^1].
+Journal entries. Recipes. Work log. Grocery lists. Things I need to quickly pull up on my phone when I'm on the go. Ideas for gifts I want to buy my wife and kids. Anything, and everything. Digital notes have been an absolutely essential part of my personal and professional life. What I use to *manage* the notes essentially serves as my secondary brain[^1].
 
-Without putting a lot of thought into it initially, I started off with the stock Notes app on iOS and the OS X, which worked until I took a [detour]({$ post_url 2015-07-11-my-desktop-july-2015 %}) into the land of Linux[^2] and it suddenly became annoyingly painful to access my notes[^3]. In my frustration, I began thinking about my mobile needs. If I were to move away from iOS in the future, even if temporarily (be it Android or something else), what would I do then? I often need to access my notes when I'm on the go, so this was a big concern.
+Without putting a lot of thought into it initially, I started out using the stock Notes app on iOS and the OS X, which worked until I took a [detour]({$ post_url 2015-07-11-my-desktop-july-2015 %}) into the land of Linux[^2] and it suddenly became annoyingly painful to access my notes[^3]. In my frustration, I began thinking about my mobile needs. If I were to move away from iOS in the future, even if temporarily (be it Android or something else), what would I do then? I often need to access my notes when I'm on the go, so this was a big concern.
 
 It was clear that I needed a cross-platform solution that could withstand my (admittedly erratic) computing habits over time. I don't think vendor lock-in is an acceptable option for me.
 
@@ -26,7 +26,7 @@ It was clear that I needed a cross-platform solution that could withstand my (ad
 
 **3rd-party app selection**. I don't like being tied to the web app[^5] and wasn't completely happy with the available 3rd party clients (I did like the first-party iOS app, however). There is a [script](http://fletcherpenney.net/other_projects/simplenotesync/) that can be used to sync notes to a local folder, but I didn't really want to have to go through that, and more importantly, I wasn't confident enough that the script wouldn't wipe my notes on accident, or be maintained long enough to withstand any API changes that Simplenote might introduce in the future.
 
-**Limited ways to organize my notes**. I really want better organization for my notes, such as a "Work" folder for work-related notes, journal entries in a "Journal" folder, and so on. I know I could use tags instead of folders, but that leads me to my next point...
+**Limited ways to organize my notes**. I really want better organization for my notes, such as a "Work" folder for work-related notes, a "Journal" folder for journal entries, and so on. I know I could use tags instead of folders, but that leads me to my next point...
 
 **Is it future-proof?** What happens if Simplenote shuts down before I no longer need to keep notes (in other words, before I die)? Simplenote *does* have an export option, but it gives each note a crazy, random filename and the tags don't seem to be preserved (there goes any work I put into tag-based organization).
 
@@ -42,7 +42,7 @@ All of my notes live in a single, top-level folder on my computer's hard drive. 
 
 Since I need to be able to access my notes from multiple devices (my laptop, desktop, and phone), syncing is a huge requirement for me. I already use [Dropbox](http://dropbox.com), so my top-level "Notes" folder lives in my Dropbox folder. Any changes I make to notes are automatically synced (and backed-up online).
 
-If Dropbox ever goes away, or I want to stop using it, I can just turn my notes folder into a [Git](https://git-scm.com) or [Mercurial](https://www.mercurial-scm.org) repository and host it privately on [GitHub](http://github.com) or [Bitbucket](http://bitbucket.org). I'm tempted to go this route *now* for the ability to track changes and revert notes to an older state (if necessary), but what's holding me back from this approach is mobile. While there are many great mobile apps for viewing and editing Markdown files in a Dropbox folder, I haven't yet found the same for a hosted repository. It occurs to me that in the meantime, I can still go this route while still on Dropbox. Noted!
+If Dropbox ever goes away, or I want to stop using it, I can just turn my notes folder into a [Git](https://git-scm.com) or [Mercurial](https://www.mercurial-scm.org) repository and host it privately on [GitHub](http://github.com) or [Bitbucket](http://bitbucket.org). I'm tempted to go this route *now* for the ability to track changes and revert notes to an older state (if necessary), but what's holding me back from this approach is mobile. While there are many great mobile apps for viewing and editing Markdown files in a Dropbox folder, I haven't yet found the same for a hosted repository. It occurs to me that in the meantime, I can still use Git or Mercurial while still on Dropbox. Noted!
 
 ### Editing and viewing
 
