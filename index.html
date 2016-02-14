@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
     {% assign currentdate = post.date | date: "%B %Y" %}
     {% if currentdate != date %}
         {% unless forloop.first %}<div class="spacer"></div>{% endunless %}
@@ -30,3 +30,16 @@ title: Home
     {% endif %}
     {% if forloop.last %}<div class="spacer"></div>{% endif %}
 {% endfor %}
+
+<div class="spacer"></div>
+<section class="pagination">
+<p>
+{% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">&laquo; Previous</a>
+{% endif %}
+{% if paginator.previous_page %}
+    &nbsp;|&nbsp;
+    <a href="{{ paginator.previous_page_path }}">Next &raquo;</a>
+{% endif %}
+</p>
+</section>

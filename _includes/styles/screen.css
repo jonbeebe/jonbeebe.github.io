@@ -212,6 +212,20 @@ h2 {
     color: #a5a5a5;
 }
 
+#archives .index-title {
+    font-size: 100%;
+}
+
+.pagination {
+    /*font-family: '{{ site.data.theme.heading_font }}', sans-serif;*/
+    color: #a5a5a5; /* Spacedust gray */
+    font-weight: 400;
+}
+
+.pagination a {
+
+}
+
 .footnotes {
     background-color: #efefef;
     border-radius: 3px;

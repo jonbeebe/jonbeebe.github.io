@@ -16,7 +16,7 @@ markdown: kramdown
 highlighter: rouge
 
 permalink: :year/:month/:title/
-paginate: 30
+paginate: 50
 lsi: false
 gems: ['jekyll-paginate']
 
