@@ -2,7 +2,7 @@
 layout: post
 title: "Plain Text Notes"
 date: 2016-02-12 19:48:00 -0800
-updated: 2016-02-13 19:32:00 -0800
+updated: 2016-02-13 19:33:00 -0800
 ---
 
 After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, cross-platform, freely available, and will surely stand the test of time: plain text.
@@ -31,7 +31,7 @@ It was clear that I needed a cross-platform solution that could withstand my (ad
 
 **Is it future-proof?** What happens if Simplenote shuts down before I no longer need to keep notes (in other words, before I die)? Simplenote *does* have an export option, but it gives each note a crazy, random filename and the tags don't seem to be preserved (there goes any work I put into tag-based organization).
 
-Evernote was pretty great about being able to organize notes into separate "Notebooks", and I'm sure there are other services that do something similar, but the other two points mentioned could easily apply to just about any note-keeping app or service.
+Evernote is pretty great about allowing you to organize notes into separate "Notebooks", and I'm sure there are other services that do something similar, but the other two points mentioned could easily apply to just about any app or service.
 
 The thought of relying on my chosen note-keeping to outlive me makes me a little uncomfortable, so the only remaining option seemed to be manually handling the notes myself via locally saved, old-fashioned plain text.
 
