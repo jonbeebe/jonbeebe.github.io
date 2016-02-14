@@ -5,7 +5,7 @@
       <link>http://jonbeebe.net</link>
       <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Sat, 13 Feb 2016 10:15:57 -0800</lastBuildDate>
+      <lastBuildDate>Sat, 13 Feb 2016 16:03:05 -0800</lastBuildDate>
 
       
          <item>
@@ -63,9 +63,9 @@
 
 &lt;h3 id=&quot;media-and-attachments&quot;&gt;Media and attachments&lt;/h3&gt;
 
-&lt;p&gt;This is something that was good about Evernote, and is surprisingly easy to duplicate with my current setup. In my top-level folder, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images and links as I would when writing a blog post.&lt;/p&gt;
+&lt;p&gt;This is something that was good about Evernote, and is surprisingly easy to duplicate with my current setup. In my top-level folder, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images, videos, and links as I would when writing a blog post.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![My Image](../Images/2016-02-12-my-image.jpg)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![My Image](../Media/2016-02-12-my-image.jpg)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
