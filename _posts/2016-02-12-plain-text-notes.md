@@ -2,7 +2,7 @@
 layout: post
 title: "Plain Text Notes"
 date: 2016-02-12 19:48:00 -0800
-updated: 2016-02-13 16:03:00 -0800
+updated: 2016-02-13 19:32:00 -0800
 ---
 
 After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, cross-platform, freely available, and will surely stand the test of time: plain text.
@@ -31,9 +31,9 @@ It was clear that I needed a cross-platform solution that could withstand my (ad
 
 **Is it future-proof?** What happens if Simplenote shuts down before I no longer need to keep notes (in other words, before I die)? Simplenote *does* have an export option, but it gives each note a crazy, random filename and the tags don't seem to be preserved (there goes any work I put into tag-based organization).
 
-Evernote was pretty great about being able to organize notes into separate "Notebooks", and I'm sure there are other services that do something similar, but the other two points mentioned could easily apply to just about any third-party note-keeping service.
+Evernote was pretty great about being able to organize notes into separate "Notebooks", and I'm sure there are other services that do something similar, but the other two points mentioned could easily apply to just about any note-keeping app or service.
 
-The thought of relying on my chosen note-keeping service to outlive me makes me a little uncomfortable, so the only remaining option seemed to be manually handling the notes myself via locally saved, old-fashioned plain text.
+The thought of relying on my chosen note-keeping to outlive me makes me a little uncomfortable, so the only remaining option seemed to be manually handling the notes myself via locally saved, old-fashioned plain text.
 
 ## The Setup
 
@@ -53,7 +53,7 @@ As far as mobile goes, all I needed was a text editor that could link to Dropbox
 
 ### Media and attachments
 
-This is something that was good about Evernote, and is surprisingly easy to duplicate with my current setup. In my top-level folder, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images, videos, and links as I would when writing a blog post.
+This is one of the big selling points of Evernote, and is surprisingly easy to duplicate with my current setup. In my top-level folder, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images, videos, and links as I would when writing a blog post.
 
     ![My Image](../Media/2016-02-12-my-image.jpg)
 

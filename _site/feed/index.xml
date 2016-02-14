@@ -5,7 +5,7 @@
       <link>http://jonbeebe.net</link>
       <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Sat, 13 Feb 2016 16:03:05 -0800</lastBuildDate>
+      <lastBuildDate>Sat, 13 Feb 2016 19:32:20 -0800</lastBuildDate>
 
       
          <item>
@@ -41,9 +41,9 @@
 
 &lt;p&gt;&lt;strong&gt;Is it future-proof?&lt;/strong&gt; What happens if Simplenote shuts down before I no longer need to keep notes (in other words, before I die)? Simplenote &lt;em&gt;does&lt;/em&gt; have an export option, but it gives each note a crazy, random filename and the tags don’t seem to be preserved (there goes any work I put into tag-based organization).&lt;/p&gt;
 
-&lt;p&gt;Evernote was pretty great about being able to organize notes into separate “Notebooks”, and I’m sure there are other services that do something similar, but the other two points mentioned could easily apply to just about any third-party note-keeping service.&lt;/p&gt;
+&lt;p&gt;Evernote was pretty great about being able to organize notes into separate “Notebooks”, and I’m sure there are other services that do something similar, but the other two points mentioned could easily apply to just about any note-keeping app or service.&lt;/p&gt;
 
-&lt;p&gt;The thought of relying on my chosen note-keeping service to outlive me makes me a little uncomfortable, so the only remaining option seemed to be manually handling the notes myself via locally saved, old-fashioned plain text.&lt;/p&gt;
+&lt;p&gt;The thought of relying on my chosen note-keeping to outlive me makes me a little uncomfortable, so the only remaining option seemed to be manually handling the notes myself via locally saved, old-fashioned plain text.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-setup&quot;&gt;The Setup&lt;/h2&gt;
 
@@ -63,7 +63,7 @@
 
 &lt;h3 id=&quot;media-and-attachments&quot;&gt;Media and attachments&lt;/h3&gt;
 
-&lt;p&gt;This is something that was good about Evernote, and is surprisingly easy to duplicate with my current setup. In my top-level folder, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images, videos, and links as I would when writing a blog post.&lt;/p&gt;
+&lt;p&gt;This is one of the big selling points of Evernote, and is surprisingly easy to duplicate with my current setup. In my top-level folder, I have sub-folders for Media and Attachments. Since I save my notes as Markdown, I can easily embed images, videos, and links as I would when writing a blog post.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![My Image](../Media/2016-02-12-my-image.jpg)
 &lt;/code&gt;&lt;/pre&gt;
