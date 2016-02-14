@@ -5,7 +5,7 @@ title: About + Contact
 
 # {{ page.title }}
 
-I'm Jonathan Beebe, a web developer from Northern California. I work for [Fingerprint Digital, Inc][fingerprint] as a Software Engineer.
+I'm Jonathan Beebe, a web developer from Northern California. I work for [Fingerprint Digital, Inc][fingerprint].
 
 ## Getting in touch
 
