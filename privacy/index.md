@@ -5,54 +5,16 @@ title: Privacy Policy
 
 # {{ page.title }}
 
-*TLDR; Stats are tracked with [Google Analytics](https://www.google.com/analytics/). If you're not comfortable with that, please use the 'Do Not Track' setting of your browser (if available), or download the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).*
+My website stats are tracked with [Google Analytics](https://www.google.com/analytics/). If that makes you uncomfortable, please use the 'Do Not Track' setting of your browser (if available), or download the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
 
-This privacy policy has been compiled to better serve those who are concerned with how their 'Personally identifiable information' (PII) is being used online. PII, as used in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read this privacy policy carefully to get a clear understanding of how this website collects, uses, protects or otherwise handles your PII in accordance with this website.
+While this website does not use **cookies**[^1] directly, Google Analytics use cookies to compile aggregate data about site traffic and site interactions.
 
-**What personal information do I collect from visitors?**
+Occasionally, at my discretion, I may include, offer, link to, or recommend **third-party** products or services on this website. These third-party sites have separate and independent privacy policies. I therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, I seek to protect the integrity of this website and welcome any feedback about these sites. I do not sell, trade, or otherwise transfer your personal identifiable information to outside parties.
 
-Google Analytics collects aggregate data about my site's traffic and site interaction. To help minimize the amount of personal data gathered by Google Analytics, I have disabled the [Remarketing and Advertising Reporting Features](https://support.google.com/analytics/answer/2611268).
+This website does not use an **SSL certificate**; I only provide articles and information. I never ask for personal or private information like email addresses or credit card numbers.
 
-If you do not wish to be tracked by my website via Google Analytics, you may use the 'Do Not Track' setting of your browser (if available). Additionally, you can also download the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout).
-
-**When does this website collect information?**
-
-Google Analytics collects information from you when you visit this website.
-
-**How do I use your information?**
-
-I use the information (provided by Google Analytics) to view aggregate data about my website's traffic and website interaction.
-
-**Does this website use 'cookies'?**
-
-Yes. Cookies are small files that a site or its service provider transfers to your computer's hard drive through your Web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information. While this website does not use cookies directly, Google Analytics uses them to track traffic stats.
-
-**I use cookies to:**
-
-- Compile aggregate data about site traffic and site interactions. I use Google Analytics as a third-party service that tracks this information on my behalf.
-
-You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser  settings.
-
-If you disable cookies (or enable 'Do Not Track'), it won't affect your experience when using this website in any way.
-
-**Third-party disclosure**
-
-I do not sell, trade, or otherwise transfer to outside parties your personally identifiable information.
-
-**Third-party links**
-
-Occasionally, at my discretion, I may include or offer third-party products or services on this website. These third-party sites have separate and independent privacy policies. I therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, I seek to protect the integrity of this website and welcome any feedback about these sites.
-
-**COPPA (Children Online Privacy Protection Act)**
-
-I do not specifically market to children under 13.
-
-**Miscellaneous**
-
-This website does not use vulnerability scanning and/or scanning to PCI standards.
-
-This website does not use Malware Scanning.
-
-This website does not use an SSL certificate; I only provide articles and information. I never ask for personal or private information like email addresses, or credit card numbers.
+I do not specifically market to **children** under 13.
 
 *Last updated: February 15, 2016*
+
+[^1]: Cookies are small files that a site or its service provider transfers to your computer's hard drive through your web browser (if you allow) that enables the site's or service provider's systems to recognize your browser and capture and remember certain information.
