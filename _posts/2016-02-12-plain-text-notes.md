@@ -2,7 +2,7 @@
 layout: post
 title: "Plain Text Notes"
 date: 2016-02-12 19:48:00 -0800
-updated: 2016-02-13 19:33:00 -0800
+updated: 2016-02-16 10:20:00 -0800
 ---
 
 After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, cross-platform, freely available, and will surely stand the test of time: plain text.
@@ -58,6 +58,8 @@ This is one of the big selling points of Evernote, and is surprisingly easy to d
     ![My Image](../Media/2016-02-12-my-image.jpg)
 
 In fact, if I really want to get fancy, I could turn my notes into a private [Jekyll](https://jekyllrb.com) blog, but I digress (that's probably overkill anyway). In any case, BBEdit has a Markdown previewer (as well as iA Writer), so I can just use the built-in viewers when I want to see embedded media and links.
+
+-----
 
 All in all, this plain text setup has been working out really well for me, and I don't feel like I'm missing out on any features by not going with a dedicated app or service. If you're in search of a note-keeping service, or feel like a change, I recommend giving the plain text approach a shot!
 

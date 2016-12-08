@@ -7,6 +7,8 @@ title: About + Contact
 
 I'm Jonathan Beebe, a web developer from Northern California. I've been working for [Fingerprint Digital, Inc.][fingerprint] since 2014.
 
+I've been happily married since 2008, and have three daughters.
+
 ## Powered by
 
 This website is hosted by [GitHub Pages](https://pages.github.com).
@@ -15,7 +17,7 @@ All content is written in the [Markdown](https://daringfireball.net/projects/mar
 
 Traffic stats are provided by [Google Analytics](https://www.google.com/analytics/). For more information, read my [privacy policy](/privacy).
 
-## Third-Party Apps
+## Third-party apps
 
 I use several third-party apps to get work done and keep me entertained. The following apps are indispensable to me:
 

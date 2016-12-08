@@ -2,17 +2,36 @@
 <rss version="2.0">
    <channel>
       <title>Jonathan Beebe</title>
-      <link>http://jonbeebe.net</link>
+      <link>http://localhost:4000</link>
       <description>Tech industry links and articles by Jonathan Beebe.
 </description>
-      <lastBuildDate>Mon, 15 Feb 2016 14:29:35 -0800</lastBuildDate>
+      <lastBuildDate>Mon, 05 Dec 2016 16:12:13 -0800</lastBuildDate>
 
+      
+         <item>
+            <title>Productivity at Home</title>
+            
+               <link>http://localhost:4000/2016/02/productivity-at-home/</link>
+               <guid isPermaLink="false">http://localhost:4000/2016/02/productivity-at-home/</guid>
+            
+            <pubDate>Tue, 16 Feb 2016 10:00:00 -0800</pubDate>
+            <description>&lt;p&gt;Depending on who you are, “working from home” either sounds like a dream situation, or a nightmare. I was in the former camp and in 2009, working full-time from home became a reality for me. It wasn’t all sunshine and roses though. Getting to a consistently productive state was more difficult than I had anticipated.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;I wont argue that working from home is better than working from an office. I personally don’t believe there is a “better” among the two. It totally depends on the person, the company, as well as the type of work and possibly other factors. For me, home is the by far the better option. For you, that may not be the case. Although I’d wager that if you’ve read this far, you’re probably at least interested in the idea.&lt;/p&gt;
+
+&lt;h2 id=&quot;mindset&quot;&gt;Mindset&lt;/h2&gt;
+
+&lt;p&gt;The first big challenge I faced was getting used to the mindset shift. I expected not much to change, but everything to just get better. The truth is, the act of “going to work” trains us to shift into that mindset automatically. At home, that shift doesn’t always occur and you find that it’s difficult to get focused initially.&lt;/p&gt;
+</description>
+         </item>
       
          <item>
             <title>Plain Text Notes</title>
             
-               <link>http://jonbeebe.net/2016/02/plain-text-notes/</link>
-               <guid isPermaLink="false">http://jonbeebe.net/2016/02/plain-text-notes/</guid>
+               <link>http://localhost:4000/2016/02/plain-text-notes/</link>
+               <guid isPermaLink="false">http://localhost:4000/2016/02/plain-text-notes/</guid>
             
             <pubDate>Fri, 12 Feb 2016 19:48:00 -0800</pubDate>
             <description>&lt;p&gt;After bouncing between various note-keeping apps, I finally settled on a very simple solution that is flexible, cross-platform, freely available, and will surely stand the test of time: plain text.&lt;/p&gt;
@@ -71,6 +90,8 @@
 
 &lt;p&gt;In fact, if I really want to get fancy, I could turn my notes into a private &lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; blog, but I digress (that’s probably overkill anyway). In any case, BBEdit has a Markdown previewer (as well as iA Writer), so I can just use the built-in viewers when I want to see embedded media and links.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;All in all, this plain text setup has been working out really well for me, and I don’t feel like I’m missing out on any features by not going with a dedicated app or service. If you’re in search of a note-keeping service, or feel like a change, I recommend giving the plain text approach a shot!&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
@@ -101,8 +122,8 @@
          <item>
             <title>Ignore the Noise</title>
             
-               <link>http://jonbeebe.net/2016/02/ignore-the-noise/</link>
-               <guid isPermaLink="false">http://jonbeebe.net/2016/02/ignore-the-noise/</guid>
+               <link>http://localhost:4000/2016/02/ignore-the-noise/</link>
+               <guid isPermaLink="false">http://localhost:4000/2016/02/ignore-the-noise/</guid>
             
             <pubDate>Thu, 11 Feb 2016 18:00:00 -0800</pubDate>
             <description>&lt;p&gt;Whether you’re new to the JavaScript ecosystem or have some experience, unless you’re super-human, you’ll inevitably become overwhelmed at the sheer number of frameworks, libraries, build systems, preprocessors, template engines (the list goes on and on) that are available.&lt;/p&gt;
@@ -151,6 +172,8 @@
 
 &lt;p&gt;The more difficult scenario is if you’re trying to build up your skills in hopes of getting hired as a JavaScript engineer, and need to decide what the best course of action is to achieve your goal. Unless there’s a specific role you’re targeting, in which case what to learn should be a little more clear, I recommend starting your own open-source project, making it public, and stick with it through completion. When you’re done, you can always choose a different stack for your next project, swap out the pieces that didn’t work well for you, and go from there. Over time, you’ll gain some valuable experience and you’ll not only know enough to be relevant, you’ll be agile enough to &lt;em&gt;adapt&lt;/em&gt; to any other stack that’s thrown your way by a future employer. Without a doubt, &lt;strong&gt;doing is the best way to learn&lt;/strong&gt; anything, and that absolutely applies in this field.&lt;/p&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;Today, as JavaScript developers, we are flooded with choice. Fortunately, if you can block out the excessive noise and commit to making some decisions, you’ll find that having an abundance of choices can actually be a benefit: there is something for just about anyone, and any project you can think of. The worst choice you can make is no choice at all, allowing decision paralysis to prevent you from getting any meaningful work done out of fear you’ll make the &lt;em&gt;wrong&lt;/em&gt; choices and waste a bunch of time.&lt;/p&gt;
 
 &lt;p&gt;Don’t fall into that trap. Make decisions. Stick with them. Adapt as needed. Keep moving forward. &lt;em&gt;That&lt;/em&gt; is how to stay relevant as a JavaScript developer in today’s tumultuous environment.&lt;/p&gt;
@@ -164,7 +187,7 @@
                <guid isPermaLink="false">http://jonbeebe.net/images/2015-07-11-xfce4.12.png</guid>
             
             <pubDate>Sat, 11 Jul 2015 21:56:00 -0700</pubDate>
-            <description>&lt;p&gt;&lt;img src=&quot;http://jonbeebe.net/images/2015-07-11-xfce4.12-thumb.png&quot; alt=&quot;XFCE 4.12&quot; /&gt;&lt;/p&gt;
+            <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/2015-07-11-xfce4.12-thumb.png&quot; alt=&quot;XFCE 4.12&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Recently upgraded to XFCE 4.12 and loving it.&lt;/p&gt;
 
@@ -189,8 +212,8 @@
          <item>
             <title>Back to BBEdit</title>
             
-               <link>http://jonbeebe.net/2014/10/back-to-bbedit/</link>
-               <guid isPermaLink="false">http://jonbeebe.net/2014/10/back-to-bbedit/</guid>
+               <link>http://localhost:4000/2014/10/back-to-bbedit/</link>
+               <guid isPermaLink="false">http://localhost:4000/2014/10/back-to-bbedit/</guid>
             
             <pubDate>Sun, 19 Oct 2014 16:43:00 -0700</pubDate>
             <description>&lt;blockquote&gt;
@@ -260,7 +283,7 @@ activate application &quot;IntelliJ&quot;
 tell application &quot;System Events&quot;
     delay 0.1
 
-    -- Invoke IntelliJ&#39;s keyboard shortcut for &quot;synchronize&quot;
+    -- Invoke IntelliJ's keyboard shortcut for &quot;synchronize&quot;
     keystroke &quot;y&quot; using {option down, command down}
 end tell
 
@@ -405,8 +428,8 @@ end tell
          <item>
             <title>Windows X</title>
             
-               <link>http://jonbeebe.net/2014/10/windows-x/</link>
-               <guid isPermaLink="false">http://jonbeebe.net/2014/10/windows-x/</guid>
+               <link>http://localhost:4000/2014/10/windows-x/</link>
+               <guid isPermaLink="false">http://localhost:4000/2014/10/windows-x/</guid>
             
             <pubDate>Tue, 14 Oct 2014 14:30:00 -0700</pubDate>
             <description>&lt;p&gt;I’m not a Windows user myself, and haven’t been for almost six years now, but I was forced to use it for the first part of my computer-using life so I still enjoy following new releases. This next one brings Windows and OS X closer together than every before, and I’m not talking about just the version number.&lt;/p&gt;
@@ -528,10 +551,10 @@ end tell
          <item>
             <title>Reboot</title>
             
-               <link>http://jonbeebe.net/2014/10/reboot/</link>
-               <guid isPermaLink="false">http://jonbeebe.net/2014/10/reboot/</guid>
+               <link>http://localhost:4000/2014/10/reboot/</link>
+               <guid isPermaLink="false">http://localhost:4000/2014/10/reboot/</guid>
             
-            <pubDate>Sun, 12 Oct 2014 12:35:00 -0700</pubDate>
+            <pubDate>Sat, 11 Oct 2014 12:35:00 -0700</pubDate>
             <description>&lt;p&gt;For the past year, maybe more, I’ve pretty much neglected all of my web properties. I had a Tumblr blog a few years back where I used to post reviews, the occasional opinion, and Corona SDK-related code snippets, tutorials, news, etc.&lt;/p&gt;
 
 &lt;!--more--&gt;

@@ -2,6 +2,7 @@
 layout: post
 title: "Ignore the Noise"
 date: 2016-02-11 18:00:00 -0800
+updated: 2016-02-16 10:15:00 -0800
 ---
 
 Whether you're new to the JavaScript ecosystem or have some experience, unless you're super-human, you'll inevitably become overwhelmed at the sheer number of frameworks, libraries, build systems, preprocessors, template engines (the list goes on and on) that are available.
@@ -45,6 +46,8 @@ On the other hand, if you're in a position to have some say in these kinds of de
 ## Developer for Hire
 
 The more difficult scenario is if you're trying to build up your skills in hopes of getting hired as a JavaScript engineer, and need to decide what the best course of action is to achieve your goal. Unless there's a specific role you're targeting, in which case what to learn should be a little more clear, I recommend starting your own open-source project, making it public, and stick with it through completion. When you're done, you can always choose a different stack for your next project, swap out the pieces that didn't work well for you, and go from there. Over time, you'll gain some valuable experience and you'll not only know enough to be relevant, you'll be agile enough to *adapt* to any other stack that's thrown your way by a future employer. Without a doubt, **doing is the best way to learn** anything, and that absolutely applies in this field.
+
+-----
 
 Today, as JavaScript developers, we are flooded with choice. Fortunately, if you can block out the excessive noise and commit to making some decisions, you'll find that having an abundance of choices can actually be a benefit: there is something for just about anyone, and any project you can think of. The worst choice you can make is no choice at all, allowing decision paralysis to prevent you from getting any meaningful work done out of fear you'll make the *wrong* choices and waste a bunch of time.
 

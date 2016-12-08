@@ -1,0 +1,1 @@
+Describe what 'Do Not Track' is, why your website should honor the setting, and how you can check it. This blog post should be *the* definitive source of information on 'Do Not Track' and how to implement it.

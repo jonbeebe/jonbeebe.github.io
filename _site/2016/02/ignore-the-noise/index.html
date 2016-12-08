@@ -13,7 +13,7 @@
     </title>
     <meta name="author" content="Jonathan Beebe" />
     <meta name="description" content="The blog of Jonathan Beebe" />
-    <link rel="canonical" href="http://jonbeebe.net/2016/02/ignore-the-noise/" />
+    <link rel="canonical" href="http://localhost:4000/2016/02/ignore-the-noise/" />
     <!-- BEGIN FAVICONS -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=9BBqOBwzAb">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=9BBqOBwzAb">
@@ -37,7 +37,7 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=9BBqOBwzAb">
     <meta name="theme-color" content="#ffffff">
     <!-- END FAVICONS -->
-    <link rel="alternate" type="application/atom+xml" title="Jonathan Beebe" href="http://jonbeebe.net/atom.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Jonathan Beebe" href="http://localhost:4000/atom.xml" />
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -117,6 +117,8 @@
 
 <p>The more difficult scenario is if you’re trying to build up your skills in hopes of getting hired as a JavaScript engineer, and need to decide what the best course of action is to achieve your goal. Unless there’s a specific role you’re targeting, in which case what to learn should be a little more clear, I recommend starting your own open-source project, making it public, and stick with it through completion. When you’re done, you can always choose a different stack for your next project, swap out the pieces that didn’t work well for you, and go from there. Over time, you’ll gain some valuable experience and you’ll not only know enough to be relevant, you’ll be agile enough to <em>adapt</em> to any other stack that’s thrown your way by a future employer. Without a doubt, <strong>doing is the best way to learn</strong> anything, and that absolutely applies in this field.</p>
 
+<hr />
+
 <p>Today, as JavaScript developers, we are flooded with choice. Fortunately, if you can block out the excessive noise and commit to making some decisions, you’ll find that having an abundance of choices can actually be a benefit: there is something for just about anyone, and any project you can think of. The worst choice you can make is no choice at all, allowing decision paralysis to prevent you from getting any meaningful work done out of fear you’ll make the <em>wrong</em> choices and waste a bunch of time.</p>
 
 <p>Don’t fall into that trap. Make decisions. Stick with them. Adapt as needed. Keep moving forward. <em>That</em> is how to stay relevant as a JavaScript developer in today’s tumultuous environment.</p>
@@ -137,7 +139,7 @@
     </div>
     
 <script>
-  if (navigator && navigator.doNotTrack != 1) {
+  if (!navigator || navigator.doNotTrack != 1) {
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

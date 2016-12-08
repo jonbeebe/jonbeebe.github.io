@@ -4,8 +4,9 @@
 topborder_color: '#07171b'
 highlight_color: '#009fc5'
 icon_color: '#e45a00'
-heading_font: "Montserrat"
-body_font: "Lora"
+heading_font: "Conv_Montserrat-SemiBold"
+#body_font: "Lora"
+body_font: "Conv_Montserrat-Light"
 mono_font: "Cousine"
 
 # "Hi, I'm _______"

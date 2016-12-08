@@ -114,6 +114,26 @@ h2 {
     text-justify: inter-word;
 }
 
+#main #col-2 hr {
+    border: none;
+    border-top: medium double #dddddd;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 1.5em 0;
+}
+
+#main > #col-2 hr:after {
+    content: ' § ';
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 100%;
+    padding: 0 0.25em;
+    background: #ffffff;
+    color: #a5a5a5; /* Spacedust gray */
+}
+
 #main > #col-2 ul, #main > #col-2 ol {
     margin-left: 0;
     padding-left: 1.5em;
